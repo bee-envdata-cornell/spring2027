@@ -1,0 +1,47 @@
+---
+title: "Quiz Schedule"
+format:
+  html: default
+---
+
+There are **six quizzes**, given in class, taking approximately the first **25 minutes** of the session. Together they are worth 25% of your grade, and **the lowest is dropped** for students in both 4850 and 5850.
+
+Policies --- logistics, accommodations, conflicts, and academic integrity --- are on the [quiz policies page](policies/quiz.qmd).
+
+## Dates and Coverage
+
+| Quiz | Date | Covers Through | Topics |
+|:--|:--|:--|:--|
+| **Quiz 1** | Mon 2/08 | Fri 2/05 | Probability review, Monte Carlo |
+| **Quiz 2** | Mon 2/22 | Fri 2/19 | Regression, the hinge, null models, both bootstraps |
+| **Quiz 3** | Fri 3/05 | Fri 2/26 | The bootstrap in practice, Bayes, MCMC |
+| **Quiz 4** | Fri 3/19 | Fri 3/12 | GLMs, maximum entropy, time series |
+| **Quiz 5** | Fri 4/09 | Fri 3/26 | Extreme values |
+| **Quiz 6** | Fri 4/30 | Fri 4/23 | Model evaluation and the criteria contrast |
+
+::: {.callout-important}
+## A Quiz Never Covers The Same Week
+
+Every quiz covers material through the *previous* Friday at the latest, and nothing after it. This is a rule, not a tendency, and it is why the dates sit where they do. It also guarantees that there is always a practice set on the material, with its solution key in your hands, before the quiz that tests it.
+:::
+
+## What Is On A Quiz
+
+The emphasis is on concepts. There is **no programming**, and **nothing requiring memorized formulas**. Expect 3--5 questions worth 1--3 points each, drawn from the same six forms the [practice sets](practice-sets.qmd) rehearse:
+
+| Form | What it asks |
+|:--|:--|
+| **State the model with its assumptions** | Write out the equations, including *any and all* assumptions |
+| **Define a property** | What does it mean for an estimator to be unbiased? |
+| **Read a diagnostic** | Here is an ACF, a trace plot, a residual plot --- what does it tell you? |
+| **Interpret a result** | Often as true/false statements about a reported interval |
+| **Small computation** | How many Monte Carlo samples for a given standard error? |
+| **State an assumption** | What does the non-parametric bootstrap assume? |
+
+**The practice sets are the sample quizzes.** That is what they are for, and it is why there is one before every quiz.
+
+::: {.callout-note}
+## Why Quizzes 1 and 2 Are On Mondays
+
+Every other quiz is on a Friday. The first two cannot be, because the Fridays they would need --- 2/12, 2/19, and 2/26 --- hold the three sessions this course is built around, and none of them can afford to lose 25 minutes. Quiz 1 also needs to be early enough that you find out what a quiz looks like while it is still cheap, which rules out waiting for the next free Friday in March.
+:::

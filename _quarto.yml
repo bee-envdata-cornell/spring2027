@@ -38,6 +38,11 @@ website:
           - faq/index.qmd
           - setup/index.qmd
       - schedule.qmd
+      - text: "Deadlines"
+        menu:
+          - quizzes.qmd
+          - practice-sets.qmd
+          - projects.qmd
       - text: "Coursework"
         menu:
           - hw/index.qmd
@@ -104,12 +109,12 @@ website:
       search: false
       background: "#f7f7f7"
       contents:
-        - href: policies/practice-sets.qmd
-          text: "Practice Sets"
-        - href: policies/projects.qmd
-          text: "Mini Projects and Term Project"
-        - href: policies/quiz.qmd
-          text: "Quizzes"
+        - href: practice-sets.qmd
+          text: "Practice Set Schedule"
+        - href: quizzes.qmd
+          text: "Quiz Schedule"
+        - href: projects.qmd
+          text: "Project Schedule"
     - title: "Project"
       style: docked
       search: false

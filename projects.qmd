@@ -1,0 +1,55 @@
+---
+title: "Project Schedule"
+format:
+  html: default
+---
+
+The computational work in this course is two **mini projects** (20% of your grade, combined) and the **term project** (25%).
+
+Policies --- submission logistics, GitHub Classroom, group work, and the BEE 5850 requirements --- are on the [project policies page](policies/projects.qmd).
+
+## Mini Projects
+
+Each may be completed individually or in pairs.
+
+| | Out | Due | What it is |
+|:--|:--|:--|:--|
+| **MP1** --- Regression and Simulation | Mon 3/01 | **Wed 3/17** | Specify a linear generative model, simulate from it, fit it, check recovery, and put uncertainty on the fit with the bootstrap |
+| **MP2** --- Extremes and Model Comparison | Mon 4/05 | **Fri 5/07** | Fit a GEV and a GPD to a real record, fit stationary and nonstationary variants, and compare them on evidence |
+
+Both are due at **9:00pm Eastern**, submitted to Gradescope with pages tagged.
+
+::: {.callout-note}
+## MP2 Runs Alongside The Model Evaluation Block
+
+MP2 is assigned the day the evaluation block starts and is due after the criteria contrast (4/23) has been taught. That is deliberate --- it is the one place in the course where "what is this criterion actually measuring?" gets computational work rather than conceptual testing, and extremes is precisely where the criteria disagree, because the samples are small.
+
+It also has gaps in the data, on purpose. See the [policies page](policies/projects.qmd).
+:::
+
+## Term Project
+
+A question and dataset **of your own choosing**, individually or in pairs.
+
+| Deliverable | Due | Length | Weight |
+|:--|:--|:--|:--|
+| **Proposal** | Fri 3/26 | ≤2 pp | Graded substantively |
+| **Check-in** | Fri 4/23 | A conversation | Pass/fail |
+| **Report** | Finals period | ≤5 pp | The bulk |
+| **Presentation** | Finals period | --- | Included in the above |
+
+::: {.callout-important}
+## The Proposal Is Where Problem Formulation Gets Assessed
+
+It is the only place in this course where *you* decide what question is worth asking of what data --- everywhere else, I hand you the problem. It is graded accordingly, not as an administrative step.
+
+The test I will apply: **can you say what would count as an answer?** A proposal that cannot does not yet describe a project, however interesting the dataset. Start thinking about this well before March, and come talk to me if you are not sure.
+:::
+
+### Why The Deadlines Sit Where They Do
+
+- **The proposal lands after MP1 is returned**, so you know what a full pass through the loop actually costs before you promise one --- and before spring break, so feedback reaches you with time to change course.
+- **The check-in is late enough to have results and early enough to recover.** It is a ten-minute conversation in office hours rather than a written deliverable, because its job is to catch a project going wrong, and a conversation does that better than a document.
+- **MP2 is due after Quiz 6**, so that the last week of the semester is not carrying a quiz and a mini project at once.
+
+Presentations run during the university finals period, at a date and time assigned by the Office of the University Registrar. Expect to devote approximately 6 hours to the project during the exam period.

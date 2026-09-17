@@ -11,10 +11,7 @@ This page covers logistics for the computational work: two mini projects and the
 
 There are two mini projects, each computational and unit-scale. Together they are worth 20% of your grade.
 
-| | Out | Due |
-|:--|:--|:--|
-| **MP1** --- Regression and Simulation | Mon 3/01 | Wed 3/17 |
-| **MP2** --- Extremes and Model Comparison | Mon 4/05 | Fri 5/07 |
+Dates are on the [project schedule](../projects.qmd).
 
 **These may be completed individually or in pairs.** See [Group Work](groups.qmd) for expectations if you work in a pair.
 
@@ -47,11 +44,7 @@ The record you are given for MP2 has missing months, because real gauge records 
 
 The term project is 25% of your grade, and is a question and dataset **of your own choosing**. It may be completed individually or in pairs.
 
-| Deliverable | Due | Weight |
-|:--|:--|:--|
-| Proposal (≤2 pp) | Fri 3/26 | graded substantively |
-| Check-in (conversation) | Fri 4/23 | pass/fail |
-| Report and presentation | Finals period | the bulk |
+There are three deliverables --- a proposal, a check-in, and a report with presentation. Dates are on the [project schedule](../projects.qmd).
 
 ### The Proposal
 

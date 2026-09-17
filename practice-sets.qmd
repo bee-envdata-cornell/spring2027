@@ -1,0 +1,49 @@
+---
+title: "Practice Set Schedule"
+format:
+  html: default
+---
+
+There are **nine practice sets**, each worth 20 points and about 45 minutes of work. Together they are worth 20% of your grade, and **the lowest is dropped**.
+
+Policies --- what they are for, how they are marked, and why the key posts when it does --- are on the [practice set policies page](policies/practice-sets.qmd).
+
+## Dates
+
+| Set | Out | Due | Key Posts | Rehearses | Topic |
+|:--|:--|:--|:--|:--|:--|
+| **PS1** | Fri 1/29 | Fri 2/05 | Sat 2/06 | Quiz 1 | Probability and Monte Carlo |
+| **PS2** | Mon 2/08 | Fri 2/12 | Sat 2/13 | Quiz 2 | Regression and the hinge |
+| **PS3** | Wed 2/17 | Fri 2/19 | Sat 2/20 | Quiz 2 | Null models and both bootstraps |
+| **PS4** | Mon 2/22 | Fri 2/26 | Sat 2/27 | Quiz 3 | Bootstrap limits and Bayes |
+| **PS5** | Mon 3/01 | Fri 3/05 | Sat 3/06 | Quiz 4 | MCMC |
+| **PS6** | Mon 3/08 | Fri 3/12 | Sat 3/13 | Quiz 4 | GLMs, maximum entropy, time series |
+| **PS7** | Fri 3/19 | Fri 3/26 | Sat 3/27 | Quiz 5 | Extremes |
+| **PS8** | Fri 4/09 | Fri 4/16 | Sat 4/17 | Quiz 6 | Cross-validation |
+| **PS9** | Mon 4/19 | Fri 4/23 | Sat 4/24 | Quiz 6 | Information criteria and the contrast |
+
+There is no practice set during the weeks a mini project is due, or over spring break. All sets are due at **9:00pm Eastern**.
+
+## Structure
+
+Each set has three problems --- a scenario, three standalone quiz-format questions, and a computational item --- and is worth 20 points. The full breakdown, and why a practice-set point is not the same size as a quiz point, is on the [practice set policies page](policies/practice-sets.qmd#structure).
+
+## The Key Posts A Day After The Deadline
+
+Late work is accepted up to 24 hours at full credit, and the solution key goes up when that window closes --- so that a late submission is not just a copy of the key.
+
+This still puts the key in your hands well before the quiz it rehearses. The shortest gap all semester is two days, and most are six or more:
+
+| Set | Key posts | Quiz | Days with the key |
+|:--|:--|:--|--:|
+| PS1 | Sat 2/06 | Mon 2/08 | 2 |
+| PS2 | Sat 2/13 | Mon 2/22 | 9 |
+| PS3 | Sat 2/20 | Mon 2/22 | 2 |
+| PS4 | Sat 2/27 | Fri 3/05 | 6 |
+| PS5 | Sat 3/06 | Fri 3/19 | 13 |
+| PS6 | Sat 3/13 | Fri 3/19 | 6 |
+| PS7 | Sat 3/27 | Fri 4/09 | 13 |
+| PS8 | Sat 4/17 | Fri 4/30 | 13 |
+| PS9 | Sat 4/24 | Fri 4/30 | 6 |
+
+Written feedback on the marked questions may arrive after the quiz, and that is fine: the *forms* of question recur across all six quizzes, so feedback on how you stated a model in February is still useful in April.

@@ -11,14 +11,7 @@ This page includes information on the quizzes for BEE 4850/5850, including polic
 
 There are **six quizzes**, given in class, taking approximately the first **25 minutes** of the session. Quizzes will be hand-written and then scanned into Gradescope (by course staff) for grading and feedback; the physical copy will not be returned.
 
-| Quiz | Date | Covers Through |
-|:--|:--|:--|
-| **Quiz 1** | Mon 2/08 | Fri 2/05 |
-| **Quiz 2** | Mon 2/22 | Fri 2/19 |
-| **Quiz 3** | Fri 3/05 | Fri 2/26 |
-| **Quiz 4** | Fri 3/19 | Fri 3/12 |
-| **Quiz 5** | Fri 4/09 | Fri 3/26 |
-| **Quiz 6** | Fri 4/30 | Fri 4/23 |
+The dates and what each quiz covers are on the [quiz schedule](../quizzes.qmd).
 
 Together the quizzes are worth 25% of your grade. **The lowest quiz is dropped, for students in both 4850 and 5850.**
 
