@@ -10,19 +10,19 @@ Policies --- what they are for, how they are marked, and why the key posts when 
 
 ## Dates
 
-| Set | Out | Due | Key Posts | Rehearses | Topic |
+| Set | Title | Out | Due | Key posts | Rehearses |
 |:--|:--|:--|:--|:--|:--|
-| **HW1** | Fri 1/29 | Fri 2/05 | Sat 2/06 | Quiz 1 | Probability and Monte Carlo |
-| **HW2** | Mon 2/08 | Fri 2/12 | Sat 2/13 | Quiz 2 | Regression and the hinge |
-| **HW3** | Wed 2/17 | Fri 2/19 | Sat 2/20 | Quiz 2 | Null models and both bootstraps |
-| **HW4** | Mon 2/22 | Fri 2/26 | Sat 2/27 | Quiz 3 | Bootstrap limits and Bayes |
-| **HW5** | Mon 3/01 | Fri 3/05 | Sat 3/06 | Quiz 4 | MCMC |
-| **HW6** | Mon 3/08 | Fri 3/12 | Sat 3/13 | Quiz 4 | GLMs, maximum entropy, time series |
-| **HW7** | Fri 3/19 | Fri 3/26 | Sat 3/27 | Quiz 5 | Extremes |
-| **HW8** | Fri 4/09 | Fri 4/16 | Sat 4/17 | Quiz 6 | Cross-validation |
-| **HW9** | Mon 4/19 | Fri 4/23 | Sat 4/24 | Quiz 6 | Information criteria and the contrast |
+| **HW1** | *Looking at Data* | Fri 1/29 | **Thu 2/04** | Fri 2/05 | Quiz 1 |
+| **HW2** | *How Many Samples?* | Fri 2/05 | **Thu 2/11** | Fri 2/12 | Quiz 2 |
+| **HW3** | *OLS Is a Likelihood* | Fri 2/12 | **Thu 2/18** | Fri 2/19 | Quiz 3 |
+| **HW4** | *Two Nulls, Two p-Values* | Fri 2/19 | **Thu 2/25** | Fri 2/26 | Quiz 3 |
+| **HW5** | *The Same Interval, Twice* | Fri 2/26 | **Thu 3/04** | Fri 3/05 | Quiz 4 |
+| **HW6** | *Has It Converged?* | Fri 3/05 | **Thu 3/11** | Fri 3/12 | Quiz 4 |
+| **HW7** | *Forty Years, One Hundred-Year Flood* | Fri 3/12 | **Thu 3/25** | Fri 3/26 | Quiz 5 |
+| **HW8** | *Folds That Lie, and What They Approximate* | Fri 4/09 | **Thu 4/15** | Fri 4/16 | Quiz 6 |
+| **HW9** | *What Each Criterion Actually Targets* | Fri 4/16 | **Thu 4/29** | Fri 4/30 | Quiz 6 |
 
-There is no homework during the weeks a mini project is due, or over spring break. All assignments are due at **9:00pm Eastern**.
+There is no homework during the weeks a mini project is due, or over spring break. All assignments are due at **9:00pm Eastern** on a Thursday; the solution key posts Friday, when the late window closes.
 
 ## Structure
 
@@ -32,18 +32,18 @@ Each assignment has three problems --- a scenario, three standalone quiz-format 
 
 Late work is accepted up to 24 hours at full credit, and the solution key goes up when that window closes --- so that a late submission is not just a copy of the key.
 
-This still puts the key in your hands well before the quiz it rehearses. The shortest gap all semester is two days, and most are six or more:
+This still puts the key in your hands well before the quiz it rehearses. The shortest gap all semester is three days, and most are a week or more:
 
 | Set | Key posts | Quiz | Days with the key |
 |:--|:--|:--|--:|
-| HW1 | Sat 2/06 | Mon 2/08 | 2 |
-| HW2 | Sat 2/13 | Mon 2/22 | 9 |
-| HW3 | Sat 2/20 | Mon 2/22 | 2 |
-| HW4 | Sat 2/27 | Fri 3/05 | 6 |
-| HW5 | Sat 3/06 | Fri 3/19 | 13 |
-| HW6 | Sat 3/13 | Fri 3/19 | 6 |
-| HW7 | Sat 3/27 | Fri 4/09 | 13 |
-| HW8 | Sat 4/17 | Fri 4/30 | 13 |
-| HW9 | Sat 4/24 | Fri 4/30 | 6 |
+| **HW1** | Fri 2/05 | Mon 2/08 | **3** |
+| HW2 | Fri 2/12 | Mon 2/22 | 10 |
+| HW3 | Fri 2/19 | Fri 3/05 | 14 |
+| HW4 | Fri 2/26 | Fri 3/05 | 7 |
+| HW5 | Fri 3/05 | Fri 3/19 | 14 |
+| HW6 | Fri 3/12 | Fri 3/19 | 7 |
+| HW7 | Fri 3/26 | Fri 4/09 | 14 |
+| HW8 | Fri 4/16 | Mon 5/03 | 17 |
+| **HW9** | Fri 4/30 | Mon 5/03 | **3** |
 
 Written feedback on the marked questions may arrive after the quiz, and that is fine: the *forms* of question recur across all six quizzes, so feedback on how you stated a model in February is still useful in April.

@@ -15,9 +15,9 @@ Policies --- logistics, accommodations, conflicts, and academic integrity --- ar
 | **Quiz 1** | Mon 2/08 | Fri 2/05 | Probability review, Monte Carlo |
 | **Quiz 2** | Mon 2/22 | Fri 2/19 | Regression, the hinge, null models, both bootstraps |
 | **Quiz 3** | Fri 3/05 | Fri 2/26 | The bootstrap in practice, Bayes, MCMC |
-| **Quiz 4** | Fri 3/19 | Fri 3/12 | GLMs, maximum entropy, time series |
-| **Quiz 5** | Fri 4/09 | Fri 3/26 | Extreme values |
-| **Quiz 6** | Fri 4/30 | Fri 4/23 | Model evaluation and the criteria contrast |
+| **Quiz 4** | Fri 3/19 | Fri 3/12 | GLMs, maximum entropy, extremes: GEV and POT |
+| **Quiz 5** | Fri 4/09 | Fri 3/26 | Thresholds, nonstationary extremes, time series |
+| **Quiz 6** | Mon 5/03 | Fri 4/23 | Model evaluation and the criteria contrast |
 
 ::: {.callout-important}
 ## A Quiz Never Covers The Same Week
