@@ -1,0 +1,19 @@
+.Rproj.user
+.DS_Store
+.Rhistoryt
+.Rhistory
+/.quarto/
+/_*.local
+/.venv/
+/.condaenv/
+*_cache/
+/env/
+
+/.luarc.json
+**/*.quarto_ipynb
+
+# build artifacts
+/_site/
+/.quarto/
+/_freeze/
+.DS_Store

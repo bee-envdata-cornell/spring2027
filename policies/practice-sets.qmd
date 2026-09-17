@@ -1,0 +1,68 @@
+---
+title: "Practice Set Policies"
+anchor-sections: true
+format:
+  html: default
+---
+
+This page explains what practice sets are for and how they are marked. Please do read [What Practice Sets Are For](#what-practice-sets-are-for) --- the rest is logistics, but that part changes how you should use them.
+
+## What Practice Sets Are For
+
+Previous offerings of this course had a problem, and it was mine, not yours. You were assessed with 25-minute closed-book quizzes asking you to write out a model, define a property, or read a diagnostic plot. The only practice you got was two-week computational homework, where you had a laptop, the internet, your classmates, and fourteen days. **Those measure different things, and only one of them was being practiced.**
+
+Practice sets close that gap. They are in the quiz's exact idiom --- same question forms, same expectation of a written answer, same absence of a computer for most of it --- at about 1.3 times a quiz's length. If you can do the practice set, you can do the quiz. That is the entire design.
+
+::: {.callout-important}
+## The Practice Is The Point, Not The Score
+
+A practice set is worth about 2% of your course grade. It is not there to sort you; it is there to tell you --- *before* the quiz, while it is still free --- whether you can actually write out a null model or read an ACF. If you look at the key before attempting the problems, you will get the satisfying feeling of understanding and none of the actual understanding. I have seen this go wrong many times, and it always goes wrong the same way.
+:::
+
+## Structure
+
+Each set is worth **20 points** and should take about **45 minutes**: roughly 30 minutes of written work and 15 minutes at the keyboard.
+
+| Problem | Points | What it is |
+|:--|--:|:--|
+| **Problem 1** | 7 | A short scenario with three sub-parts, walking the loop on one object |
+| **Problem 2** | 7 | Three standalone short questions, exactly in the quiz's format |
+| **Problem 3** | 6 | The computational item, ending in a figure and a sentence of interpretation |
+
+::: {.callout-note}
+## A Practice Set Point Is Not A Quiz Point
+
+A practice set is 20 points and about 45 minutes. A quiz is 6 points and 25 minutes. A practice-set point is therefore worth roughly *half* a quiz point --- the sets are open-book, untimed, and scored at finer granularity, so a point buys less. **Do not read "20 points" as three quizzes' worth of work.** If a set is taking you dramatically longer than 45 minutes, that is useful information and I would like to hear about it.
+:::
+
+## Logistics
+
+- Practice sets are due at **9:00pm Eastern** on the due date, which is always a Friday. Submit to Gradescope as a PDF with pages tagged. Failure to tag pages results in a non-negotiable 10% deduction.
+- **Late submissions are accepted up to 24 hours, at full credit.**
+- **The solution key posts when the late window closes**, one day after the deadline. No submissions are accepted after the key is public.
+- **The lowest practice set is dropped automatically.**
+- Collaboration is encouraged. Write up your own answers in your own words, and list who you worked with.
+
+## How They Are Marked
+
+Every question is **checked** against the posted key. Two or three questions per set additionally receive **written feedback**.
+
+Why the difference? Because a posted key and a grader do different jobs. If you defined the logit incorrectly or got the sample-size calculation wrong, the key tells you that, and a paragraph from the TA adds nothing. What a key *cannot* catch is reasoning that is plausible and wrong --- and that is exactly what happens on questions like *"why can two defensible null models give different p-values?"* Those answers can read perfectly well and be wrong, and only a human notices. So written feedback goes where the key is insufficient.
+
+Which questions get written feedback **varies from set to set and is not announced in advance**. This is deliberate: if you knew, you would optimize for those two questions, which defeats the purpose.
+
+::: {.callout-warning}
+## The Computational Item Counts
+
+Problem 3 is not optional garnish. A set submitted without a serious attempt at all three problems, including the computational one, does not receive credit --- it is not marked out of 14.
+
+This is the only thing in the course keeping your hands on a keyboard between mini projects, and the wrangling it asks for (grouping, joining, handling gaps) is a skill this course expects you to build through practice rather than lecture.
+:::
+
+## Answers, Not Output
+
+For the computational item specifically:
+
+- **Answer in sentences.** Raw program output pasted into a PDF is not an answer to anything.
+- **Label your figures.** Axis labels with units, a legend if there is more than one thing plotted. A figure that needs you standing next to it to explain is not doing its job.
+- **Avoid excessive precision.** If you report a return level as 3.847261 m, you are claiming something about the sixth decimal place that your 40 years of data cannot support.

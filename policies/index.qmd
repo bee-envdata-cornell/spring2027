@@ -1,0 +1,15 @@
+---
+title: Course Policies
+format:
+  html: default
+---
+
+This section contains an overview of course policies, at a higher level of detail than what is in the [syllabus](../syllabus.qmd).
+
+- [Grading Policies](grading.qmd) --- how work is graded, late work, extensions, and regrade requests.
+- [Practice Set Policies](practice-sets.qmd) --- what practice sets are for, and how they are marked.
+- [Mini Project and Term Project Policies](projects.qmd) --- logistics for the computational work.
+- [Quiz Policies](quiz.qmd) --- logistics, topics, accommodations, and conflicts.
+- [Academic Integrity](integrity.qmd) --- collaboration, citation, and the AI/ML resource policy.
+- [Grading Rubrics](rubric.qmd) --- the meta-rubric applied across written work.
+- [Group Work](groups.qmd) --- expectations for pairs on mini projects and the term project.

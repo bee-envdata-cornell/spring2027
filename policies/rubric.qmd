@@ -1,0 +1,82 @@
+---
+format:
+  html:
+    toc-depth: 3
+    title: "Standard Rubrics"
+  typst: default
+---
+
+These rubrics are intended as a description for students and a guide to the grader for how to assign partial credit.
+
+## Meta-Rubric
+
+- Individual problems may vary from these standard rubrics based on the assessed learning outcomes for the problem, but they should give you an overview of what a solution ought to include.
+- Each bullet point appears as a separate rubric item in Gradescope. We use *positive* grading --- points are awarded for each component, not deducted from a starting total.
+- Each standard rubric below describes partial credit for a 10-point problem. Partial credit for problems worth less should be scaled appropriately.
+- ***The graders cannot read your mind and will not try to.*** Submissions that are unclear for any reason --- unclear syntax (English or code), uncommented code, missing reasoning, or so much detail that the argument is buried --- will not be given credit. The grader has complete discretion here. If something in your solution is ambiguous, the grader has been instructed to interpret it the "wrong" way. Clear responses are a sign of understanding, which is part of what we are assessing.
+- You will not be doubly penalized for getting the "right" answer from the "wrong" setup, but this requires the grader to *easily* identify that your implementation is correct given your model.
+- **You will not be given credit for your code.** This is not a programming class; the code is a means to an end. Code that is sloppy but *works* is perfectly acceptable. However, clear code may earn you partial credit if the TA can easily see where a mistake crept in, so comment it and write down the mathematics of what it is meant to implement.
+- Some rubrics include ***deadly sins*** which cause an immediate zero for the problem. Do not do these.
+- Regardless of problem type, the following penalties apply ***per incident***:
+    - −1 for missing units;
+    - −1 for an unlabeled figure axis;
+    - −1 for reporting precision the data cannot support.
+
+## Standard Rubrics
+
+### Specifying a Model
+
+10 points =
+
+- **+4 for the specification.** The distribution and link, written out, with the parameters named.
+- **+4 for the assumptions.** *All* of them --- what is assumed about the errors, about independence, about the predictors. A specification missing its assumptions is not a specification.
+- **+2 for the justification.** Why *that* distribution? A constraint you are willing to state about the process, not "because it is standard."
+
+::: {.callout-warning}
+## Deadly Sin
+
+Writing down a model with no assumptions stated at all. This is the single thing this course most wants you to stop doing, and it is an automatic zero for the problem.
+:::
+
+### Simulating From a Model
+
+10 points =
+
+- **+3 for the setup.** What are you simulating, from which model, how many times, and why that many?
+- **+4 for the implementation.** Correct sampling from the specified model.
+- **+3 for the interpretation.** What did the simulation show, and what does it tell you about the model?
+
+### Fitting and Recovery
+
+10 points =
+
+- **+3 for the fit.** Parameters reported with uncertainty, at sensible precision.
+- **+4 for the recovery check.** Simulate from the fit, refit, and compare. Did you get back what you put in?
+- **+3 for the conclusion.** If recovery failed, say so plainly and say what follows. **A failed recovery honestly reported earns full credit here; a failed recovery not noticed earns none.**
+
+### Model Comparison
+
+10 points =
+
+- **+3 for the criteria.** Computed correctly, with the models clearly identified.
+- **+4 for what each criterion is measuring.** Predictive accuracy or marginal likelihood? This is the point of the exercise.
+- **+3 for the recommendation.** Which model, why, and what result would change your mind.
+
+::: {.callout-warning}
+## Deadly Sin
+
+Reporting that AIC and BIC disagree and stopping there. Disagreement is the *beginning* of the answer --- explain what the disagreement tells you about the models.
+:::
+
+### Interpretation Questions
+
+10 points =
+
+- **+5 for the claim.** A direct answer to the question asked.
+- **+5 for the reasoning.** Why, in terms of the actual variables and the actual model --- not in terms of "the predictor variable" or "X."
+
+::: {.callout-important}
+## Don't Bullshit
+
+You will get no points for word salad, even if you accidentally hit on the right answer. A short, correct, clearly-reasoned paragraph beats a page of hedging every time.
+:::

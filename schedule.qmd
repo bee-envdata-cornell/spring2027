@@ -1,0 +1,69 @@
+---
+title: "Class Schedule"
+tbl-colwidths: [5, 8, 30, 5, 12, 10, 8, 10]
+suppress-bibliography: true
+format:
+  html: default
+---
+
+This page contains a schedule of the topics, content, and assignments for the semester.
+Note that this schedule will be updated as necessary as the semester progresses, with all changes documented here.
+
+Instructions to save the slides as PDFs can be found [here](https://quarto.org/docs/presentations/revealjs/presenting.html#print-to-pdf). The key is to hit `E` when the slides are open in your browser (ideally Chrome, but it may work in others) to toggle into PDF print mode.
+
+Readings can be accessed using the link (when needed, through the Cornell library with a Cornell login) or on Canvas.
+
+::: {.callout-tip}
+## How To Read This Schedule
+
+- **Practice sets** go out on the day listed and are due at 9:00pm on the Friday listed. The solution key posts one day after the due date, when the late window closes.
+- **Quizzes** take the first 25 minutes of the session listed. A quiz never covers material from the same week --- everything through the *previous* Friday is fair game, and nothing after it.
+- **Readings** are due, with annotations and reflection, by the start of the first lecture the following week.
+:::
+
+{{< include _schedule-table.qmd >}}
+
+## Quizzes and What They Cover
+
+| Quiz | Date | Covers Through | Topics |
+|:--|:--|:--|:--|
+| **Quiz 1** | Mon 2/08 | Fri 2/05 | Probability review, Monte Carlo |
+| **Quiz 2** | Mon 2/22 | Fri 2/19 | Regression, the hinge, null models, both bootstraps |
+| **Quiz 3** | Fri 3/05 | Fri 2/26 | The bootstrap in practice, Bayes, MCMC |
+| **Quiz 4** | Fri 3/19 | Fri 3/12 | GLMs, maximum entropy, time series |
+| **Quiz 5** | Fri 4/09 | Fri 3/26 | Extreme values |
+| **Quiz 6** | Fri 4/30 | Fri 4/23 | Model evaluation and the criteria contrast |
+
+The lowest quiz is dropped, for both 4850 and 5850.
+
+::: {.callout-note}
+## Why Quizzes 1 and 2 Are On Mondays
+
+Every other quiz is on a Friday. The first two cannot be, because the Fridays they would need --- 2/12, 2/19, and 2/26 --- hold the three sessions this course is built around, and none of them can afford to lose 25 minutes. Quiz 1 needs to be early enough that you learn what a quiz looks like while it is still cheap, which rules out waiting.
+:::
+
+## Practice Sets
+
+| Set | Out | Due | Key Posts | Rehearses |
+|:--|:--|:--|:--|:--|
+| **PS1** | Fri 1/29 | Fri 2/05 | Sat 2/06 | Quiz 1 |
+| **PS2** | Mon 2/08 | Fri 2/12 | Sat 2/13 | Quiz 2 |
+| **PS3** | Wed 2/17 | Fri 2/19 | Sat 2/20 | Quiz 2 |
+| **PS4** | Mon 2/22 | Fri 2/26 | Sat 2/27 | Quiz 3 |
+| **PS5** | Mon 3/01 | Fri 3/05 | Sat 3/06 | Quiz 4 |
+| **PS6** | Mon 3/08 | Fri 3/12 | Sat 3/13 | Quiz 4 |
+| **PS7** | Fri 3/19 | Fri 3/26 | Sat 3/27 | Quiz 5 |
+| **PS8** | Fri 4/09 | Fri 4/16 | Sat 4/17 | Quiz 6 |
+| **PS9** | Mon 4/19 | Fri 4/23 | Sat 4/24 | Quiz 6 |
+
+The lowest practice set is dropped. There is no set during the weeks a mini project is due, or over spring break.
+
+## Project and Mini Project Deadlines
+
+| Deliverable | Out | Due |
+|:--|:--|:--|
+| **Mini Project 1** --- Regression and Simulation | Mon 3/01 | Wed 3/17 |
+| **Term Project Proposal** | --- | Fri 3/26 |
+| **Mini Project 2** --- Extremes and Model Comparison | Mon 4/05 | Fri 5/07 |
+| **Term Project Check-In** | --- | Fri 4/23 |
+| **Term Project Report and Presentation** | --- | Finals period |

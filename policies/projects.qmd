@@ -1,0 +1,88 @@
+---
+title: "Mini Project and Term Project Policies"
+anchor-sections: true
+format:
+  html: default
+---
+
+This page covers logistics for the computational work: two mini projects and the term project.
+
+## Mini Projects
+
+There are two mini projects, each computational and unit-scale. Together they are worth 20% of your grade.
+
+| | Out | Due |
+|:--|:--|:--|
+| **MP1** --- Regression and Simulation | Mon 3/01 | Wed 3/17 |
+| **MP2** --- Extremes and Model Comparison | Mon 4/05 | Fri 5/07 |
+
+**These may be completed individually or in pairs.** See [Group Work](groups.qmd) for expectations if you work in a pair.
+
+### Accepting and Submitting
+
+- Mini projects are distributed through **GitHub Classroom**. When one is released, a link to accept it will be posted on Ed Discussion. **You must click this link or subsequent steps will not work properly.** Clicking it creates your own repository with the assignment files.
+- Clone *your* repository, not the original template.
+- Open the local repository **folder** (use `File -> Open Folder`, not `File -> Open`) so that all paths point to the right location.
+- Run the initial notebook cell (starting with `Pkg.activate()`) to load the Julia environment and install packages.
+- Commit and push frequently. This helps us answer questions, and gives you a backstop if something goes wrong close to the deadline --- the timestamp of your commit is evidence that you finished on time even if we cannot render your PDF until the next day.
+- **Submit a PDF to Gradescope with pages tagged.** Failure to tag pages results in a non-negotiable 10% deduction.
+- Due at **9:00pm Eastern**. Late submissions accepted within 24 hours at a 50% penalty.
+
+### What We Are Looking For
+
+Both mini projects are a full pass through the loop, and both are graded against the [rubrics](rubric.qmd). MP1 is deliberately incomplete in ways later weeks expose --- Gaussian errors that maximum entropy will question, residual independence that the time series week will test. That is not a flaw in the assignment; we will come back to it in lecture, and noticing it yourself is worth saying out loud in your writeup.
+
+::: {.callout-note}
+## MP2 Has Gaps In It, On Purpose
+
+The record you are given for MP2 has missing months, because real gauge records do. Computing an annual maximum from a year with a three-month gap is a genuine open problem, not an exercise --- is that year's maximum real, or an artifact of what was not recorded? Missing-data mechanisms are covered in lecture during MP2's window, which is deliberate. Say what you did about the gaps and why.
+:::
+
+### BEE 5850 Requirements
+
+- **MP1**: the Bayesian treatment is **required**, not an optional extension.
+- **MP2**: WAIC must be computed **from your own posterior**, not from the provided posterior sample.
+
+## Term Project
+
+The term project is 25% of your grade, and is a question and dataset **of your own choosing**. It may be completed individually or in pairs.
+
+| Deliverable | Due | Weight |
+|:--|:--|:--|
+| Proposal (≤2 pp) | Fri 3/26 | graded substantively |
+| Check-in (conversation) | Fri 4/23 | pass/fail |
+| Report and presentation | Finals period | the bulk |
+
+### The Proposal
+
+No more than 2 pages (11 point font, 1 inch margins), not including figures or references, covering:
+
+- The underlying science question and any associated hypotheses;
+- The dataset(s) you will analyze;
+- Statistical model(s) for the hypotheses and your planned strategy for analysis.
+
+::: {.callout-important}
+## This Is Where Problem Formulation Gets Assessed
+
+The proposal is the only place in this course where *you* decide what question is worth asking of what data. Everywhere else, I hand you the problem. It is graded accordingly --- substantively, not as an administrative step.
+
+The test I will apply: **can you say what would count as an answer?** A proposal that cannot does not yet describe a project, however interesting the dataset. Come talk to me early if you are not sure.
+:::
+
+### The Check-In
+
+A ten-minute conversation in office hours, not a written deliverable. Pass/fail on having something to show. Its job is to catch a project going wrong while there is still time to fix it, which a conversation does better than a document.
+
+### The Report
+
+No more than 5 pages (11 point font, 1 inch margins), not including references and figures. Detailed rubrics will be provided later in the semester.
+
+**Every report must include a section stating what a conventional canned analysis of your data would have concluded, and why yours differs.** If it does not differ, say so and explain why --- that is a legitimate finding, and sometimes the standard analysis is the right one. What is not acceptable is not knowing.
+
+### BEE 5850 Requirements
+
+Students in BEE 5850 must additionally **defend their specification against a named alternative specification**, including a simulation study establishing the conditions under which the two diverge and what evidence would distinguish them. "I chose a GEV" is a specification; "I chose a GEV rather than a GPD, and here is the sample size at which that choice stops mattering" is a defense.
+
+### Presentations
+
+Presentations run during the university finals period, at a date and time assigned by the Office of the University Registrar. Expect to devote approximately 6 hours to the project during the exam period.

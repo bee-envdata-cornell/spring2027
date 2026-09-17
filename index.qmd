@@ -1,0 +1,65 @@
+---
+title: "{{< var course.title >}}"
+subtitle: "{{< var course.number >}}, {{< var course.semester >}}"
+format:
+  html: default
+---
+
+## Course Information
+
+:::: {.columns .course-details}
+
+::: {.column width=33%}
+### Instructor
+
+- {{< fa sharp user title="Name" >}} [[{{< var instructor.name_no_title >}}]({{< var instructor.url >}})]{.ms-1}
+- {{< fa sharp envelope title="Email" >}} [[{{< var instructor.email >}}](mailto:{{< var instructor.email >}})]{.ms-1}
+- {{< fa sharp building title="Office" >}} [{{< var instructor.office >}}]{.ms-2}
+- {{< fa sharp clock title="Office Hours" >}} [{{< var course.office_hours >}}]{.ms-2}
+:::
+
+::: {.column width=33%}
+### TA
+
+- {{< fa sharp user title="Name" >}} [{{< var TA.name >}}]{.ms-1}
+- {{< fa sharp envelope title="Email" >}} [[{{< var TA.email >}}](mailto:{{< var TA.email >}})]{.ms-1}
+- {{< fa sharp clock title="Office Hours" >}} [{{< var course.ta_office_hours >}}]{.ms-2}
+:::
+
+::: {.column width=33%}
+### Meetings
+
+- {{< fa sharp calendar title="Class Days" >}} {{< var course.days >}}
+- {{< fa sharp clock title="Class Time" >}} {{< var course.time >}}
+- {{< fa sharp school title="Class Location" >}} {{< var course.location >}}
+:::
+
+::::
+
+## What This Course Is About
+
+Statistics are not magic.
+
+A *t*-test is not a black box that emits a *p*-value --- it is a model of what your data would look like if nothing were going on, and you can build that model yourself. Once you can build that one, you can build the one that actually fits your problem, which is usually not the one in the textbook.
+
+That is the whole course. Every method we meet gets run through the same four steps:
+
+1. **Why that distribution and link?**
+2. **Simulate** from the model you specified.
+3. **Fit** it to data.
+4. **Test** --- did you get back what you put in?
+
+Step 4 is where the learning happens, and it is the step most often skipped. We will not skip it.
+
+## Where To Start
+
+- The [syllabus](syllabus.qmd) has the full course description, learning outcomes, and assessment structure.
+- The [schedule](schedule.qmd) has the class-by-class plan, with readings and deadlines.
+- The [course policies](policies/index.qmd) pages have the detail behind the syllabus.
+- [Setup instructions](setup/index.qmd) will get your software working.
+
+::: {.callout-tip}
+## Taking This For Graduate Credit?
+
+BEE 5850 has two additional learning outcomes and differentiated requirements on three assessments. See [BEE 4850 vs. BEE 5850](syllabus.qmd#bee-4850-vs-bee-5850) in the syllabus.
+:::

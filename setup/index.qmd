@@ -1,0 +1,19 @@
+---
+title: "Software Setup"
+format:
+  html: default
+---
+
+::: {.callout-note}
+## Coming Before The Semester Starts
+
+Detailed setup instructions for Julia, VS Code, Git, and GitHub will be posted here before the first day of class. If you want to get a head start, the [Spring 2026 setup pages](https://envdata.viveks.me/spring2026/setup/) are a reasonable guide and little will change.
+:::
+
+## What You Will Need
+
+- **Julia** (1.11 or later). We provide notebooks and package environments for Julia, and the course staff can best support you in it.
+- **VS Code**, with the Julia extension.
+- **Git and a GitHub account.** Mini projects are distributed through GitHub Classroom, so you will need an account.
+
+You are welcome to use another language --- R and Python are both perfectly reasonable for everything in this course --- but we may be limited in the programming help we can offer. We're happy to try.

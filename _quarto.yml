@@ -1,0 +1,214 @@
+project:
+  type: website
+  preview:
+    port: 4200
+
+website:
+  page-navigation: true
+  title: "Environmental Data Analysis & Simulation"
+  description: "Homepage for the Spring 2027 version of BEE 4850/5850, Environmental Data Analysis & Simulation, at Cornell University."
+  site-url: "https://envdata.viveks.me/spring2027"
+  repo-url: https://github.com/bee-envdata-cornell/spring2027
+  repo-actions: [edit, issue]
+  favicon: _assets/logos/favicon.png
+
+  open-graph: true
+
+
+  page-footer:
+    left: |
+      <span class="faux-block">{{< fa brands creative-commons >}} {{< var course.copyright_year >}} Vivek Srikrishnan</span><br>
+      See the [About Page](/about.qmd) for credit information.
+    center: 
+      - text: "<a href='https://creativecommons.org/licenses/by-sa/4.0/deed.en'>LICENSE: CC-BY-SA {{< fa creative-commons-sa >}} <i class='fab fa-creative-commons'></i><i class='fab fa-creative-commons-by'></i><i class='fab fa-creative-commons-sa'></i></a>"
+    right: |
+      Made with [Julia](https://julialang.org) and [Quarto](https://quarto.org/)<br>
+      [View the source at {{< fa brands github >}} GitHub]({{< var course.github >}})
+
+  navbar:
+    pinned: true
+    background: "#f7f7f7"
+    title: "{{< var course.number >}}"
+    search: true
+    left:
+      - text: "Info"
+        menu:
+          - syllabus.qmd
+          - policies/index.qmd
+          - faq/index.qmd
+          - setup/index.qmd
+      - schedule.qmd
+      - text: "Coursework"
+        menu:
+          - hw/index.qmd
+          - lit_critique/index.qmd
+          - project/index.qmd
+      - text: "Resources"
+        menu:
+          - tutorials/index.qmd
+          - resources/general.qmd
+          - resources/julia.qmd
+          - resources/ai.qmd
+          - resources/github.qmd
+          - resources/markdown.qmd
+          - resources/dataviz.qmd
+    right:
+      - href: https://github.com/bee-envdata-cornell/spring2027/
+        text: "{{< fa brands github >}} GitHub"
+        aria-label: "GitHub"
+      - href: https://canvas.cornell.edu
+        text: "{{< fa regular notebook >}} Canvas"
+        aria-label: "Canvas"
+      - text: "{{< fa regular comments >}} Ed"
+        aria-label: "Ed Discussion"
+        url: https://edstem.org
+      - text: "{{< fa regular chart-simple >}} Gradescope"
+        url: https://gradescope.com
+        aria-label: "Gradescope"
+
+  sidebar:
+    - title: "Course Policies"
+      style: docked
+      search: false
+      background: "#f7f7f7"
+      contents:
+        - section: "Policies"
+          href: policies/index.qmd
+        - section: "Expectations"
+          contents:
+          - policies/integrity.qmd
+          - policies/groups.qmd
+        - section: "Grading"
+          contents:
+          - policies/grading.qmd
+          - policies/rubric.qmd
+        - section: "Assessments"
+          contents:
+          - policies/practice-sets.qmd
+          - policies/quiz.qmd
+          - policies/projects.qmd
+    - title: "Setup and Workflow"
+      contents:
+        - section: "Tools Setup"
+          href: setup/index.qmd
+        - section: "Software"
+          contents: 
+          - setup/julia.qmd
+          - setup/git.qmd
+          - setup/vscode.qmd
+        - section: "Workflow"
+          contents:
+            - setup: setup/homework.qmd
+    - title: "Coursework"
+      style: docked
+      search: false
+      background: "#f7f7f7"
+      contents:
+        - href: policies/practice-sets.qmd
+          text: "Practice Sets"
+        - href: policies/projects.qmd
+          text: "Mini Projects and Term Project"
+        - href: policies/quiz.qmd
+          text: "Quizzes"
+    - title: "Project"
+      style: docked
+      search: false
+      background: "#f7f7f7"
+      contents:
+        - href: project/index.qmd
+          text: "Project Overview"
+        - href: project/presentation.qmd
+          text: "Presentation"
+        - href: project/peer-review.qmd
+          text: "Peer Review"
+        - href: project/report.qmd
+          text: "Report"
+    - title: "Examples"
+      style: docked
+      search: false
+      background: "#f7f7f7"
+      contents:
+        - tutorials/index.qmd
+        - tutorials/julia-basics.qmd
+        - tutorials/latex-notebook.qmd
+        - tutorials/julia-plots.qmd
+        - tutorials/poisson-regression.qmd
+format:
+  html:
+    theme: 
+      [simplex, sass/theme.scss]
+    mainfont: "Atkinson Hyperlegible"
+    copy-code: true
+    code-overflow: wrap
+    toc: true
+    anchor-sections: true
+    callout-appearance: simple
+    reference-location: margin
+    citation-location: margin
+    code-annotations: select
+    html-math-method: mathjax
+    include-in-header: mathjax-config.html
+    footnotes-hover: false
+    default-image-extension: png
+  typst:
+    citeproc: true
+    csl: _assets/references/american-geophysical-union.csl
+    filters: 
+      - "_assets/typst-pdf/processing.lua"
+    mainfont: IBM Plex Sans
+    fontsize: "10pt"  
+    toc: true
+    toc-depth: 2
+    toc-title: Contents
+    margin:
+      x: 1in
+      y: 1in
+    default-image-extension: png  
+  revealjs:
+    slide-number: c/t
+    show-slide-number: all
+    center-title-slide: true
+    width: 1280
+    height: 720
+    transition: none
+    toc: true
+    toc-depth: 1
+    toc-title: "Overview"
+    history: false
+    link-external-newwindow: true
+    theme: sass/slides.scss
+    template-partials:
+      - slides/title-slide.html
+    menu:
+      numbers: true
+    html-math-method: mathjax
+    include-in-header: mathjax-config.html
+    date-format: long
+    email-obfuscation: javascript
+    chalkboard:
+      theme: whiteboard
+      buttons: true
+    mermaid: 
+        theme: dark
+    default-image-extension: png 
+    code-fold: true
+  beamer:
+    theme: metropolis
+    colortheme: dolphin
+    fonttheme: professionalfonts
+    aspectratio: 169
+    navigation: horizontal
+    section-titles: true
+    toc: false     
+    default-image-extension: png
+    monofontoptions: 
+      - Scale=0.55
+
+bibliography: references.bib
+csl: _assets/references/american-geophysical-union.csl
+
+engine: julia
+julia:
+  exeflags: ["+1.11.5"]
+execute: 
+  freeze: auto  

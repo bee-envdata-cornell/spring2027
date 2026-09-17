@@ -1,0 +1,66 @@
+---
+title: "Quiz Policies"
+anchor-sections: true
+format:
+  html: default
+---
+
+This page includes information on the quizzes for BEE 4850/5850, including policies and logistics.
+
+## Quiz Logistics
+
+There are **six quizzes**, given in class, taking approximately the first **25 minutes** of the session. Quizzes will be hand-written and then scanned into Gradescope (by course staff) for grading and feedback; the physical copy will not be returned.
+
+| Quiz | Date | Covers Through |
+|:--|:--|:--|
+| **Quiz 1** | Mon 2/08 | Fri 2/05 |
+| **Quiz 2** | Mon 2/22 | Fri 2/19 |
+| **Quiz 3** | Fri 3/05 | Fri 2/26 |
+| **Quiz 4** | Fri 3/19 | Fri 3/12 |
+| **Quiz 5** | Fri 4/09 | Fri 3/26 |
+| **Quiz 6** | Fri 4/30 | Fri 4/23 |
+
+Together the quizzes are worth 25% of your grade. **The lowest quiz is dropped, for students in both 4850 and 5850.**
+
+::: {.callout-important}
+## A Quiz Never Covers The Same Week
+
+Every quiz covers material through the *previous* Friday at the latest, and nothing after it. This is a rule, not a tendency, and it is why the quiz dates sit where they do. It also guarantees there is always a practice set covering the material, returned to you, before the quiz that tests it.
+:::
+
+## Quiz Topics and Structure
+
+The emphasis is on concepts. There is **no programming**, and there are **no formulas requiring memorization**. Expect 3--5 questions worth 1--3 points each, drawn from the same six forms the practice sets rehearse:
+
+- **State the model with its assumptions** --- write out the equations, including *any and all* assumptions;
+- **Define a property** --- what does it mean for an estimator to be unbiased?
+- **Read a diagnostic** --- here is an ACF, a trace plot, a residual plot: what does it tell you?
+- **Interpret a result** --- often as true/false statements about a reported interval;
+- **Small computation** --- how many Monte Carlo samples for a given standard error?
+- **State an assumption** --- what does the non-parametric bootstrap assume?
+
+In general, the same [grading rubric](rubric.qmd) applies to quiz problems as appropriate (*e.g.* nothing about code). Your solutions should be clear, with transparent and well-communicated reasoning.
+
+### Difficulty
+
+Quiz problems are closer in difficulty to practice set problems than to mini project problems, since you have weeks to work on a mini project with full access to external resources, course staff, and classmates. The goal is to assess your ability to understand concepts, set up problems, determine the appropriateness of methods, and interpret output --- not to do computations under time pressure. We cannot, and do not, expect you to solve mini-project-level problems in a 25-minute closed-book setting.
+
+**The practice sets are the sample quizzes.** That is what they are for, and it is why there is one before every quiz.
+
+## Academic Integrity
+
+Quizzes are closed-book, closed-note, and closed-everything else. **No medically unnecessary electronic devices are allowed**, including headphones and smart watches.
+
+Quizzes are strictly confidential until all conflict and accommodation quizzes have been taken. Do not discuss a quiz with anyone, in person or online, until we have discussed it in class.
+
+## Accommodations, Conflicts, and Makeups
+
+### SDS Accommodations
+
+Please make sure that any exam-related accommodations have been provided to the course staff ahead of the first quiz. Quizzes requiring accommodations will be scheduled and delivered through the [Alternative Testing Program](https://sds.cornell.edu/accommodations-services/academic/exam-accommodations/atp).
+
+### Conflicts and Makeups
+
+If you have an academic conflict or a university-approved reason why you cannot take a quiz in class, contact Prof. Srikrishnan **ahead of the quiz** to arrange an alternative.
+
+Because the lowest quiz is dropped, a single missed quiz for an unforeseeable reason generally needs no further accommodation --- the drop absorbs it. In **extreme** circumstances, such as long-term illness or injury preventing more than one quiz, we may forgive additional quizzes and compute your grade without them. This will dramatically increase the weight given to other assessments.

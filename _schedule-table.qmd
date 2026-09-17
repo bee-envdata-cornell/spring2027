@@ -1,0 +1,48 @@
+| Week | Date | Topic | Slides | Reading | Practice Set | Quiz | Project |
+:-----:|:---------|:---------|:---------:|:------:|:--:|:---:|:---:|
+| 1 | 1/25 | Class Introduction; What Is a Generative Model? | [{{< fa sharp presentation-screen >}}](slides/lecture01.qmd) |  |  |  |  |
+|  | 1/27 | Exploratory Data Analysis | [{{< fa sharp presentation-screen >}}](slides/lecture02.qmd) | [@Franconeri2021-vk](https://doi.org/10.1177/15291006211051956) |  |  |  |
+|  | 1/29 | Data Visualization | [{{< fa sharp presentation-screen >}}](slides/lecture03.qmd) |  | PS1 out |  |  |
+| 2 | 2/01 | Probability Review | [{{< fa sharp presentation-screen >}}](slides/lecture04.qmd) |  |  |  |  |
+|  | 2/03 | Monte Carlo: Simulating From a Distribution | [{{< fa sharp presentation-screen >}}](slides/lecture05.qmd) |  |  |  |  |
+|  | 2/05 | Monte Carlo Error and Convergence | [{{< fa sharp presentation-screen >}}](slides/lecture06.qmd) |  | **PS1 due** |  |  |
+| 3 | 2/08 | Linear Regression | [{{< fa sharp presentation-screen >}}](slides/lecture07.qmd) | [@Shmueli2010-ao](https://doi.org/10.1214/10-STS330) | PS2 out | **Quiz 1** |  |
+|  | 2/10 | Linear Regression, Continued | [{{< fa sharp presentation-screen >}}](slides/lecture08.qmd) |  |  |  |  |
+|  | 2/12 | **The Hinge**: Regression as a Probability Model | [{{< fa sharp presentation-screen >}}](slides/lecture09.qmd) |  | **PS2 due** |  |  |
+| 4 | 2/15 | **February Break** |  |  |  |  |  |
+|  | 2/17 | Named Tests Recovered: The Null Model | [{{< fa sharp presentation-screen >}}](slides/lecture10.qmd) |  | PS3 out |  |  |
+|  | 2/19 | The Non-Parametric Bootstrap: Two Nulls, Two *p*-Values | [{{< fa sharp presentation-screen >}}](slides/lecture11.qmd) |  | **PS3 due** |  |  |
+| 5 | 2/22 | The Bootstrap in Practice: Intervals, and Where It Breaks | [{{< fa sharp presentation-screen >}}](slides/lecture12.qmd) |  | PS4 out | **Quiz 2** |  |
+|  | 2/24 | Bayes: The Same Likelihood, With a Distribution on the Parameters | [{{< fa sharp presentation-screen >}}](slides/lecture13.qmd) | [@OHagan2004-am](http://doi.wiley.com/10.1111/j.1740-9713.2004.00050.x) |  |  |  |
+|  | 2/26 | Bayesian Computation: MCMC | [{{< fa sharp presentation-screen >}}](slides/lecture14.qmd) |  | **PS4 due** |  |  |
+| 6 | 3/01 | MCMC, Continued; the Week-3 Model Fit Both Ways | [{{< fa sharp presentation-screen >}}](slides/lecture15.qmd) |  | PS5 out |  | MP1 out |
+|  | 3/03 | GLMs and Maximum Entropy: Why *That* Distribution | [{{< fa sharp presentation-screen >}}](slides/lecture16.qmd) |  |  |  |  |
+|  | 3/05 | GLMs, Continued | [{{< fa sharp presentation-screen >}}](slides/lecture17.qmd) |  | **PS5 due** | **Quiz 3** |  |
+| 7 | 3/08 | Poisson and Count Data; Log-Transform vs. GLM | [{{< fa sharp presentation-screen >}}](slides/lecture18.qmd) | [@Chandler2002-oi](https://doi.org/10.1029/2001WR000906) | PS6 out |  |  |
+|  | 3/10 | Time Series and Autocorrelation | [{{< fa sharp presentation-screen >}}](slides/lecture19.qmd) |  |  |  |  |
+|  | 3/12 | Time Series Inference; the Block Bootstrap | [{{< fa sharp presentation-screen >}}](slides/lecture20.qmd) |  | **PS6 due** |  |  |
+| 8 | 3/15 | **Extremes I**: Block Maxima and the GEV | [{{< fa sharp presentation-screen >}}](slides/lecture21.qmd) | [@Arns2013-tl](http://dx.doi.org/10.1016/j.coastaleng.2013.07.003) |  |  |  |
+|  | 3/17 | Peaks Over Threshold | [{{< fa sharp presentation-screen >}}](slides/lecture22.qmd) |  |  |  | **MP1 due** |
+|  | 3/19 | Threshold Selection and Declustering | [{{< fa sharp presentation-screen >}}](slides/lecture23.qmd) |  | PS7 out | **Quiz 4** |  |
+| 9 | 3/22 | **Extremes II**: Nonstationarity | [{{< fa sharp presentation-screen >}}](slides/lecture24.qmd) | [@Kysely2008-jq](https://doi.org/10.1175/2008JAMC1763.1) |  |  |  |
+|  | 3/24 | Small Samples and Priors | [{{< fa sharp presentation-screen >}}](slides/lecture25.qmd) |  |  |  |  |
+|  | 3/26 | Where the Bootstrap Itself Becomes Fragile | [{{< fa sharp presentation-screen >}}](slides/lecture26.qmd) |  | **PS7 due** |  | **Proposal due** |
+| 10 | 3/29 | **Spring Break** |  |  |  |  |  |
+|  | 3/31 | **Spring Break** |  |  |  |  |  |
+|  | 4/02 | **Spring Break** |  |  |  |  |  |
+| 11 | 4/05 | **Model Evaluation I**: Predictive Accuracy | [{{< fa sharp presentation-screen >}}](slides/lecture27.qmd) | [@Roberts2017-lr](http://dx.doi.org/10.1111/ecog.02881) |  |  | MP2 out |
+|  | 4/07 | Cross-Validation | [{{< fa sharp presentation-screen >}}](slides/lecture28.qmd) |  |  |  |  |
+|  | 4/09 | Why Naive *k*-Fold Fails on Environmental Data | [{{< fa sharp presentation-screen >}}](slides/lecture29.qmd) |  | PS8 out | **Quiz 5** |  |
+| 12 | 4/12 | **Model Evaluation II**: Entropy Recalled; KL Divergence | [{{< fa sharp presentation-screen >}}](slides/lecture30.qmd) |  |  |  |  |
+|  | 4/14 | Deviance | [{{< fa sharp presentation-screen >}}](slides/lecture31.qmd) |  |  |  |  |
+|  | 4/16 | AIC | [{{< fa sharp presentation-screen >}}](slides/lecture32.qmd) |  | **PS8 due** |  |  |
+| 13 | 4/19 | **Model Evaluation III**: WAIC and DIC | [{{< fa sharp presentation-screen >}}](slides/lecture33.qmd) | [@Anderson2002-um](http://dx.doi.org/10.2307/3803155) | PS9 out |  |  |
+|  | 4/21 | BIC --- and What It Actually Targets | [{{< fa sharp presentation-screen >}}](slides/lecture34.qmd) |  |  |  |  |
+|  | 4/23 | **The Contrast**: Predictive Accuracy vs. Marginal Likelihood | [{{< fa sharp presentation-screen >}}](slides/lecture35.qmd) |  | **PS9 due** |  | **Check-in due** |
+| 14 | 4/26 | Missing Data Mechanisms | [{{< fa sharp presentation-screen >}}](slides/lecture36.qmd) |  |  |  |  |
+|  | 4/28 | Missing Data, Continued | [{{< fa sharp presentation-screen >}}](slides/lecture37.qmd) |  |  |  |  |
+|  | 4/30 | Multiple Imputation | [{{< fa sharp presentation-screen >}}](slides/lecture38.qmd) |  |  | **Quiz 6** |  |
+| 15 | 5/03 | Content Overflow / Review | [{{< fa sharp presentation-screen >}}](slides/lecture39.qmd) |  |  |  |  |
+|  | 5/05 | Content Overflow / Review | [{{< fa sharp presentation-screen >}}](slides/lecture40.qmd) |  |  |  |  |
+|  | 5/07 | Mixture Models and Synthesis *(contingent)* | [{{< fa sharp presentation-screen >}}](slides/lecture41.qmd) |  |  |  | **MP2 due** |
+| 16 | 5/10 | Class Wrap-Up | [{{< fa sharp presentation-screen >}}](slides/lecture42.qmd) |  |  |  |  |
