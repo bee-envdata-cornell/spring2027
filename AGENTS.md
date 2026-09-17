@@ -124,8 +124,16 @@ git add -A             # includes _site/ and _freeze/
 git commit && git push # this is the deploy
 ```
 
-- `_site/` and `_freeze/` are **tracked**. Spring 2025 and Spring 2026 both commit them.
+- **`_site/` is tracked because the deploy needs it.** Spring 2025 and Spring 2026 both commit it.
+- **`_freeze/` is tracked for a different reason** — [instructor] it carries computed output between
+  **laptop and desktop**, so the second machine does not re-run the Julia in every deck. It is a
+  convenience, not a deploy requirement: a stale or missing `_freeze/` costs render time, not a broken
+  site. Do not treat a `_freeze/` conflict as urgent the way a stale `_site/` is.
 - `.quarto/` is the only true local artifact and stays ignored.
+
+> **Both machines need the same Julia.** `_freeze/` only gets reused when the version matches, so the
+> move to **1.12.5** has to happen on the laptop *and* the desktop — `juliaup add 1.12.5` on whichever
+> has not got it. A machine still on 1.11.5 will silently re-run everything and rewrite the caches.
 - There is **no** GitHub Actions workflow, no `gh-pages` branch, and no `CNAME`. 4750 uses a `CNAME`
   and `gh-pages`; that pattern does not apply here.
 
