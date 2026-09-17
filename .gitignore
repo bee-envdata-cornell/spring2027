@@ -12,8 +12,7 @@
 /.luarc.json
 **/*.quarto_ipynb
 
-# build artifacts
-/_site/
-/.quarto/
-/_freeze/
-.DS_Store
+# NOTE: _site/ and _freeze/ are deliberately NOT ignored.
+# Cloudflare serves the built site from this repository, so _site/ must be
+# committed or nothing deploys. Spring 2025 and Spring 2026 both commit both.
+# Only .quarto/ (already ignored above) is a true local artifact.

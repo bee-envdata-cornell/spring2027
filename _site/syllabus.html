@@ -1,0 +1,1333 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.3">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Syllabus – Environmental Data Analysis &amp; Simulation</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./_assets/logos/favicon.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-037772e4b0a8fb61e9a28208dd0e90cd.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-41afc7412041501ec6863dfe70bda895.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<!-- MathJax 3 -->
+<script>
+window.MathJax = {
+    tex: {
+      tags: 'ams'
+    }
+  };
+</script>
+
+
+<meta property="og:title" content="Syllabus – Environmental Data Analysis &amp; Simulation">
+<meta property="og:description" content="Homepage for the Spring 2027 version of BEE 4850/5850, Environmental Data Analysis &amp; Simulation, at Cornell University.">
+<meta property="og:site_name" content="Environmental Data Analysis &amp; Simulation">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">BEE 4850/5850</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-info" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Info</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-info">    
+        <li>
+    <a class="dropdown-item" href="./syllabus.html">
+ <span class="dropdown-text">Syllabus</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./policies/index.html">
+ <span class="dropdown-text">Course Policies</span></a>
+  </li>  
+        <li class="dropdown-header">faq/index.qmd</li>
+        <li>
+    <a class="dropdown-item" href="./setup/index.html">
+ <span class="dropdown-text">Software Setup</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./schedule.html"> 
+<span class="menu-text">Class Schedule</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-deadlines" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Deadlines</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-deadlines">    
+        <li>
+    <a class="dropdown-item" href="./quizzes.html">
+ <span class="dropdown-text">Quiz Schedule</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./homework.html">
+ <span class="dropdown-text">Homework Schedule</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./projects.html">
+ <span class="dropdown-text">Project Schedule</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-coursework" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Coursework</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-coursework">    
+        <li class="dropdown-header">hw/index.qmd</li>
+        <li class="dropdown-header">lit_critique/index.qmd</li>
+        <li class="dropdown-header">project/index.qmd</li>
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resources" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Resources</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-resources">    
+        <li class="dropdown-header">tutorials/index.qmd</li>
+        <li class="dropdown-header">resources/general.qmd</li>
+        <li class="dropdown-header">resources/julia.qmd</li>
+        <li class="dropdown-header">resources/ai.qmd</li>
+        <li class="dropdown-header">resources/github.qmd</li>
+        <li class="dropdown-header">resources/markdown.qmd</li>
+        <li class="dropdown-header">resources/dataviz.qmd</li>
+    </ul>
+  </li>
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="https://github.com/bee-envdata-cornell/spring2027/"> 
+<span class="menu-text"><i class="fa-brands fa-github" aria-label="github"></i> GitHub</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://canvas.cornell.edu"> 
+<span class="menu-text"><i class="fa-regular fa-notebook" aria-label="notebook"></i> Canvas</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://edstem.org"> 
+<span class="menu-text"><i class="fa-regular fa-comments" aria-label="comments"></i> Ed</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://gradescope.com"> 
+<span class="menu-text"><i class="fa-regular fa-chart-simple" aria-label="chart-simple"></i> Gradescope</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#course-overview" id="toc-course-overview" class="nav-link active" data-scroll-target="#course-overview">Course Overview</a>
+  <ul class="collapse">
+  <li><a href="#course-description" id="toc-course-description" class="nav-link" data-scroll-target="#course-description">Course Description</a></li>
+  </ul></li>
+  <li><a href="#what-should-you-leave-this-course-with" id="toc-what-should-you-leave-this-course-with" class="nav-link" data-scroll-target="#what-should-you-leave-this-course-with">What Should You Leave This Course With</a></li>
+  <li><a href="#learning-outcomes" id="toc-learning-outcomes" class="nav-link" data-scroll-target="#learning-outcomes">Learning Outcomes</a>
+  <ul class="collapse">
+  <li><a href="#bee-4850" id="toc-bee-4850" class="nav-link" data-scroll-target="#bee-4850">BEE 4850</a></li>
+  <li><a href="#bee-5850" id="toc-bee-5850" class="nav-link" data-scroll-target="#bee-5850">BEE 5850</a></li>
+  </ul></li>
+  <li><a href="#prerequisites-preparation" id="toc-prerequisites-preparation" class="nav-link" data-scroll-target="#prerequisites-preparation">Prerequisites &amp; Preparation</a></li>
+  <li><a href="#typical-topics" id="toc-typical-topics" class="nav-link" data-scroll-target="#typical-topics">Typical Topics</a></li>
+  <li><a href="#course-meetings" id="toc-course-meetings" class="nav-link" data-scroll-target="#course-meetings">Course Meetings</a></li>
+  <li><a href="#course-philosophy-and-expectations" id="toc-course-philosophy-and-expectations" class="nav-link" data-scroll-target="#course-philosophy-and-expectations">Course Philosophy and Expectations</a></li>
+  <li><a href="#textbooks-and-course-materials" id="toc-textbooks-and-course-materials" class="nav-link" data-scroll-target="#textbooks-and-course-materials">Textbooks and Course Materials</a></li>
+  <li><a href="#bee-4850-vs-bee-5850" id="toc-bee-4850-vs-bee-5850" class="nav-link" data-scroll-target="#bee-4850-vs-bee-5850">BEE 4850 vs.&nbsp;BEE 5850</a></li>
+  <li><a href="#community" id="toc-community" class="nav-link" data-scroll-target="#community">Community</a>
+  <ul class="collapse">
+  <li><a href="#diversity-and-inclusion" id="toc-diversity-and-inclusion" class="nav-link" data-scroll-target="#diversity-and-inclusion">Diversity and Inclusion</a></li>
+  <li><a href="#student-accommodations" id="toc-student-accommodations" class="nav-link" data-scroll-target="#student-accommodations">Student Accommodations</a></li>
+  <li><a href="#course-communications" id="toc-course-communications" class="nav-link" data-scroll-target="#course-communications">Course Communications</a></li>
+  <li><a href="#mental-health-resources" id="toc-mental-health-resources" class="nav-link" data-scroll-target="#mental-health-resources">Mental Health Resources</a></li>
+  </ul></li>
+  <li><a href="#course-policies" id="toc-course-policies" class="nav-link" data-scroll-target="#course-policies">Course Policies</a>
+  <ul class="collapse">
+  <li><a href="#attendance" id="toc-attendance" class="nav-link" data-scroll-target="#attendance">Attendance</a></li>
+  <li><a href="#academic-integrity" id="toc-academic-integrity" class="nav-link" data-scroll-target="#academic-integrity">Academic Integrity</a></li>
+  <li><a href="#aiml-resource-policy" id="toc-aiml-resource-policy" class="nav-link" data-scroll-target="#aiml-resource-policy">AI/ML Resource Policy</a></li>
+  <li><a href="#office-hours" id="toc-office-hours" class="nav-link" data-scroll-target="#office-hours">Office Hours</a></li>
+  </ul></li>
+  <li><a href="#assessments" id="toc-assessments" class="nav-link" data-scroll-target="#assessments">Assessments</a>
+  <ul class="collapse">
+  <li><a href="#technologies" id="toc-technologies" class="nav-link" data-scroll-target="#technologies">Technologies</a></li>
+  <li><a href="#grading" id="toc-grading" class="nav-link" data-scroll-target="#grading">Grading</a></li>
+  <li><a href="#homework" id="toc-homework" class="nav-link" data-scroll-target="#homework">Homework</a></li>
+  <li><a href="#quizzes" id="toc-quizzes" class="nav-link" data-scroll-target="#quizzes">Quizzes</a></li>
+  <li><a href="#readings" id="toc-readings" class="nav-link" data-scroll-target="#readings">Readings</a></li>
+  <li><a href="#mini-projects" id="toc-mini-projects" class="nav-link" data-scroll-target="#mini-projects">Mini Projects</a></li>
+  <li><a href="#term-project" id="toc-term-project" class="nav-link" data-scroll-target="#term-project">Term Project</a></li>
+  <li><a href="#late-work-policy" id="toc-late-work-policy" class="nav-link" data-scroll-target="#late-work-policy">Late Work Policy</a></li>
+  <li><a href="#regrade-requests" id="toc-regrade-requests" class="nav-link" data-scroll-target="#regrade-requests">Regrade Requests</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/bee-envdata-cornell/spring2027/edit/main/syllabus.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/bee-envdata-cornell/spring2027/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="syllabus-BEE4850-SP27.pdf"><i class="bi bi-file-earmark-pdf"></i>PDF</a></li><li><a href="syllabus-BEE4850-SP27.docx"><i class="bi bi-file-earmark-word"></i>Word</a></li><li><a href="syllabus-BEE4850-SP27.pdf"><i class="bi bi-file-pdf"></i>Typst</a></li><li><a href="syllabus-BEE4850-SP27.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Syllabus</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="course-overview" class="level2">
+<h2 class="anchored" data-anchor-id="course-overview">Course Overview</h2>
+<p>This is a 3 credit course offered as an elective.</p>
+<div class="columns course-details">
+<div class="column" style="width:33%;">
+<section id="instructor" class="level3">
+<h3 class="anchored" data-anchor-id="instructor">Instructor</h3>
+<ul>
+<li><i class="fa-sharp fa-user" title="Name" aria-label="user"></i> <span class="ms-1"><a href="https://viveks.me">Vivek Srikrishnan</a></span></li>
+<li><i class="fa-sharp fa-envelope" title="Email" aria-label="envelope"></i> <span class="ms-1"><a href="mailto:vs498@cornell.edu">vs498@cornell.edu</a></span></li>
+<li><i class="fa-sharp fa-building" title="Office" aria-label="building"></i> <span class="ms-2">318 Riley-Robb Hall</span></li>
+</ul>
+</section>
+</div><div class="column" style="width:33%;">
+<section id="ta" class="level3">
+<h3 class="anchored" data-anchor-id="ta">TA</h3>
+<ul>
+<li><i class="fa-sharp fa-user" title="Name" aria-label="user"></i> <span class="ms-1">TBD</span></li>
+<li><i class="fa-sharp fa-envelope" title="Email" aria-label="envelope"></i> <span class="ms-1"><a href="mailto:TBD">TBD</a></span></li>
+<li><i class="fa-sharp fa-building" title="Office" aria-label="building"></i> <span class="ms-2">TBD</span></li>
+</ul>
+</section>
+</div><div class="column" style="width:33%;">
+<section id="meetings" class="level3">
+<h3 class="anchored" data-anchor-id="meetings">Meetings</h3>
+<ul>
+<li><i class="fa-sharp fa-calendar" title="Class Days" aria-label="calendar"></i> MWF</li>
+<li><i class="fa-sharp fa-clock" title="Class Time" aria-label="clock"></i> 11:15-12:05</li>
+<li><i class="fa-sharp fa-school" title="Class Location" aria-label="school"></i> 401 Riley-Robb Hall</li>
+</ul>
+</section>
+</div>
+</div>
+<section id="course-description" class="level3">
+<h3 class="anchored" data-anchor-id="course-description">Course Description</h3>
+<p>Understanding data is an increasingly integral part of working with environmental systems. Data analysis is a critical part of understanding system dynamics and projecting future conditions and outcomes. This course provides an overview of a <em>generative</em> approach to environmental data analysis: instead of treating statistical methods as a menu of named procedures to be looked up and applied, we treat every analysis as a model of how the data came to be, which we can write down, simulate from, fit, and test.</p>
+<p>That framing is the spine of the course, and we will run the same four-step loop on every model we meet:</p>
+<ol type="1">
+<li><strong>Why that distribution and link?</strong> What constraints are you willing to state about the process, and what distribution do those constraints imply?</li>
+<li><strong>Simulate.</strong> Generate data from the model you just specified.</li>
+<li><strong>Fit.</strong> Estimate the parameters from data, by maximum likelihood or from a posterior.</li>
+<li><strong>Test.</strong> Did you get back what you put in? What does the model fail to reproduce?</li>
+</ol>
+<p>Step 4 is where most of the learning happens, and it is the step most often skipped in practice. We will not skip it.</p>
+<p>In particular, over the course of the semester, we will:</p>
+<ul>
+<li>conduct exploratory analyses and build visualizations of environmental datasets;</li>
+<li>recover familiar named statistical tests by building their null models from scratch and simulating from them;</li>
+<li>specify generative models for environmental data, justifying the distribution and link from stated constraints;</li>
+<li>quantify and propagate uncertainty using Monte Carlo, the bootstrap, and Bayesian inference;</li>
+<li>compare competing models on evidence, and say what each criterion is actually measuring;</li>
+<li>apply all of this where it is hardest, on extreme values and on data with gaps.</li>
+</ul>
+</section>
+</section>
+<section id="what-should-you-leave-this-course-with" class="level2">
+<h2 class="anchored" data-anchor-id="what-should-you-leave-this-course-with">What Should You Leave This Course With</h2>
+<p><strong>Statistics should not be a black box</strong>. If there is one thing I want you to leave this course with, it is this. A <em>t</em>-test is not a black box that emits a <em>p</em>-value; it is a model of how your data would look if nothing were going on, and you can build that model yourself. Once you can, you can also build the one that fits <em>your</em> problem, which is usually not the one in the textbook or software package.</p>
+</section>
+<section id="learning-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="learning-outcomes">Learning Outcomes</h2>
+<section id="bee-4850" class="level3">
+<h3 class="anchored" data-anchor-id="bee-4850">BEE 4850</h3>
+<p>After completing this class, students will be able to:</p>
+<ol type="1">
+<li>Specify a generative model for an environmental dataset;</li>
+<li>Calibrate a generative model to environmental observations, including records with missing values;</li>
+<li>Test the predictive consequences of a model’s assumptions as hypotheses through simulation;</li>
+<li>Justify a choice among competing models on evidence, distinguishing criteria that estimate predictive accuracy (cross-validation, AIC, WAIC/DIC) from those that do not (BIC);</li>
+<li>Propagate uncertainty in a model’s parameters through to its predictions using Monte Carlo, the bootstrap, and Bayesian inference;</li>
+<li>Diagnose when a dataset does not support a model’s parameters or a requested extrapolation, as arises with extreme values and incomplete records;</li>
+<li>Identify the statistical assumptions underlying a published environmental data analysis, including those the authors do not state.</li>
+</ol>
+</section>
+<section id="bee-5850" class="level3">
+<h3 class="anchored" data-anchor-id="bee-5850">BEE 5850</h3>
+<p>Students in BEE 5850 will meet outcomes 1–7 above, and will additionally be able to:</p>
+<ol start="8" type="1">
+<li>Evaluate the statistical content of published research;</li>
+<li>Specify and defend a generative model against a competing specification.</li>
+</ol>
+</section>
+</section>
+<section id="prerequisites-preparation" class="level2">
+<h2 class="anchored" data-anchor-id="prerequisites-preparation">Prerequisites &amp; Preparation</h2>
+<p>The following courses/material would be ideal preparation:</p>
+<ul>
+<li>One course in programming (<em>e.g.</em> CS 1110, 1112 or ENGRD/CEE 3200)</li>
+<li>One course in probability or statistics (ENGRD 2700, CEE 3040, or equivalent)</li>
+</ul>
+<p>In the absence of one or more these prerequisites, you can seek the permission of instructor.</p>
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>What If My Programming or Stats Skills Are Rusty?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>If your programming or statistics skills are a little rusty, don’t worry! We will review concepts and build skills as needed. Weeks 1–2 are deliberately a re-grounding in probability and simulation before anything new gets built on top of them.</p>
+</div>
+</div>
+</section>
+<section id="typical-topics" class="level2">
+<h2 class="anchored" data-anchor-id="typical-topics">Typical Topics</h2>
+<ul>
+<li>Exploratory data analysis and principles of data visualization;</li>
+<li>Probability review and Monte Carlo simulation;</li>
+<li>Linear regression, and regression as a probability model;</li>
+<li>Null models, significance, and both flavors of the bootstrap;</li>
+<li>Bayesian inference and Markov chain Monte Carlo;</li>
+<li>Generalized linear models and maximum entropy;</li>
+<li>Time series and autocorrelation;</li>
+<li>Extreme values: block maxima, peaks over thresholds, nonstationarity;</li>
+<li>Model evaluation: cross-validation, KL divergence, AIC, WAIC/DIC, and BIC;</li>
+<li>Missing data and multiple imputation.</li>
+</ul>
+</section>
+<section id="course-meetings" class="level2">
+<h2 class="anchored" data-anchor-id="course-meetings">Course Meetings</h2>
+<p>This course meets MWF from xx-xx in xx Riley-Robb. In addition to the course meetings (a total of 42 lectures, 50 minutes each), the term project will be due during the university finals period, including presentations. Students can expect to devote, on average, 8 hours of effort during the exam period.</p>
+</section>
+<section id="course-philosophy-and-expectations" class="level2">
+<h2 class="anchored" data-anchor-id="course-philosophy-and-expectations">Course Philosophy and Expectations</h2>
+<p>The goal of our course is to help you gain competency and knowledge in the area of data analysis. This involves a dual responsibility on the part of the instructor and the student. As the instructor, my responsibility is to provide you with a structure and opportunity to learn. To this end, I will commit to:</p>
+<ul>
+<li>provide organized and focused lectures, in-class activities, and assignments;</li>
+<li>encourage students to regularly evaluate and provide feedback on the course;</li>
+<li>manage the classroom atmosphere to promote learning;</li>
+<li>schedule sufficient out-of-class contact opportunities, such as office hours;</li>
+<li>allow adequate time for assignment completion;</li>
+<li>make lecture materials, class policies, activities, and assignments accessible to students.</li>
+</ul>
+<p>I encourage you to discuss any concerns with me during office hours or through a course communications channel! Please let me know if you do not feel that I am holding up my end of the bargain.</p>
+<p>Students can optimize their performance in the course by:</p>
+<ul>
+<li>attending all lectures;</li>
+<li>doing any required preparatory work before class;</li>
+<li>actively participating in online and in-class discussions;</li>
+<li>beginning assignments and other work early;</li>
+<li>and attending office hours as needed.</li>
+</ul>
+</section>
+<section id="textbooks-and-course-materials" class="level2">
+<h2 class="anchored" data-anchor-id="textbooks-and-course-materials">Textbooks and Course Materials</h2>
+<p>There is no required textbook. The anchor materials for this course are the instructor’s notes and slides, which are linked from the <a href="./schedule.html">schedule</a>.</p>
+<p>For those who want a book to read alongside the course, the following are useful, and are on reserve rather than required:</p>
+<ul>
+<li>McElreath, R. (2020). <em>Statistical Rethinking: A Bayesian Course with Examples in R and Stan</em>, 2nd ed.&nbsp;Chapman and Hall/CRC. <a href="https://doi.org/10.1201/9780429029608">doi:10.1201/9780429029608</a>. This is where the four-step loop and the maximum-entropy justification for distribution choice come from. Note that it is Bayesian throughout and this course deliberately is not, so read it for the framing rather than as a course companion.</li>
+<li>Coles, S. (2001). <em>An Introduction to Statistical Modeling of Extreme Values</em>. Springer. The standard reference for the extremes weeks.</li>
+</ul>
+<p>Readings assigned during the semester are journal articles and will be provided as PDFs on Canvas through Perusall, and linked from the schedule where open access or the Cornell library permits.</p>
+</section>
+<section id="bee-4850-vs-bee-5850" class="level2">
+<h2 class="anchored" data-anchor-id="bee-4850-vs-bee-5850">BEE 4850 vs.&nbsp;BEE 5850</h2>
+<p>This course is offered at both the undergraduate (4850) and graduate (5850) level. The two sections share lectures, homework, and quizzes, and differ in the work required on three of the five assessments.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 37%">
+<col style="width: 31%">
+<col style="width: 31%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Assessment</th>
+<th style="text-align: left;">BEE 4850</th>
+<th style="text-align: left;">BEE 5850</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Homework</td>
+<td style="text-align: left;">9 assignments</td>
+<td style="text-align: left;"><em>identical</em></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Quizzes</td>
+<td style="text-align: left;">6 quizzes, lowest dropped</td>
+<td style="text-align: left;"><em>identical</em></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Mini projects</strong></td>
+<td style="text-align: left;">Bayesian treatment optional on MP1; MP2 computes WAIC from a provided posterior sample</td>
+<td style="text-align: left;">Bayesian treatment <strong>required</strong> on MP1; MP2 computes WAIC <strong>from your own posterior</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Term project</strong></td>
+<td style="text-align: left;">Student-chosen question, including the conventional-analysis comparison</td>
+<td style="text-align: left;"><strong>Additionally</strong>: your specification defended against a named alternative, with a simulation study establishing when the two diverge and what evidence would distinguish them</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Readings</strong></td>
+<td style="text-align: left;">8 readings and a one-page analysis</td>
+<td style="text-align: left;">8 readings and a <strong>full referee report</strong> (2–3 pages) on a paper of your choosing, written to the standard a journal would expect, with a recommendation</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="community" class="level2">
+<h2 class="anchored" data-anchor-id="community">Community</h2>
+<section id="diversity-and-inclusion" class="level3">
+<h3 class="anchored" data-anchor-id="diversity-and-inclusion">Diversity and Inclusion</h3>
+<p>Our goal is for this class to be a learning environment in which everyone can participate fully. Diversity of background and perspective makes for better engineering and better science, and I want the classroom to reflect that. If anything — in the material, in how the class is run, or in how people treat each other — is making that harder for you, please tell me.</p>
+<div class="callout callout-style-simple callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Please, Be Excellent To Each Other
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Treat your classmates and the course staff with respect, in class, in office hours, and on Ed Discussion. Disagreement about statistics is welcome and encouraged; dismissiveness toward a classmate who is still working something out is not.</p>
+</div>
+</div>
+</section>
+<section id="student-accommodations" class="level3">
+<h3 class="anchored" data-anchor-id="student-accommodations">Student Accommodations</h3>
+<p>If you have a disability-related need for accommodations in this class, please get an accommodation letter from <a href="https://sds.cornell.edu">Student Disability Services</a> and speak with me as early in the semester as possible so we can put arrangements in place. Accommodations cannot be applied retroactively, so earlier is genuinely better.</p>
+<p>If you experience a short-term disability or an injury during the semester, let me know and we will work something out.</p>
+</section>
+<section id="course-communications" class="level3">
+<h3 class="anchored" data-anchor-id="course-communications">Course Communications</h3>
+<p>Use <a href="https://github.com/bee-envdata-cornell/spring2027">Ed Discussion</a> for all class-related questions. This is not because I don’t want to hear from you — it is because a question you have is almost always a question somebody else has, and answering it in one place helps everybody. Reserve email for matters that are genuinely private (accommodations, personal circumstances, grades).</p>
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Ed Tips
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Search before posting; there’s a decent chance your question has been asked.</li>
+<li>Post questions publicly unless there’s a reason not to. You can post anonymously to your classmates if you prefer.</li>
+<li>If you’re asking about code, link to the relevant file and line in your GitHub repository rather than pasting a large block.</li>
+<li>Answer each other’s questions! This is encouraged and is a good way to check whether you actually understand something.</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="mental-health-resources" class="level3">
+<h3 class="anchored" data-anchor-id="mental-health-resources">Mental Health Resources</h3>
+<p>Your wellbeing matters more than this class does. If you are struggling, please reach out — to me, to your advisor, or to <a href="https://health.cornell.edu/">Cornell Health</a> (607-255-5155). <a href="https://health.cornell.edu/services/counseling-psychiatry">Counseling and Psychological Services (CAPS)</a> offers same-day appointments, and <a href="https://health.cornell.edu/services/mental-health-care/crisis-support">Cornell’s crisis resources</a> are available 24/7.</p>
+<div class="callout callout-style-simple callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Mental Health And This Class
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>If something is going on that is getting in the way of your work in this course, tell me <em>early</em>, and in general terms if you prefer — you do not owe me any details. The course has a dropped homework assignment, a dropped quiz, and a dropped reading built into it precisely so that a bad week costs you nothing. Those are there to be used. What I cannot easily fix is a problem I hear about for the first time in May.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="course-policies" class="level2">
+<h2 class="anchored" data-anchor-id="course-policies">Course Policies</h2>
+<p>More detail on all of these is on the <a href="./policies/index.html">course policies pages</a>.</p>
+<section id="attendance" class="level3">
+<h3 class="anchored" data-anchor-id="attendance">Attendance</h3>
+<p>Attendance is not graded, but quizzes are given in class and cannot be made up outside of the university’s accommodation processes. If you must miss class, get notes from a classmate and come to office hours with specific questions.</p>
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>What If I’m Sick?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Please stay home. Genuinely — do not come to class sick. Contact me as soon as you can if you will miss a quiz, and we will use the drop or, if it comes to that, forgive the quiz and reweight.</p>
+</div>
+</div>
+</section>
+<section id="academic-integrity" class="level3">
+<h3 class="anchored" data-anchor-id="academic-integrity">Academic Integrity</h3>
+<p>Cornell’s <a href="https://theuniversityfaculty.cornell.edu/academic-integrity/">Academic Integrity Code</a> applies to all work in this class.</p>
+<p>In practice, for this course:</p>
+<ul>
+<li><strong>Homework and mini projects</strong>: collaboration is encouraged. Write up your own solution, in your own words, and list everyone you worked with.</li>
+<li><strong>Quizzes</strong>: closed-book, closed-note, closed-everything. No collaboration of any kind.</li>
+<li><strong>Term project</strong>: your own work (or your pair’s), with all sources cited.</li>
+<li><strong>Cite every outside source you use</strong>, including AI tools — see the <a href="./policies/integrity.html">AI/ML resource policy</a>.</li>
+</ul>
+<div class="callout callout-style-simple callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>Why Can’t I Consult Old Solutions?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Solutions from previous offerings of this course, or solutions circulating online, are off limits. This is partly an integrity matter, but mostly a practical one: the point of a homework assignment is the <em>attempt</em>, and reading a solution before attempting it destroys the thing the assignment is for. You will feel like you understood it, sit a quiz, and discover that you didn’t. I have watched this happen many times.</p>
+</div>
+</div>
+</section>
+<section id="aiml-resource-policy" class="level3">
+<h3 class="anchored" data-anchor-id="aiml-resource-policy">AI/ML Resource Policy</h3>
+<p>You may use LLMs and similar tools, and you must disclose it when you do — describe what you asked and how you used the output. See the <a href="./policies/integrity.html">integrity policy</a> for the full version.</p>
+<p>A warning specific to this course: these tools are quite good at producing statistical analysis that <em>looks</em> right but is not based on clear and transparent reasoning.</p>
+</section>
+<section id="office-hours" class="level3">
+<h3 class="anchored" data-anchor-id="office-hours">Office Hours</h3>
+<p>Office hours are listed on the <a href="./index.html">course home page</a>. They are for whatever you need them for — questions on the material, help getting unstuck on an assignment, or talking through your project.</p>
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>What If I Can’t Make Office Hours?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Post on Ed Discussion, or email me to set up another time. If the scheduled hours don’t work for a large number of you, tell me and I will move them.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="assessments" class="level2">
+<h2 class="anchored" data-anchor-id="assessments">Assessments</h2>
+<section id="technologies" class="level3">
+<h3 class="anchored" data-anchor-id="technologies">Technologies</h3>
+<p>We will use Canvas as a gradebook and to distribute PDFs of readings (also made available through the website when possible, via the Cornell library). Ed Discussion will be used for course communications. Assignments will be submitted and graded in Gradescope. Mini projects will be distributed through GitHub Classroom.</p>
+<p>Students can use any programming language they like to solve problems, though we will make notebooks and package environments available for Julia (which may help structure your assignments if you use a different language) via GitHub. If students use a language other than Julia, we may be limited in the programming assistance we can provide (though we’re happy to try to help!).</p>
+<p>We recommend students create a GitHub account and use GitHub to version control and share their code throughout the semester.</p>
+</section>
+<section id="grading" class="level3">
+<h3 class="anchored" data-anchor-id="grading">Grading</h3>
+<p>Final grades will be computed based on the following assessment weights:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Assessment</th>
+<th style="text-align: right;">Weight</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Homework</td>
+<td style="text-align: right;">20%</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Quizzes</td>
+<td style="text-align: right;">25%</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Mini Projects</td>
+<td style="text-align: right;">20%</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Term Project</td>
+<td style="text-align: right;">25%</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Readings</td>
+<td style="text-align: right;">10%</td>
+</tr>
+</tbody>
+</table>
+<p>The following grading scale will be used to convert the numerical weighted average to letter grades:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Grade</th>
+<th style="text-align: left;">Range</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">A+</td>
+<td style="text-align: left;">97–100</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">A</td>
+<td style="text-align: left;">93–97</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">A-</td>
+<td style="text-align: left;">90–93</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">B+</td>
+<td style="text-align: left;">87–90</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">B</td>
+<td style="text-align: left;">83–87</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">B-</td>
+<td style="text-align: left;">80–83</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">C+</td>
+<td style="text-align: left;">77–80</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">C</td>
+<td style="text-align: left;">73–77</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">C-</td>
+<td style="text-align: left;">70–73</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">D+</td>
+<td style="text-align: left;">67–70</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">D</td>
+<td style="text-align: left;">63–67</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">D-</td>
+<td style="text-align: left;">60–63</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">F</td>
+<td style="text-align: left;">&lt; 60</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="homework" class="level3">
+<h3 class="anchored" data-anchor-id="homework">Homework</h3>
+<p>There will be nine homework assignments over the semester, each worth 20 points. These are <strong>pen-and-paper</strong>, in the same idiom as the quizzes, plus one short computational item. Expect each to take about 45 minutes: roughly 30 minutes of written work and 15 minutes at the keyboard.</p>
+<p>Homework exist for one reason: <strong>to rehearse the quiz.</strong> Previous offerings of this course assessed you with 25-minute closed-book quizzes while the only practice was two-week computational homework. Those measure different things, and only one of them was being practiced. The homework assignments fix that.</p>
+<p>Each assignment has three problems:</p>
+<ul>
+<li><strong>Problem 1</strong> (7 points) — a short scenario with three sub-parts, walking through the loop on one object;</li>
+<li><strong>Problem 2</strong> (7 points) — three standalone short questions, exactly in the quiz’s format;</li>
+<li><strong>Problem 3</strong> (6 points) — the computational item, ending in a figure and a sentence of interpretation.</li>
+</ul>
+<p>Some notes on homework logistics:</p>
+<ul>
+<li>Homework are due at <strong>9:00pm Eastern</strong> on the due date (always a Friday). Submit to Gradescope as a PDF with pages tagged.</li>
+<li><strong>Late work is accepted up to one day late</strong>, and the solution key is posted when that window closes — see the callout below.</li>
+<li><strong>The lowest homework assignment is dropped automatically.</strong></li>
+<li>Every question is checked against the posted key, and two or three questions per assignment receive written feedback. Which questions get written feedback varies from week to week and is not announced in advance.</li>
+<li><strong>The computational item counts.</strong> An assignment submitted without a serious attempt at all three problems, including the computational one, will not receive credit.</li>
+</ul>
+<div class="callout callout-style-simple callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Why The Key Goes Up A Day After The Deadline
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The solution key for each homework assignment is posted when the late window closes, not when the assignment is due. This is so that a one-day-late submission isn’t just a copy of the key.</p>
+<p>It also means the key is always in your hands well before the quiz it rehearses — at minimum two days, usually six or more. Written feedback on the marked questions may arrive after the quiz, and that’s fine: the <em>forms</em> of question recur across all six quizzes, so feedback on how you stated a model in February is still useful in April.</p>
+</div>
+</div>
+</section>
+<section id="quizzes" class="level3">
+<h3 class="anchored" data-anchor-id="quizzes">Quizzes</h3>
+<p>Quizzes will be given in class at the end of several units. These will be in the first half of the relevant class, approximately 25 minutes long. No materials (books, notes, computers, or calculators) are allowed. Quizzes will be scanned into Gradescope for grading.</p>
+<p>There are <strong>six quizzes</strong>, and <strong>the lowest is dropped, for students in both 4850 and 5850.</strong> The material covered will be specified ahead of time in class and on Ed Discussion. As a rule, <strong>a quiz never covers material from the same week it is given</strong> — every quiz covers through the previous Friday at the latest.</p>
+<p>The emphasis is on concepts. There is no programming on a quiz and nothing requiring memorized formulas. You will be asked to write out models and their assumptions, define properties, read diagnostic plots, interpret results, and do small calculations — which is exactly what the homework assignments rehearse.</p>
+</section>
+<section id="readings" class="level3">
+<h3 class="anchored" data-anchor-id="readings">Readings</h3>
+<p>Readings will be assigned throughout the semester to help you engage with the background and the uses of the material for that week. There are <strong>8 required readings</strong>, provided as PDFs on Canvas through Perusall and (when possible through open access or the Cornell library) linked from the website.</p>
+<p>Students are expected to demonstrate engagement through collaborative annotations — your own comments on parts you found interesting or had questions about, or responses to other students’ annotations. You should also post an overall reflection, synthesizing your takeaways with content from this or other classes, on Ed Discussion. Both should be completed by the start of the first lecture the next week. You are not graded on the quantity of annotations, but on the degree to which they reflect critical engagement. <strong>One reading assignment will be dropped automatically.</strong></p>
+<p>Four questions are worth asking of every reading, and they are the same four all semester:</p>
+<ol type="1">
+<li>What generative model did the authors assume?</li>
+<li>What did they simulate, and what did they take on faith?</li>
+<li>How did they check the model?</li>
+<li>What would you have checked that they did not?</li>
+</ol>
+<p><strong>All students</strong> write one discussion paper late in the semester applying these four questions at length:</p>
+<ul>
+<li><strong>BEE 4850</strong>: a one-page analysis of a paper of your choosing or one from the pool.</li>
+<li><strong>BEE 5850</strong>: a full referee report, 2–3 pages, written to the standard a journal would expect, including a recommendation (accept / minor revision / major revision / reject) and the reasoning behind it. Discuss your choice of paper with me to make sure it is appropriate.</li>
+</ul>
+</section>
+<section id="mini-projects" class="level3">
+<h3 class="anchored" data-anchor-id="mini-projects">Mini Projects</h3>
+<p>There are <strong>two mini projects</strong>, each computational and unit-scale, distributed through GitHub Classroom. These may be completed individually or in pairs.</p>
+<ul>
+<li><strong>Mini Project 1 — Regression and Simulation.</strong> Assigned Monday, March 1; due <strong>Wednesday, March 17</strong>. Specify a linear generative model for an environmental dataset, simulate from it, fit it, check whether you recover what you put in, and put uncertainty on the fit with the bootstrap. <em>For 5850, the Bayesian treatment is required; for 4850 it is an optional extension.</em></li>
+<li><strong>Mini Project 2 — Extremes, with Model Comparison.</strong> Assigned Monday, April 5; due <strong>Friday, May 7</strong>. Fit a GEV and a GPD to a real record, fit stationary and nonstationary variants, and compare them on evidence — cross-validation where defensible, plus WAIC, AIC, and BIC — saying explicitly what each is measuring and why they may disagree. <em>For 5850, WAIC must be computed from your own posterior rather than a provided sample.</em></li>
+</ul>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>MP2 Has Gaps In It, On Purpose
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The record you are given for MP2 has missing months, because real gauge records do. Computing an annual maximum from a year with a three-month gap is a genuine open problem, not an exercise — is that year’s maximum real, or an artifact of what wasn’t recorded? Missing-data mechanisms are covered in lecture during MP2’s window, which is deliberate.</p>
+</div>
+</div>
+</section>
+<section id="term-project" class="level3">
+<h3 class="anchored" data-anchor-id="term-project">Term Project</h3>
+<p>Throughout the semester, students will apply the concepts and methods from class to a question and data set <strong>of their own choosing</strong>. If you do not have a data set in mind, come talk to me and we will find one that aligns with your interests.</p>
+<p>The term project can be completed individually or in groups of 2. There are three deliverables:</p>
+<ul>
+<li>A <strong>proposal</strong> (no more than 2 pages, 11 point font, 1 inch margins, not including figures or references), due <strong>Friday, March 26</strong>, including:
+<ul>
+<li>The underlying science question for your project and any associated hypotheses;</li>
+<li>The dataset(s) you will analyze and use to test your hypotheses;</li>
+<li>Statistical model(s) for the hypotheses and your planned strategy for analysis.</li>
+</ul></li>
+<li>A <strong>check-in</strong>, due <strong>Friday, April 23</strong>. This is a ten-minute conversation in office hours rather than a written deliverable, graded pass/fail on having something to show.</li>
+<li>A <strong>final report</strong>, due during the finals period. No more than 5 pages (11 point font, 1 inch margins), not including references and figures. More details and rubrics will be provided later in the semester.</li>
+</ul>
+<p>The report must include a section stating <strong>what a conventional canned analysis of your data would have concluded, and why yours differs.</strong> If it doesn’t differ, say so and explain why — that is a legitimate finding, and sometimes the standard analysis is the right one.</p>
+<p><strong>Students in BEE 5850</strong> must additionally defend their specification against a <strong>named alternative specification</strong>, including a simulation study establishing the conditions under which the two diverge and what evidence would distinguish them.</p>
+<div class="callout callout-style-simple callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>The Proposal Is Where Problem Formulation Gets Assessed
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>It is the only place in this course where you decide what question is worth asking of what data, and it is weighted accordingly rather than treated as an administrative step. A proposal that cannot say what would count as an answer does not yet describe a project. Start thinking about this well before March.</p>
+</div>
+</div>
+<p>Presentations will be held during the university finals period, at a date and time assigned by the Office of the University Registrar. In addition to work completed during the semester, students can expect to devote approximately 6 hours to the term project during the exam period.</p>
+</section>
+<section id="late-work-policy" class="level3">
+<h3 class="anchored" data-anchor-id="late-work-policy">Late Work Policy</h3>
+<p><strong>Homework</strong> may be submitted up to 24 hours late for full credit, after which the solution key is posted and no further submissions can be accepted. The lowest homework assignment is dropped.</p>
+<p><strong>Mini projects and project deliverables</strong> may be submitted up to 24 hours late at a 50% penalty, and will not be accepted after that point. This policy may seem strict, but allows for prompt release of solutions and discussion of assignments. Please reach out <em>as soon as possible</em> (ideally before the due date) if legitimate circumstances emerge which prevent you from submitting work on time; we will make accommodations for approved reasons, which might include a limited extension or forgiving the assignment.</p>
+</section>
+<section id="regrade-requests" class="level3">
+<h3 class="anchored" data-anchor-id="regrade-requests">Regrade Requests</h3>
+<p>Regrade requests can be submitted up to one week after the graded work is released on Gradescope.</p>
+<p>All regrade requests must include a <strong>brief</strong> justification for the request or they will not be considered. Good justifications include (but are not limited to):</p>
+<ul>
+<li><em>My answer agrees with the posted solution, but I still lost points.</em></li>
+<li><em>I lost 4 points for something, but the rubric says it should only be worth 2 points.</em></li>
+<li><em>You took points off for something, but it’s right here.</em></li>
+<li><em>My answer is correct, even though it does not match the posted solution; here is an explanation</em>.</li>
+<li><em>There is no explanation for my grade</em>.</li>
+<li><em>I got a perfect score, but my solution has a mistake</em> (you will receive extra credit for this! see below!)</li>
+<li><em>There is a major error in the posted solution; here is an explanation</em> (full credit for everyone, but Prof.&nbsp;Srikrishnan will decide what constitutes a “major error”! see below!).</li>
+</ul>
+<div class="callout callout-style-simple callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>We Can Only Grade What You Submitted
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>All regrades will be assessed based only on the submitted work. You cannot get a higher grade by explaining what you meant (either in person or online) or by adding information or reasoning to what is submitted after the fact. The goal of the regrade is to draw attention to a potential grading problem, not to supplement the submission.</p>
+</div>
+</div>
+<p>The first regrade request for any submission will be handled by the person who graded that problem. If the submission was graded by the TA, additional regrade requests for the same submission will be handled directly by the instructor. Once Prof.&nbsp;Srikrishnan issues a final response to a regrade request, further requests for that submission will be ignored.</p>
+<div class="callout callout-style-simple callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>Regrade Requests Can Be A Gamble!
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>While you should submit regrade requests for legitimate errors, using them for fishing expeditions can also result in lost points if the TA or Prof.&nbsp;Srikrishnan decide that your initial grade was too lenient or if additional errors are identified.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>What If I Find A Different Type of Mistake?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>If you submit a regrade request <em>correctly</em> reporting that a problem was graded too leniently — that is, that your score was higher than it should be based on the rubric — your score will be increased by the difference. For example, if your original score on a problem was 8/10 and you successfully argue that your score should have been 3/10, your new score will be 13/10. However, don’t fish — your grade might be lowered if the TA finds an independent mistake while regrading.</li>
+<li>If a significant error is discovered in a posted solution, everyone in the class will receive <em>full</em> credit for the (sub)problem. Prof.&nbsp;Srikrishnan will decide what is “significant”.</li>
+</ul>
+</div>
+</div>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/envdata\.viveks\.me\/spring2027");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        const annoteTargets = window.document.querySelectorAll('.code-annotation-anchor');
+        for (let i=0; i<annoteTargets.length; i++) {
+          const annoteTarget = annoteTargets[i];
+          const targetCell = annoteTarget.getAttribute("data-target-cell");
+          const targetAnnotation = annoteTarget.getAttribute("data-target-annotation");
+          const contentFn = () => {
+            const content = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+            if (content) {
+              const tipContent = content.cloneNode(true);
+              tipContent.classList.add("code-annotation-tip-content");
+              return tipContent.outerHTML;
+            }
+          }
+          const config = {
+            allowHTML: true,
+            content: contentFn,
+            onShow: (instance) => {
+              selectCodeLines(instance.reference);
+              instance.reference.classList.add('code-annotation-active');
+              window.tippy.hideAll();
+            },
+            onHide: (instance) => {
+              unselectCodeLines();
+              instance.reference.classList.remove('code-annotation-active');
+            },
+            maxWidth: 300,
+            delay: [50, 0],
+            duration: [200, 0],
+            offset: [5, 10],
+            arrow: true,
+            trigger: 'click',
+            appendTo: function(el) {
+              return el.parentElement.parentElement.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'quarto',
+            placement: 'right',
+            positionFixed: true,
+            popperOptions: {
+              modifiers: [
+              {
+                name: 'flip',
+                options: {
+                  flipVariations: false, // true by default
+                  allowedAutoPlacements: ['right'],
+                  fallbackPlacements: ['right', 'top', 'top-start', 'top-end', 'bottom', 'bottom-start', 'bottom-end', 'left'],
+                },
+              },
+              {
+                name: 'preventOverflow',
+                options: {
+                  mainAxis: false,
+                  altAxis: false
+                }
+              }
+              ]        
+            }      
+          };
+          window.tippy(annoteTarget, config); 
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p><span class="faux-block"><i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> 2026 Vivek Srikrishnan</span><br> See the <a href="./about.html">About Page</a> for credit information.</p>
+</div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+ <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">LICENSE: CC-BY-SA  <i class="fab fa-creative-commons"></i><i class="fab fa-creative-commons-by"></i><i class="fab fa-creative-commons-sa"></i></a>
+  </li>  
+</ul>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/bee-envdata-cornell/spring2027/edit/main/syllabus.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/bee-envdata-cornell/spring2027/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+<p>Made with <a href="https://julialang.org">Julia</a> and <a href="https://quarto.org/">Quarto</a><br> <a href="https://github.com/bee-envdata-cornell/spring2027">View the source at <i class="fa-brands fa-github" aria-label="github"></i> GitHub</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
