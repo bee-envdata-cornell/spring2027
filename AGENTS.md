@@ -55,39 +55,58 @@ since June 2025. Do not add to it.
 - **Quarto** builds the site; Julia is the execution engine.
   - `quarto preview` — dev server on port 4200
   - `quarto render` — build to `_site/`
-- **Julia 1.11.5 currently, and this is an open decision.** `_quarto.yml` and `syllabus.qmd` both set
-  `exeflags: ["+1.11.5"]`. **A move to 1.12 for the Spring 2027 offering is under consideration** — see
-  [Julia version](#julia-version-open) below. Whatever the answer, the rule is: **one version across
-  the repo.** 4750 has a split between its project default (`1.12`) and its individual files
-  (`1.11.5`, which wins); do not reproduce that here.
-- **No `Manifest.toml`.** Spring 2026 has one pinned to `julia_version = "1.11.5"`; it was not copied,
-  so package resolution here is unpinned. Add one once the Julia version is settled, or renders will
-  not be reproducible across machines.
+- **Julia 1.12.5.** `_quarto.yml` and `syllabus.qmd` both set `exeflags: ["+1.12.5"]`. The rule is
+  **one version across the repo** — 4750 has a split between its project default (`1.12`) and its
+  individual files (`1.11.5`, which wins); do not reproduce that here. A pinned patch is used rather
+  than the `1.12` channel because 1.12.5 is what is installed; `julia +1.12` is not a resolvable
+  channel on this machine without `juliaup add 1.12`.
+- **`Manifest.toml` is committed**, pinned to `julia_version = "1.12.5"`. Regenerate it rather than
+  editing it, and commit the result — without it renders are not reproducible across machines.
 - **One Julia environment.** A single root `Project.toml`. 4750's multi-environment layout
   (`slides/`, `tutorials/` with their own) does not apply here *yet* — if decks grow heavy
   dependencies, add `slides/Project.toml` deliberately and record it here.
 - **No** Makefile, CI workflows, linters, or test framework.
 
-## Julia version (open) {#julia-version-open}
+## Julia version — moved to 1.12.5
 
-**Local state:** juliaup has 1.9.4, 1.10.4, 1.11.4, 1.11.5 (default), 1.11.6, and **1.12.5**
-installed. The `release` channel currently resolves to 1.11.6 locally and reports **1.13.0** as
-available — so 1.13 is the current release as of September 2026, and will be roughly sixteen months
-old by the time Spring 2027 starts.
+Spring 2026 and every sibling environment ran **1.11.5**; this offering runs **1.12.5**, decided
+before any deck or assignment content was written, which is the cheapest moment to move.
 
-**The site environment is the cheap part.** The root `Project.toml` carries nine light packages (CSV,
-DataFrames, DataFramesMeta, Dates, LaTeXStrings, Latexify, Preferences, PrettyTables,
-QuartoNotebookRunner). Bumping it is near-zero risk.
+**Verified before committing to it.** Both heavy environments resolve cleanly under 1.12.5, tested in
+scratch copies so the real ones were untouched:
 
-**The expensive part is elsewhere** and must be tested before the decision is made:
+| Environment | Packages | `Pkg.resolve()` under 1.12.5 |
+|---|---|---|
+| `spring2026/slides/Project.toml` | 39 — Turing, Distributions, DifferentialEquations, Plots, StatsPlots, MCMCChains, Extremes, GLM, HiddenMarkovModels, Surrogates, … | exit 0 |
+| `spring2026/tutorials/Project.toml` | 16 | exit 0 |
+| This repo's root | 9 | exit 0, full `quarto render` clean |
 
-- `~/Teaching/BEE4850/slides/Project.toml` — the shared deck environment, which carries the plotting
-  and statistics packages
-- the six `hw/hw*` repos and four `quiz/quiz*` repos, each with its own environment, all on `Spring26`
+**Where the environments actually are** — this differs from 4750 and an earlier draft of this file got
+it wrong:
 
-A version move is only real once those resolve and render. **Do not bump `_quarto.yml` alone** — that
-produces 4750's current half-done state, where the project declares one version and every file uses
-another.
+- The sibling `~/Teaching/BEE4850/slides/` directory is **an empty, stale environment** — `[deps]` is
+  empty and its Manifest is from Julia 1.10.4. It is not the deck environment. Do not use it.
+- The real heavy environments live **inside the site repo**, at `slides/Project.toml` and
+  `tutorials/Project.toml`. This repo has neither yet; create `slides/Project.toml` when decks are
+  written, seeded from `spring2026/slides/Project.toml`.
+- Each `hw/hw*`, `solutions/hw*`, and `quiz/quiz*` repo has its own environment, all still on 1.11.5.
+  **They are not migrated.** Move each when its `Spring27` branch is created, not before.
+
+## Do not run `julia --project` without `--startup-file=no`
+
+`~/.julia/config/startup.jl` runs `Pkg.add` for Revise, OhMyREPL, and BenchmarkTools whenever they are
+not already resolvable — **which writes them into whichever project is active.** A plain
+`julia --project=. -e 'using Pkg; Pkg.instantiate()'` in this repo added all three to `Project.toml`
+on the first 1.12 resolve.
+
+Always pass `--startup-file=no` for project operations:
+
+```bash
+julia +1.12.5 --startup-file=no --project=. -e 'using Pkg; Pkg.instantiate()'
+```
+
+Spring 2026's `Project.toml` is clean, so this has not bitten before; check `git diff Project.toml`
+after any Pkg operation.
 
 ## Deployment — not in this repo, and not fully known
 

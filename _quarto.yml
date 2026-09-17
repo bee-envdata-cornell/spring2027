@@ -214,6 +214,6 @@ csl: _assets/references/american-geophysical-union.csl
 
 engine: julia
 julia:
-  exeflags: ["+1.11.5"]
+  exeflags: ["+1.12.5"]
 execute: 
   freeze: auto  

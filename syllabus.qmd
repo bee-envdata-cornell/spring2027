@@ -31,7 +31,7 @@ format-links:
     text: Word
     icon: file-earmark-word
 julia:
-    exeflags: ["+1.11.5"]
+    exeflags: ["+1.12.5"]
 ---
 
 ## Course Overview
