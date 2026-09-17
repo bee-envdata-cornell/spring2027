@@ -108,17 +108,30 @@ julia +1.12.5 --startup-file=no --project=. -e 'using Pkg; Pkg.instantiate()'
 Spring 2026's `Project.toml` is clean, so this has not bitten before; check `git diff Project.toml`
 after any Pkg operation.
 
-## Deployment — not in this repo, and not fully known
+## Deployment — Cloudflare, from this repository
 
-`spring2026` has **no `.github/workflows`, no `gh-pages` branch, no `_publish.yml`, and no `CNAME`**,
-yet `envdata.viveks.me/spring2026` serves behind Cloudflare. The build is therefore wired outside the
-repository — most likely a Cloudflare Pages project pointed at it, but **this has not been confirmed.**
+[instructor] **The site is served via Cloudflare directly from the git repository.**
 
-Consequence: **pushing to `main` may or may not deploy.** Do not assume a push is inert, and do not
-assume it publishes. Confirm before relying on either. `site-url` here is already set to
-`https://envdata.viveks.me/spring2027`.
+**The consequence, and it is not optional: `_site/` must be committed.** Cloudflare serves the built
+output as it stands in the repo; it does not run Quarto. A push that updates sources without
+rebuilding publishes stale pages, and a repo that ignores `_site/` publishes nothing.
 
-(4750 *does* use a `CNAME` and a `gh-pages` branch. That pattern does not apply to this course.)
+So the working sequence for any content change is:
+
+```bash
+quarto render          # exits 0, and check the log rather than a pipeline's status
+git add -A             # includes _site/ and _freeze/
+git commit && git push # this is the deploy
+```
+
+- `_site/` and `_freeze/` are **tracked**. Spring 2025 and Spring 2026 both commit them.
+- `.quarto/` is the only true local artifact and stays ignored.
+- There is **no** GitHub Actions workflow, no `gh-pages` branch, and no `CNAME`. 4750 uses a `CNAME`
+  and `gh-pages`; that pattern does not apply here.
+
+> **`envdata.viveks.me` returns HTTP 200 for paths that do not exist** — `/spring2099/` answers 200
+> with the site-wide index. A 200 is therefore **not** evidence that an offering is deployed. Check
+> for content unique to the offering, not for a status code.
 
 ## Structure
 
