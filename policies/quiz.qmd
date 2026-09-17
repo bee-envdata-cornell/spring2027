@@ -18,12 +18,12 @@ Together the quizzes are worth 25% of your grade. **The lowest quiz is dropped, 
 ::: {.callout-important}
 ## A Quiz Never Covers The Same Week
 
-Every quiz covers material through the *previous* Friday at the latest, and nothing after it. This is a rule, not a tendency, and it is why the quiz dates sit where they do. It also guarantees there is always a practice set covering the material, returned to you, before the quiz that tests it.
+Every quiz covers material through the *previous* Friday at the latest, and nothing after it. This is a rule, not a tendency, and it is why the quiz dates sit where they do. It also guarantees there is always a homework assignment covering the material, returned to you, before the quiz that tests it.
 :::
 
 ## Quiz Topics and Structure
 
-The emphasis is on concepts. There is **no programming**, and there are **no formulas requiring memorization**. Expect 3--5 questions worth 1--3 points each, drawn from the same six forms the practice sets rehearse:
+The emphasis is on concepts. There is **no programming**, and there are **no formulas requiring memorization**. Expect 3--5 questions worth 1--3 points each, drawn from the same six forms the homework assignments rehearse:
 
 - **State the model with its assumptions** --- write out the equations, including *any and all* assumptions;
 - **Define a property** --- what does it mean for an estimator to be unbiased?
@@ -36,9 +36,9 @@ In general, the same [grading rubric](rubric.qmd) applies to quiz problems as ap
 
 ### Difficulty
 
-Quiz problems are closer in difficulty to practice set problems than to mini project problems, since you have weeks to work on a mini project with full access to external resources, course staff, and classmates. The goal is to assess your ability to understand concepts, set up problems, determine the appropriateness of methods, and interpret output --- not to do computations under time pressure. We cannot, and do not, expect you to solve mini-project-level problems in a 25-minute closed-book setting.
+Quiz problems are closer in difficulty to homework assignment problems than to mini project problems, since you have weeks to work on a mini project with full access to external resources, course staff, and classmates. The goal is to assess your ability to understand concepts, set up problems, determine the appropriateness of methods, and interpret output --- not to do computations under time pressure. We cannot, and do not, expect you to solve mini-project-level problems in a 25-minute closed-book setting.
 
-**The practice sets are the sample quizzes.** That is what they are for, and it is why there is one before every quiz.
+**The homework assignments are the sample quizzes.** That is what they are for, and it is why there is one before every quiz.
 
 ## Academic Integrity
 

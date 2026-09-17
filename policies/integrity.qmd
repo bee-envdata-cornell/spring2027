@@ -39,7 +39,7 @@ Submitting someone else's work or ideas without proper credit is plagiarism, *ev
 Duplication of any source, *even with proper citation*, is plagiarism. **Your submissions must reflect your own ideas, understanding, and work**. This means:
 
 * Verbatim copying of lecture notes (including code samples) is plagiarism;
-* Copying from old practice set, mini project, or quiz solutions is plagiarism;
+* Copying from old homework assignment, mini project, or quiz solutions is plagiarism;
 * Submitting work in your name done by another student is plagiarism;
 * Allowing another student is submit your work in their name is an academic integrity violation.
 * Minor wordsmithing to change individual words while preserving a duplicated text's flow of ideas is also an academic integrity violation. For example, taking ChatGPT output and copying it is clearly an academic integrity violation; changing a few words here or there to avoid "duplication" is still a violation.
@@ -58,7 +58,7 @@ The usual no-nos from other classes apply: don't do anything like
 
 ## Penalties
 
-- If you commit an academic integrity violation on a practice set or mini project, you will be given a zero for that entire assignment, **which will not be dropped under any circumstances**.
+- If you commit an academic integrity violation on a homework assignment or mini project, you will be given a zero for that entire assignment, **which will not be dropped under any circumstances**.
 - If you commit an academic integrity violation on a quiz, you will be given a zero for that entire quiz, **which will not be dropped under any circumstances**.
 - If you commit a second academic integrity violation, you will be given an F for the course.
 - If your first violation is particularly egregious, you will be given an F for the course.

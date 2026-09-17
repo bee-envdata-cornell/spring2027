@@ -21,5 +21,5 @@ quarto render    # full build to _site/
 
 ## Status
 
-Syllabus, schedule, and policies are drafted. Still to come: slides, practice sets,
+Syllabus, schedule, and policies are drafted. Still to come: slides, homework assignments,
 mini projects, setup pages, and resources.

@@ -89,13 +89,10 @@ In particular, over the course of the semester, we will:
 * compare competing models on evidence, and say what each criterion is actually measuring;
 * apply all of this where it is hardest, on extreme values and on data with gaps.
 
-::: {.callout-important}
-## Statistics Are Not Magic
+## What Should You Leave This Course With
 
-If there is one thing I want you to leave this course with, it is this. A *t*-test is not a black box that emits a *p*-value; it is a model of how your data would look if nothing were going on, and you can build that model yourself. Once you can, you can also build the one that fits *your* problem, which is usually not the one in the textbook.
+**Statistics should not be a black box**. If there is one thing I want you to leave this course with, it is this. A *t*-test is not a black box that emits a *p*-value; it is a model of how your data would look if nothing were going on, and you can build that model yourself. Once you can, you can also build the one that fits *your* problem, which is usually not the one in the textbook or software package.
 
-The flip side is equally important, and I will hold us both to it: **this is not a course arguing that you should be a Bayesian.** Swapping `t.test()` for a default-prior model fit is exactly the same mistake facing the other direction. We will run the loop both ways, on the same problems, precisely so that you can see the generative framing is the substance and the inferential machinery is a choice.
-:::
 
 ## Learning Outcomes
 
@@ -103,25 +100,19 @@ The flip side is equally important, and I will hold us both to it: **this is not
 
 After completing this class, students will be able to:
 
-1. **recover a named statistical test generatively** --- specify its null model, simulate from it, and state what the standard test assumes;
-2. **specify a generative model** for an environmental dataset, justifying the distribution and link from constraints they are willing to state, and simulate from it;
-3. **test a model's assumptions as hypotheses by simulation**, including whether a fitting procedure recovers known parameters;
-4. **compare competing models on evidence**, distinguishing criteria that estimate predictive accuracy (cross-validation, AIC, WAIC/DIC) from those that do not (BIC), and justify the choice;
-5. **quantify and propagate uncertainty** using Monte Carlo, the bootstrap, and Bayesian inference;
-6. **apply all of the above** to the environmental cases where they are hardest --- extreme values and missing data.
+1. Specify a generative model for an environmental dataset;
+2. Test the predictive consequences of a model's assumptions as hypotheses through simulation;
+3. Compare competing models and interpret comparisons as alignment of model hypotheses with evidence, distinguishing criteria that estimate predictive accuracy (cross-validation, AIC, WAIC/DIC) from those that do not (BIC);
+4. Quantify and propagate uncertainty using Monte Carlo, the bootstrap, and Bayesian inference;
+5. Apply these principles to common-but-challenging extreme value and missing data environmental problems.
 
 ### BEE 5850
 
 Students in BEE 5850 will meet outcomes 1--6 above, and will additionally be able to:
 
-7. **referee the statistical content of published environmental research** --- reconstruct the generative model the authors assumed, distinguish what they verified from what they took on faith, and write a recommendation to the standard a journal would expect;
-8. **specify and defend a generative model against a competing specification**, using simulation to establish the conditions under which the two diverge and what evidence would distinguish them.
+1. Evaluate the statistical content of published research;
+2. Specify and defend a generative model against a competing specification.
 
-::: {.callout-note}
-## Why The Two Lists Differ
-
-Outcomes 7 and 8 are not "outcomes 1--6, but harder." They are different work, assessed on deliverables that only 5850 students produce --- see [BEE 4850 vs. BEE 5850](#bee-4850-vs-bee-5850) below. Broadly: 4850 runs the loop, and 5850 interrogates someone else's loop and specifies one where no template exists.
-:::
 
 ## Prerequisites & Preparation
 
@@ -153,7 +144,7 @@ If your programming or statistics skills are a little rusty, don't worry! We wil
 
 ## Course Meetings
 
-This course meets MWF from 11:15-12:05 in 401 Riley-Robb. In addition to the course meetings (a total of 42 lectures, 50 minutes each), the term project will be due during the university finals period. Students can expect to devote, on average, 6 hours of effort during the exam period.
+This course meets MWF from xx-xx in xx Riley-Robb. In addition to the course meetings (a total of 42 lectures, 50 minutes each), the term project will be due during the university finals period, including presentations. Students can expect to devote, on average, 8 hours of effort during the exam period.
 
 ## Course Philosophy and Expectations
 
@@ -199,11 +190,6 @@ This course is offered at both the undergraduate (4850) and graduate (5850) leve
 | **Term project** | Student-chosen question, including the conventional-analysis comparison | **Additionally**: your specification defended against a named alternative, with a simulation study establishing when the two diverge and what evidence would distinguish them |
 | **Readings** | 8 readings and a one-page analysis | 8 readings and a **full referee report** (2--3 pages) on a paper of your choosing, written to the standard a journal would expect, with a recommendation |
 
-::: {.callout-note}
-## Graduate Credit Requires Graduate Work
-
-New York State requires that credit toward a graduate degree be earned "only through work designed expressly for graduate students" (8 NYCRR §52.2(c)(3)), and that graduate coursework be advanced in content, rigor, and requirements. The referee report and the term-project specification defense are assessed against outcomes 7 and 8, which appear in no undergraduate section of this course. They are additional work, not the same work graded more harshly.
-:::
 
 ## Community
 
@@ -257,7 +243,7 @@ Attendance is not graded, but quizzes are given in class and cannot be made up o
 ::: {.callout-tip}
 ## What If I'm Sick?
 
-Stay home. Genuinely --- do not come to class sick. Contact me as soon as you can if you will miss a quiz, and we will use the drop or, if it comes to that, forgive the quiz and reweight.
+Please stay home. Genuinely --- do not come to class sick. Contact me as soon as you can if you will miss a quiz, and we will use the drop or, if it comes to that, forgive the quiz and reweight.
 :::
 
 ### Academic Integrity

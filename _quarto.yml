@@ -41,7 +41,7 @@ website:
       - text: "Deadlines"
         menu:
           - quizzes.qmd
-          - practice-sets.qmd
+          - homework.qmd
           - projects.qmd
       - text: "Coursework"
         menu:
@@ -89,7 +89,7 @@ website:
           - policies/rubric.qmd
         - section: "Assessments"
           contents:
-          - policies/practice-sets.qmd
+          - policies/homework.qmd
           - policies/quiz.qmd
           - policies/projects.qmd
     - title: "Setup and Workflow"
@@ -109,8 +109,8 @@ website:
       search: false
       background: "#f7f7f7"
       contents:
-        - href: practice-sets.qmd
-          text: "Practice Set Schedule"
+        - href: homework.qmd
+          text: "Homework Schedule"
         - href: quizzes.qmd
           text: "Quiz Schedule"
         - href: projects.qmd

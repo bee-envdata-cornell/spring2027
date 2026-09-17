@@ -16,7 +16,7 @@ Readings can be accessed using the link (when needed, through the Cornell librar
 ::: {.callout-tip}
 ## How To Read This Schedule
 
-- **Practice sets** go out on the day listed and are due at 9:00pm on the Friday listed. The solution key posts one day after the due date, when the late window closes.
+- **Homework** go out on the day listed and are due at 9:00pm on the Friday listed. The solution key posts one day after the due date, when the late window closes.
 - **Quizzes** take the first 25 minutes of the session listed. A quiz never covers material from the same week --- everything through the *previous* Friday is fair game, and nothing after it.
 - **Readings** are due, with annotations and reflection, by the start of the first lecture the following week.
 :::
@@ -26,7 +26,7 @@ Readings can be accessed using the link (when needed, through the Cornell librar
 The deadlines above are listed in full, with what each one covers, on their own pages:
 
 - [**Quiz schedule**](quizzes.qmd) --- dates, coverage, and what is on a quiz
-- [**Practice set schedule**](practice-sets.qmd) --- dates, structure, and when each solution key posts
+- [**Homework schedule**](homework.qmd) --- dates, structure, and when each solution key posts
 - [**Project schedule**](projects.qmd) --- mini project and term project deliverables
 
 ## Class-by-Class Schedule

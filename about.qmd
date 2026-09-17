@@ -17,7 +17,7 @@ The site design derives from earlier offerings of this course and of BEE 4750/57
 Several elements of the course's structure are borrowed and adapted with thanks:
 
 - The four-step generative loop that organizes the course is adapted from Richard McElreath's *Statistical Rethinking* ([doi:10.1201/9780429029608](https://doi.org/10.1201/9780429029608)), without its Bayesian commitment.
-- The practice set format --- lettered sub-parts with individual point values, an agenda stating what is being practiced explicitly and implicitly, and instructions on the *form* of an answer --- is adapted from [Cosma Shalizi's](https://www.stat.cmu.edu/~cshalizi/) homework assignments for 36-401 and 36-402 at Carnegie Mellon.
+- The homework assignment format --- lettered sub-parts with individual point values, an agenda stating what is being practiced explicitly and implicitly, and instructions on the *form* of an answer --- is adapted from [Cosma Shalizi's](https://www.stat.cmu.edu/~cshalizi/) homework assignments for 36-401 and 36-402 at Carnegie Mellon.
 
 ## Accessibility
 

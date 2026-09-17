@@ -7,7 +7,7 @@ format:
 This section contains an overview of course policies, at a higher level of detail than what is in the [syllabus](../syllabus.qmd).
 
 - [Grading Policies](grading.qmd) --- how work is graded, late work, extensions, and regrade requests.
-- [Practice Set Policies](practice-sets.qmd) --- what practice sets are for, and how they are marked.
+- [Homework Policies](homework.qmd) --- what homework assignments are for, and how they are marked.
 - [Mini Project and Term Project Policies](projects.qmd) --- logistics for the computational work.
 - [Quiz Policies](quiz.qmd) --- logistics, topics, accommodations, and conflicts.
 - [Academic Integrity](integrity.qmd) --- collaboration, citation, and the AI/ML resource policy.

@@ -22,12 +22,12 @@ Policies --- logistics, accommodations, conflicts, and academic integrity --- ar
 ::: {.callout-important}
 ## A Quiz Never Covers The Same Week
 
-Every quiz covers material through the *previous* Friday at the latest, and nothing after it. This is a rule, not a tendency, and it is why the dates sit where they do. It also guarantees that there is always a practice set on the material, with its solution key in your hands, before the quiz that tests it.
+Every quiz covers material through the *previous* Friday at the latest, and nothing after it. This is a rule, not a tendency, and it is why the dates sit where they do. It also guarantees that there is always a homework assignment on the material, with its solution key in your hands, before the quiz that tests it.
 :::
 
 ## What Is On A Quiz
 
-The emphasis is on concepts. There is **no programming**, and **nothing requiring memorized formulas**. Expect 3--5 questions worth 1--3 points each, drawn from the same six forms the [practice sets](practice-sets.qmd) rehearse:
+The emphasis is on concepts. There is **no programming**, and **nothing requiring memorized formulas**. Expect 3--5 questions worth 1--3 points each, drawn from the same six forms the [homework assignments](homework.qmd) rehearse:
 
 | Form | What it asks |
 |:--|:--|
@@ -38,7 +38,7 @@ The emphasis is on concepts. There is **no programming**, and **nothing requirin
 | **Small computation** | How many Monte Carlo samples for a given standard error? |
 | **State an assumption** | What does the non-parametric bootstrap assume? |
 
-**The practice sets are the sample quizzes.** That is what they are for, and it is why there is one before every quiz.
+**The homework assignments are the sample quizzes.** That is what they are for, and it is why there is one before every quiz.
 
 ::: {.callout-note}
 ## Why Quizzes 1 and 2 Are On Mondays

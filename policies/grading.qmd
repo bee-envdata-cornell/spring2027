@@ -9,7 +9,7 @@ format:
 
 | Assessment | Weight | Dropped |
 |:-----------|-------:|:--------|
-| Practice Sets (9) | 20% | Lowest 1 |
+| Homework (9) | 20% | Lowest 1 |
 | Quizzes (6) | 25% | Lowest 1 |
 | Mini Projects (2) | 20% | None |
 | Term Project | 25% | None |
@@ -19,14 +19,14 @@ The drop policies are identical for BEE 4850 and BEE 5850. Where the two section
 
 ## How Work Is Graded
 
-- **Practice sets** are graded by the TA on Gradescope. Every question is checked against the posted solution key; two or three questions per set additionally receive written feedback. See [Practice Set Policies](practice-sets.qmd) for why the depth varies.
-- **Quizzes** are graded by Prof. Srikrishnan and the TA using the same principles as the practice set key. These are scanned and graded on Gradescope.
+- **Homework** is graded by the TA on Gradescope. Every question is checked against the posted solution key; two or three questions per assignment additionally receive written feedback. See [Homework Policies](homework.qmd) for why the depth varies.
+- **Quizzes** are graded by Prof. Srikrishnan and the TA using the same principles as the homework assignment key. These are scanned and graded on Gradescope.
 - **Mini projects** are graded by Prof. Srikrishnan using the [rubrics](rubric.qmd).
 - **Term projects** are graded by Prof. Srikrishnan. The proposal is graded substantively, not for completeness --- it is the only place in this course where problem formulation is assessed. The check-in is pass/fail.
 
 ## Late Policies and Extension Requests
 
-- **Practice sets can be submitted up to 24 hours late for full credit.** The solution key is posted when that window closes, and no submissions are accepted after that point. The lowest practice set is dropped.
+- **Homework can be submitted up to 24 hours late for full credit.** The solution key is posted when that window closes, and no submissions are accepted after that point. The lowest homework assignment is dropped.
 - **Mini projects and project deliverables can be submitted up to 24 hours late for 50% credit.** Submissions after 24 hours will not be accepted unless an extension was granted (in which case there is no late penalty until the extension date). This lets us release solutions and return grades ASAP.
 - **Request extensions ahead of the deadline.** Justified extensions will only be granted for university-approved reasons or emergencies such as illness, injury, learning accommodations, etc., and will be limited to 1-2 days depending on the circumstance. Deadlines in other courses, job interviews, etc. are not reasons for extensions. Ask yourself whether the circumstances leading to your extension request interfered with submission due to *poor planning* or because they rendered you incapable of work and/or submission. Extensions requested after the deadline will only be considered prior to solution release and for extreme circumstances (*e.g.* hospitalization during the last day, hence limited communication access).
 - **Under extreme circumstances, we will forgive assignments.** There are circumstances under which a 24 hour extension is insufficient, such as long-term illness or serious injury. In these cases, we will compute your course grade as if the forgiven assignment never occurred, which will result in your other assessments having more weight.
@@ -34,7 +34,7 @@ The drop policies are identical for BEE 4850 and BEE 5850. Where the two section
 ::: {.callout-important}
 ## The Drops Are There To Be Used
 
-One practice set, one quiz, and one reading are dropped automatically. That is not slack for you to plan around --- it is insurance for the week when something goes wrong. If you burn all three in February because you were busy, and then get sick in April, we are both in a worse position than if you had come to talk to me.
+One homework assignment, one quiz, and one reading are dropped automatically. That is not slack for you to plan around --- it is insurance for the week when something goes wrong. If you burn all three in February because you were busy, and then get sick in April, we are both in a worse position than if you had come to talk to me.
 :::
 
 ## Regrade Requests
