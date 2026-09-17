@@ -21,5 +21,6 @@ quarto render    # full build to _site/
 
 ## Status
 
+**Draft.** No syllabus has been distributed to students, so every date here is provisional.
 Syllabus, schedule, and policies are drafted. Still to come: slides, homework assignments,
 mini projects, setup pages, and resources.
