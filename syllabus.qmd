@@ -100,17 +100,18 @@ In particular, over the course of the semester, we will:
 After completing this class, students will be able to:
 
 1. Specify a generative model for an environmental dataset;
-2. Test the predictive consequences of a model's assumptions as hypotheses through simulation;
-3. Compare competing models and interpret comparisons as alignment of model hypotheses with evidence, distinguishing criteria that estimate predictive accuracy (cross-validation, AIC, WAIC/DIC) from those that do not (BIC);
-4. Quantify and propagate uncertainty using Monte Carlo, the bootstrap, and Bayesian inference;
-5. Apply these principles to common-but-challenging extreme value and missing data environmental problems.
+2. Calibrate a generative model to environmental observations, including records with missing values;
+3. Test the predictive consequences of a model's assumptions as hypotheses through simulation;
+4. Compare competing models and interpret comparisons as alignment of model hypotheses with evidence, distinguishing criteria that estimate predictive accuracy (cross-validation, AIC, WAIC/DIC) from those that do not (BIC);
+5. Quantify and propagate uncertainty using Monte Carlo, the bootstrap, and Bayesian inference;
+6. Apply these principles to common-but-challenging extreme value and missing data environmental problems.
 
 ### BEE 5850
 
-Students in BEE 5850 will meet outcomes 1--5 above, and will additionally be able to:
+Students in BEE 5850 will meet outcomes 1--6 above, and will additionally be able to:
 
-6. Evaluate the statistical content of published research;
-7. Specify and defend a generative model against a competing specification.
+7. Evaluate the statistical content of published research;
+8. Specify and defend a generative model against a competing specification.
 
 
 ## Prerequisites & Preparation
