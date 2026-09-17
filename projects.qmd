@@ -48,7 +48,7 @@ The test I will apply: **can you say what would count as an answer?** A proposal
 
 ### Why The Deadlines Sit Where They Do
 
-- **The proposal lands after MP1 is returned**, so you know what a full pass through the loop actually costs before you promise one --- and before spring break, so feedback reaches you with time to change course.
+- **The proposal lands after MP1 is submitted**, so you know what a full pass through the loop actually costs before you promise one --- and before spring break, so feedback reaches you with time to change course.
 - **The check-in is late enough to have results and early enough to recover.** It is a ten-minute conversation in office hours rather than a written deliverable, because its job is to catch a project going wrong, and a conversation does that better than a document.
 - **MP2 is due at the end of the final teaching week**, after every criterion it asks you to use has been taught. Quiz 6 falls on the Monday of that same week (5/03), which is deliberate but tight: the quiz is 25 minutes and closed-book, and MP2 has been in your hands since 4/05. Plan the weekend before around the quiz, not around the mini project.
 
