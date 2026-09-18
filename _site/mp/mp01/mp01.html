@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Homework Schedule – Environmental Data Analysis &amp; Simulation</title>
+<title>Mini Project 1: Regression and Simulation – Environmental Data Analysis &amp; Simulation</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -23,29 +23,65 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./quizzes.html" rel="next">
-<link href="./_assets/logos/favicon.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-037772e4b0a8fb61e9a28208dd0e90cd.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-41afc7412041501ec6863dfe70bda895.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" integrity="sha384-ZvpUoO/+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn/6Z/hRTt8+pR6L4N2" crossorigin="anonymous"></script><script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../mp/mp02/mp02.html" rel="next">
+<link href="../../mp/index.html" rel="prev">
+<link href="../../_assets/logos/favicon.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-037772e4b0a8fb61e9a28208dd0e90cd.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-41afc7412041501ec6863dfe70bda895.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -81,10 +117,13 @@ window.MathJax = {
     }
   };
 </script>
+<script src="https://cdn.jsdelivr.net/npm/requirejs@2.3.6/require.min.js" integrity="sha384-c9c+LnTbwQ3aujuU7ULEPVvgLs+Fn6fJUvIGTsuu1ZcCf11fiEubah0ttpca4ntM sha384-6V1/AdqZRWk1KAlWbKBlGhN7VG4iE/yAZcO6NZPMF8od0vukrvr0tg4qY6NSrItx" crossorigin="anonymous"></script>
+
+<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
 
 
-<meta property="og:title" content="Homework Schedule – Environmental Data Analysis &amp; Simulation">
-<meta property="og:description" content="Homepage for the Spring 2027 version of BEE 4850/5850, Environmental Data Analysis &amp; Simulation, at Cornell University.">
+<meta property="og:title" content="Mini Project 1: Regression and Simulation – Environmental Data Analysis &amp; Simulation">
+<meta property="og:description" content="BEE 4850/5850, Spring 2027">
 <meta property="og:site_name" content="Environmental Data Analysis &amp; Simulation">
 </head>
 
@@ -95,7 +134,7 @@ window.MathJax = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">BEE 4850/5850</span>
     </a>
   </div>
@@ -111,22 +150,22 @@ window.MathJax = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-info">    
         <li>
-    <a class="dropdown-item" href="./syllabus.html">
+    <a class="dropdown-item" href="../../syllabus.html">
  <span class="dropdown-text">Syllabus</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./policies/index.html">
+    <a class="dropdown-item" href="../../policies/index.html">
  <span class="dropdown-text">Course Policies</span></a>
   </li>  
         <li class="dropdown-header">faq/index.qmd</li>
         <li>
-    <a class="dropdown-item" href="./setup/index.html">
+    <a class="dropdown-item" href="../../setup/index.html">
  <span class="dropdown-text">Software Setup</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./schedule.html"> 
+    <a class="nav-link" href="../../schedule.html"> 
 <span class="menu-text">Class Schedule</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -135,15 +174,15 @@ window.MathJax = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-deadlines">    
         <li>
-    <a class="dropdown-item" href="./quizzes.html">
+    <a class="dropdown-item" href="../../quizzes.html">
  <span class="dropdown-text">Quiz Schedule</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./homework.html">
+    <a class="dropdown-item" href="../../homework.html">
  <span class="dropdown-text">Homework Schedule</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./projects.html">
+    <a class="dropdown-item" href="../../projects.html">
  <span class="dropdown-text">Project Schedule</span></a>
   </li>  
     </ul>
@@ -201,7 +240,7 @@ window.MathJax = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./homework.html">Homework Schedule</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../mp/mp01/mp01.html">MP1: Regression and Simulation</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -215,37 +254,37 @@ window.MathJax = {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./homework.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../homework.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Homework Schedule</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./quizzes.html" class="sidebar-item-text sidebar-link">
+  <a href="../../quizzes.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Quiz Schedule</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./projects.html" class="sidebar-item-text sidebar-link">
+  <a href="../../projects.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Project Schedule</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./mp/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../mp/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Mini Projects</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./mp/mp01/mp01.html" class="sidebar-item-text sidebar-link">
+  <a href="../../mp/mp01/mp01.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">MP1: Regression and Simulation</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./mp/mp02/mp02.html" class="sidebar-item-text sidebar-link">
+  <a href="../../mp/mp02/mp02.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">MP2: Extremes and Model Comparison</span></a>
   </div>
 </li>
@@ -259,18 +298,28 @@ window.MathJax = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#dates" id="toc-dates" class="nav-link active" data-scroll-target="#dates">Dates</a></li>
-  <li><a href="#structure" id="toc-structure" class="nav-link" data-scroll-target="#structure">Structure</a></li>
-  <li><a href="#the-key-posts-a-day-after-the-deadline" id="toc-the-key-posts-a-day-after-the-deadline" class="nav-link" data-scroll-target="#the-key-posts-a-day-after-the-deadline">The Key Posts A Day After The Deadline</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a>
+  <ul class="collapse">
+  <li><a href="#instructions" id="toc-instructions" class="nav-link" data-scroll-target="#instructions">Instructions</a></li>
+  <li><a href="#load-environment" id="toc-load-environment" class="nav-link" data-scroll-target="#load-environment">Load Environment</a></li>
+  <li><a href="#the-data" id="toc-the-data" class="nav-link" data-scroll-target="#the-data">The Data</a></li>
+  </ul></li>
+  <li><a href="#what-you-are-asked-to-do" id="toc-what-you-are-asked-to-do" class="nav-link" data-scroll-target="#what-you-are-asked-to-do">What You Are Asked To Do</a>
+  <ul class="collapse">
+  <li><a href="#what-your-report-must-contain" id="toc-what-your-report-must-contain" class="nav-link" data-scroll-target="#what-your-report-must-contain">What your report must contain</a></li>
+  <li><a href="#form" id="toc-form" class="nav-link" data-scroll-target="#form">Form</a></li>
+  </ul></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/bee-envdata-cornell/spring2027/edit/main/homework.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/bee-envdata-cornell/spring2027/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/bee-envdata-cornell/spring2027/edit/main/mp/mp01/mp01.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/bee-envdata-cornell/spring2027/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="mp01.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Homework Schedule</h1>
+<h1 class="title">Mini Project 1: Regression and Simulation</h1>
+<p class="subtitle lead">BEE 4850/5850, Spring 2027</p>
 </div>
 
 
@@ -287,181 +336,201 @@ window.MathJax = {
 </header>
 
 
-<p>There are <strong>nine homework assignments</strong>, each worth 20 points and about 45 minutes of work. Together they are worth 20% of your grade, and <strong>the lowest is dropped</strong>.</p>
-<p>Policies — what they are for, how they are marked, and why the key posts when it does — are on the <a href="./policies/homework.html">homework policies page</a>.</p>
-<section id="dates" class="level2">
-<h2 class="anchored" data-anchor-id="dates">Dates</h2>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-</colgroup>
+<div class="callout callout-style-simple callout-important no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Due Date
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Wednesday, 3/17/27, 9:00pm</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-tip">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>If you are enrolled in the course, <strong>fork <a href="https://github.com/bee-envdata-cornell/mp01">the project repository</a></strong> (linked on Ed Discussion) to your own GitHub account and clone your fork. That gives you the package environment and a repository you can use to share code if you need help. Otherwise you are responsible for setting up an equivalent environment in the language of your choosing. Make sure to include your name and NetID on your solution.</p>
+</div>
+</div>
+</div>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<section id="instructions" class="level3 cell markdown">
+<h3 class="anchored" data-anchor-id="instructions">Instructions</h3>
+<p>This is the first of two mini projects, and your first complete pass through the four-step loop: <strong>why that distribution and link, simulate, fit, test</strong>. You may work individually or in pairs.</p>
+<p>You are given fourteen years of daily mortality and air quality data from Chicago. The question is whether temperature explains daily deaths, and what a model that says so is actually claiming.</p>
+<p>Unlike the homework, this is <strong>not a set of numbered problems</strong>. You are given a question and a required method, and you decide how to build and present the argument.</p>
+<p>The point is not to arrive at the right model. It is to make every choice explicit, and then to find out what those choices bought you and what they cost.</p>
+</section>
+<section id="load-environment" class="level3 cell markdown">
+<h3 class="anchored" data-anchor-id="load-environment">Load Environment</h3>
+<p>The following code loads the environment and makes sure all needed packages are installed. This should be at the start of most Julia scripts.</p>
+</section>
+<div id="2" class="cell" data-execution_count="1">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode julia code-with-copy"><code class="sourceCode julia"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> <span class="bu">Pkg</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="bu">Pkg</span>.<span class="fu">activate</span>(<span class="pp">@__DIR__</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="bu">Pkg</span>.<span class="fu">instantiate</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="cell markdown">
+<p>The following packages are included in the environment (to help you find other similar packages in other languages). The code below loads these packages for use in the subsequent notebook (the desired functionality for each package is commented next to the package).</p>
+</div>
+<div id="4" class="cell" data-execution_count="1">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode julia code-with-copy"><code class="sourceCode julia"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">using</span> <span class="bu">Random</span> <span class="co"># random number generation and seed-setting</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="im">using</span> <span class="bu">DataFrames</span> <span class="co"># tabular data structure</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="im">using</span> <span class="bu">CSV</span> <span class="co"># reads/writes .csv files</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="im">using</span> <span class="bu">Distributions</span> <span class="co"># interface to work with probability distributions</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="im">using</span> <span class="bu">Optim</span> <span class="co"># numerical optimization, for maximum likelihood</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="im">using</span> <span class="bu">StatsBase</span> <span class="co"># summary statistics</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="im">using</span> <span class="bu">Plots</span> <span class="co"># plotting library</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="im">using</span> <span class="bu">LaTeXStrings</span> <span class="co"># nicer LaTeX labels for plots</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<section id="the-data" class="level3 cell markdown">
+<h3 class="anchored" data-anchor-id="the-data">The Data</h3>
+<p><code>data/chicago.csv</code> holds daily records for Chicago from 1987 through 2000. The columns you will need:</p>
+<table class="caption-top table table-sm table-striped small">
 <thead>
 <tr class="header">
-<th style="text-align: left;">Set</th>
-<th style="text-align: left;">Title</th>
-<th style="text-align: left;">Out</th>
-<th style="text-align: left;">Due</th>
-<th style="text-align: left;">Key posts</th>
-<th style="text-align: left;">Rehearses</th>
+<th style="text-align: left;">Column</th>
+<th style="text-align: left;">Meaning</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><strong>HW1</strong></td>
-<td style="text-align: left;"><em>Looking at Data</em></td>
-<td style="text-align: left;">Fri 1/29</td>
-<td style="text-align: left;"><strong>Thu 2/04</strong></td>
-<td style="text-align: left;">Fri 2/05</td>
-<td style="text-align: left;">Quiz 1</td>
+<td style="text-align: left;"><code>death</code></td>
+<td style="text-align: left;">Daily non-accidental deaths</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>HW2</strong></td>
-<td style="text-align: left;"><em>How Many Samples?</em></td>
-<td style="text-align: left;">Fri 2/05</td>
-<td style="text-align: left;"><strong>Thu 2/11</strong></td>
-<td style="text-align: left;">Fri 2/12</td>
-<td style="text-align: left;">Quiz 2</td>
+<td style="text-align: left;"><code>tmpd</code></td>
+<td style="text-align: left;">Daily mean temperature, °F</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>HW3</strong></td>
-<td style="text-align: left;"><em>OLS Is a Likelihood</em></td>
-<td style="text-align: left;">Fri 2/12</td>
-<td style="text-align: left;"><strong>Thu 2/18</strong></td>
-<td style="text-align: left;">Fri 2/19</td>
-<td style="text-align: left;">Quiz 3</td>
+<td style="text-align: left;"><code>pm10median</code></td>
+<td style="text-align: left;">Median PM<sub>10</sub> concentration</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>HW4</strong></td>
-<td style="text-align: left;"><em>Two Nulls, Two p-Values</em></td>
-<td style="text-align: left;">Fri 2/19</td>
-<td style="text-align: left;"><strong>Thu 2/25</strong></td>
-<td style="text-align: left;">Fri 2/26</td>
-<td style="text-align: left;">Quiz 3</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>HW5</strong></td>
-<td style="text-align: left;"><em>The Same Interval, Twice</em></td>
-<td style="text-align: left;">Fri 2/26</td>
-<td style="text-align: left;"><strong>Thu 3/04</strong></td>
-<td style="text-align: left;">Fri 3/05</td>
-<td style="text-align: left;">Quiz 4</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>HW6</strong></td>
-<td style="text-align: left;"><em>Has It Converged?</em></td>
-<td style="text-align: left;">Fri 3/05</td>
-<td style="text-align: left;"><strong>Thu 3/11</strong></td>
-<td style="text-align: left;">Fri 3/12</td>
-<td style="text-align: left;">Quiz 4</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>HW7</strong></td>
-<td style="text-align: left;"><em>Forty Years, One Hundred-Year Flood</em></td>
-<td style="text-align: left;">Fri 3/12</td>
-<td style="text-align: left;"><strong>Thu 3/25</strong></td>
-<td style="text-align: left;">Fri 3/26</td>
-<td style="text-align: left;">Quiz 5</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>HW8</strong></td>
-<td style="text-align: left;"><em>Folds That Lie, and What They Approximate</em></td>
-<td style="text-align: left;">Fri 4/09</td>
-<td style="text-align: left;"><strong>Thu 4/15</strong></td>
-<td style="text-align: left;">Fri 4/16</td>
-<td style="text-align: left;">Quiz 6</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>HW9</strong></td>
-<td style="text-align: left;"><em>What Each Criterion Actually Targets</em></td>
-<td style="text-align: left;">Fri 4/16</td>
-<td style="text-align: left;"><strong>Thu 4/29</strong></td>
-<td style="text-align: left;">Fri 4/30</td>
-<td style="text-align: left;">Quiz 6</td>
+<td style="text-align: left;"><code>time</code></td>
+<td style="text-align: left;">Days from the middle of the record</td>
 </tr>
 </tbody>
 </table>
-<p>There is no homework during the weeks a mini project is due, or over spring break. All assignments are due at <strong>9:00pm Eastern</strong> on a Thursday; the solution key posts Friday, when the late window closes.</p>
+<p>The file uses <code>NA</code> for missing values, so read it with:</p>
 </section>
-<section id="structure" class="level2">
-<h2 class="anchored" data-anchor-id="structure">Structure</h2>
-<p>Each assignment has three problems — a scenario, three standalone quiz-format questions, and a computational item — and is worth 20 points. The full breakdown, and why a homework point is not the same size as a quiz point, is on the <a href="./policies/homework.html#structure">homework policies page</a>.</p>
+<div id="6" class="cell" data-execution_count="1">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode julia code-with-copy"><code class="sourceCode julia"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>chicago <span class="op">=</span> CSV.<span class="fu">read</span>(<span class="st">"data/chicago.csv"</span>, DataFrame; missingstring<span class="op">=</span><span class="st">"NA"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div class="callout callout-style-simple callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>This is a real record, and it is not clean
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Some columns have missing values and some do not. <strong>Whatever you do about them is a modelling decision, not a data-cleaning chore</strong> — report what you did and why. Dropping rows is a defensible choice; dropping them silently is not.</p>
+</div>
+</div>
 </section>
-<section id="the-key-posts-a-day-after-the-deadline" class="level2">
-<h2 class="anchored" data-anchor-id="the-key-posts-a-day-after-the-deadline">The Key Posts A Day After The Deadline</h2>
-<p>Late work is accepted up to 24 hours at full credit, and the solution key goes up when that window closes — so that a late submission is not just a copy of the key.</p>
-<p>This still puts the key in your hands well before the quiz it rehearses. The shortest gap all semester is three days, and most are a week or more:</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th style="text-align: left;">Set</th>
-<th style="text-align: left;">Key posts</th>
-<th style="text-align: left;">Quiz</th>
-<th style="text-align: right;">Days with the key</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><strong>HW1</strong></td>
-<td style="text-align: left;">Fri 2/05</td>
-<td style="text-align: left;">Mon 2/08</td>
-<td style="text-align: right;"><strong>3</strong></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">HW2</td>
-<td style="text-align: left;">Fri 2/12</td>
-<td style="text-align: left;">Mon 2/22</td>
-<td style="text-align: right;">10</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">HW3</td>
-<td style="text-align: left;">Fri 2/19</td>
-<td style="text-align: left;">Fri 3/05</td>
-<td style="text-align: right;">14</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">HW4</td>
-<td style="text-align: left;">Fri 2/26</td>
-<td style="text-align: left;">Fri 3/05</td>
-<td style="text-align: right;">7</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">HW5</td>
-<td style="text-align: left;">Fri 3/05</td>
-<td style="text-align: left;">Fri 3/19</td>
-<td style="text-align: right;">14</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">HW6</td>
-<td style="text-align: left;">Fri 3/12</td>
-<td style="text-align: left;">Fri 3/19</td>
-<td style="text-align: right;">7</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">HW7</td>
-<td style="text-align: left;">Fri 3/26</td>
-<td style="text-align: left;">Fri 4/09</td>
-<td style="text-align: right;">14</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">HW8</td>
-<td style="text-align: left;">Fri 4/16</td>
-<td style="text-align: left;">Mon 5/03</td>
-<td style="text-align: right;">17</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>HW9</strong></td>
-<td style="text-align: left;">Fri 4/30</td>
-<td style="text-align: left;">Mon 5/03</td>
-<td style="text-align: right;"><strong>3</strong></td>
-</tr>
-</tbody>
-</table>
-<p>Written feedback on the marked questions may arrive after the quiz, and that is fine: the <em>forms</em> of question recur across all six quizzes, so feedback on how you stated a model in February is still useful in April.</p>
+<section id="what-you-are-asked-to-do" class="level2">
+<h2 class="anchored" data-anchor-id="what-you-are-asked-to-do">What You Are Asked To Do</h2>
+<div class="cell markdown">
+<p><strong>Does temperature explain daily deaths in Chicago, and what would a model that says so actually be claiming?</strong></p>
+<p>That is the question. Answer it by running the four-step loop end to end: <strong>specify</strong> a generative model, <strong>simulate</strong> from it, <strong>fit</strong> it, and <strong>test</strong> whether you should believe the fit. All four steps are required.</p>
+<p><strong>How you organize the writeup is up to you.</strong> There are no numbered problems to work through in order. You are writing a short report that makes one argument and shows the evidence behind it, and deciding what to lead with, how much space each piece deserves, and what belongs in a figure rather than a paragraph is part of the work.</p>
+</div>
+<section id="what-your-report-must-contain" class="level3 cell markdown">
+<h3 class="anchored" data-anchor-id="what-your-report-must-contain">What your report must contain</h3>
+<p>Your report is graded on whether these are present and convincing, <strong>not on whether they appear in this order or under these headings.</strong></p>
+<ul>
+<li><strong>A specification</strong> <em>(10 points — Specifying a Model)</em>. In mathematical notation, with the distribution justified from a constraint you are willing to state about the process, and <strong>every</strong> assumption named.</li>
+<li><strong>Evidence you checked the specification before trusting it</strong> <em>(8 points — Simulating From a Model)</em>. Simulate from it, with parameters you chose, and compare against the real data.</li>
+<li><strong>A fit</strong> <em>(10 points — Fitting and Recovery)</em>. By a method you can justify, with each parameter interpreted in the context of deaths and degrees.</li>
+<li><strong>A test of whether your fitting procedure recovers parameters you know</strong> <em>(10 points — Fitting and Recovery)</em>. Simulate from the fit, refit, and compare against what you put in.</li>
+<li><strong>Honest uncertainty</strong> <em>(7 points — Interpretation)</em>. On the one quantity that matters most for the question, with a statement of what that interval is an interval <em>on</em>.</li>
+<li><strong>An argument about what your model cannot do</strong> <em>(5 points — Interpretation)</em>. What it assumes that you do not believe, where it does worst, and what you would change first.</li>
+</ul>
+<p><strong>50 points total.</strong> The point value beside each element is what it is worth; the <a href="https://envdata.viveks.me/spring2027/policies/rubric.html">standard rubrics</a> describe how each kind of element is marked.</p>
+</section>
+<section id="form" class="level3 cell markdown">
+<h3 class="anchored" data-anchor-id="form">Form</h3>
+<p>No more than <strong>four pages</strong> excluding figures and references. You do not need to include code, but your notebook or scripts must be in your repository. Raw program output is not an answer to anything — write in sentences.</p>
+</section>
+<div class="callout callout-style-simple callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>The assumptions are the assignment
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>A specification with no assumptions stated earns nothing for that element, whatever else the report does. This is the single thing the course most wants you to stop doing.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Simulate before you fit
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Simulating from a specification you have not yet fitted is the cheapest check in the loop and the one most often skipped. Fitting only finds the best parameters <em>within</em> a model you have already committed to — if the specification cannot produce data resembling these observations, a good fit will not tell you so.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Report what you find, not what you hoped
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>A recovery test that fails, honestly reported and diagnosed, earns full credit. A recovery test that fails and is not noticed earns none.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>You are expected to find problems
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This project is built so that a careful specification still leaves things on the table, and several of them are things we return to later in the semester. <strong>Finding them yourself and saying so is worth more than a model that appears to have no flaws.</strong></p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>BEE 5850
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Students in BEE 5850 must <strong>also</strong> fit the model with a Bayesian treatment: state your priors and justify each one, sample the posterior, and report posterior summaries alongside the maximum likelihood estimates. Say where the two agree, where they do not, and what the prior is doing at this sample size.</p>
+</div>
+</div>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<p>List any external references consulted, including classmates, LLMs, and any sources beyond the course materials.</p>
 
 
 </section>
@@ -894,10 +963,13 @@ window.MathJax = {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="../../mp/index.html" class="pagination-link" aria-label="Mini Projects">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Mini Projects</span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./quizzes.html" class="pagination-link" aria-label="Quiz Schedule">
-        <span class="nav-page-text">Quiz Schedule</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../mp/mp02/mp02.html" class="pagination-link" aria-label="MP2: Extremes and Model Comparison">
+        <span class="nav-page-text">MP2: Extremes and Model Comparison</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -905,7 +977,7 @@ window.MathJax = {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p><span class="faux-block"><i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> 2026 Vivek Srikrishnan</span><br> See the <a href="./about.html">About Page</a> for credit information.</p>
+<p><span class="faux-block"><i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> 2026 Vivek Srikrishnan</span><br> See the <a href="../../about.html">About Page</a> for credit information.</p>
 </div>   
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
@@ -913,7 +985,7 @@ window.MathJax = {
  <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">LICENSE: CC-BY-SA  <i class="fab fa-creative-commons"></i><i class="fab fa-creative-commons-by"></i><i class="fab fa-creative-commons-sa"></i></a>
   </li>  
 </ul>
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/bee-envdata-cornell/spring2027/edit/main/homework.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/bee-envdata-cornell/spring2027/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/bee-envdata-cornell/spring2027/edit/main/mp/mp01/mp01.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/bee-envdata-cornell/spring2027/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>Made with <a href="https://julialang.org">Julia</a> and <a href="https://quarto.org/">Quarto</a><br> <a href="https://github.com/bee-envdata-cornell/spring2027">View the source at <i class="fa-brands fa-github" aria-label="github"></i> GitHub</a></p>
 </div>

@@ -21,427 +21,113 @@
     "text": "Class-by-Class Schedule\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\nSlides\nReading\nHomework\nQuiz\nProject\n\n\n\n\n1\n1/25\nClass Introduction; What Is a Generative Model?\n\n\nHW1 out\n\n\n\n\n\n1/27\nExploratory Data Analysis\n\nFranconeri et al. (2021)\n\n\n\n\n\n\n1/29\nData Visualization\n\n\n\n\n\n\n\n2\n2/01\nProbability Review\n\n\nHW2 out\n\n\n\n\n\n2/03\nMonte Carlo: Simulating From a Distribution\n\n\nHW1 due Thu 2/04\n\n\n\n\n\n2/05\nMonte Carlo Error and Convergence\n\n\n\n\n\n\n\n3\n2/08\nLinear Regression\n\nShmueli (2010)\nHW3 out\nQuiz 1\n\n\n\n\n2/10\nLinear Regression, Continued\n\n\nHW2 due Thu 2/11\n\n\n\n\n\n2/12\nThe Hinge: Regression as a Probability Model\n\n\n\n\n\n\n\n\n2/15\nFebruary Break\n\n\n\n\n\n\n\n4\n2/17\nNamed Tests Recovered: The Null Model\n\n\nHW4 out · HW3 due Thu 2/18\n\n\n\n\n\n2/19\nThe Non-Parametric Bootstrap: Two Nulls, Two p-Values\n\n\n\n\n\n\n\n5\n2/22\nThe Bootstrap in Practice: Intervals, and Where It Breaks\n\n\nHW5 out\nQuiz 2\n\n\n\n\n2/24\nBayes: The Same Likelihood, With a Distribution on the Parameters\n\nO’Hagan (2004)\nHW4 due Thu 2/25\n\n\n\n\n\n2/26\nBayesian Computation: MCMC\n\n\n\n\n\n\n\n6\n3/01\nMCMC, Continued; the Week-3 Model Fit Both Ways\n\n\nHW6 out\n\nMP1 out\n\n\n\n3/03\nGLMs and Maximum Entropy: Why That Distribution\n\n\nHW5 due Thu 3/04\n\n\n\n\n\n3/05\nGLMs, Continued\n\n\n\nQuiz 3\n\n\n\n7\n3/08\nPoisson and Count Data; Log-Transform vs. GLM\n\n\nHW7 out\n\n\n\n\n\n3/10\nExtremes I: Block Maxima and the GEV\n\nArns et al. (2013)\nHW6 due Thu 3/11\n\n\n\n\n\n3/12\nPeaks Over Threshold\n\n\n\n\n\n\n\n8\n3/15\nThreshold Selection and Declustering\n\n\n\n\n\n\n\n\n3/17\nExtremes II: Nonstationarity\n\n\n\n\nMP1 due\n\n\n\n3/19\nSmall Samples and Priors\n\n\n\nQuiz 4\n\n\n\n9\n3/22\nWhere the Bootstrap Itself Becomes Fragile\n\nKyselý (2008)\n\n\n\n\n\n\n3/24\nTime Series and Autocorrelation\n\nChandler & Wheater (2002)\nHW7 due Thu 3/25\n\n\n\n\n\n3/26\nTime Series Inference; the Block Bootstrap\n\n\n\n\nProposal due\n\n\n\n3/29\nSpring Break\n\n\n\n\n\n\n\n\n3/31\nSpring Break\n\n\n\n\n\n\n\n\n4/02\nSpring Break\n\n\n\n\n\n\n\n10\n4/05\nModel Evaluation I: Predictive Accuracy\n\nRoberts et al. (2017)\nHW8 out\n\nMP2 out\n\n\n\n4/07\nCross-Validation\n\n\n\n\n\n\n\n\n4/09\nWhy Naive k-Fold Fails on Environmental Data\n\n\n\nQuiz 5\n\n\n\n11\n4/12\nModel Evaluation II: Entropy Recalled; KL Divergence\n\n\nHW9 out\n\n\n\n\n\n4/14\nDeviance\n\n\nHW8 due Thu 4/15\n\n\n\n\n\n4/16\nAIC\n\n\n\n\n\n\n\n12\n4/19\nModel Evaluation III: WAIC and DIC\n\nAnderson & Burnham (2002)\n\n\n\n\n\n\n4/21\nBIC — and What It Actually Targets\n\n\n\n\n\n\n\n\n4/23\nThe Contrast: Predictive Accuracy vs. Marginal Likelihood\n\n\n\n\nCheck-in due\n\n\n13\n4/26\nMissing Data Mechanisms\n\n\n\n\n\n\n\n\n4/28\nMissing Data, Continued\n\n\nHW9 due Thu 4/29\n\n\n\n\n\n4/30\nMultiple Imputation\n\n\n\n\n\n\n\n14\n5/03\nContent Overflow / Review\n\n\n\nQuiz 6\n\n\n\n\n5/05\nContent Overflow / Review\n\n\n\n\n\n\n\n\n5/07\nMixture Models and Synthesis (contingent)\n\n\n\n\nMP2 due\n\n\n15\n5/10\nClass Wrap-Up"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About This Site",
+    "objectID": "mp/mp02/mp02.html",
+    "href": "mp/mp02/mp02.html",
+    "title": "Mini Project 2: Extremes and Model Comparison",
     "section": "",
-    "text": "This is the course website for BEE 4850/5850, Environmental Data Analysis and Simulation, taught at Cornell University in the Department of Biological & Environmental Engineering in Spring 2027.\nThe site is built with Quarto, and the source is available on GitHub. Corrections and suggestions are welcome — use the “Edit this page” or “Report an issue” links in the right margin, or open an issue directly."
+    "text": "ImportantDue Date\n\n\n\nFriday, 5/07/27, 9:00pm",
+    "crumbs": [
+      "MP2: Extremes and Model Comparison"
+    ]
   },
   {
-    "objectID": "about.html#credit",
-    "href": "about.html#credit",
-    "title": "About This Site",
-    "section": "Credit",
-    "text": "Credit\nCourse materials are by Vivek Srikrishnan unless otherwise noted, and are licensed CC-BY-SA 4.0. You are free to reuse and adapt them with attribution under the same license.\nThe site design derives from earlier offerings of this course and of BEE 4750/5750.\nSeveral elements of the course’s structure are borrowed and adapted with thanks:\n\nThe four-step generative loop that organizes the course is adapted from Richard McElreath’s Statistical Rethinking (doi:10.1201/9780429029608), without its Bayesian commitment.\nThe homework assignment format — lettered sub-parts with individual point values, an agenda stating what is being practiced explicitly and implicitly, and instructions on the form of an answer — is adapted from Cosma Shalizi’s homework assignments for 36-401 and 36-402 at Carnegie Mellon."
+    "objectID": "mp/mp02/mp02.html#overview",
+    "href": "mp/mp02/mp02.html#overview",
+    "title": "Mini Project 2: Extremes and Model Comparison",
+    "section": "Overview",
+    "text": "Overview\n\nInstructions\nThis is the second mini project. You may work individually or in pairs.\nYou are given a century of flood peaks from a single river gauge. The question is what the largest flood you should plan for is, and how much of your answer is a property of the river rather than of the choices you made along the way.\nUnlike the homework, this is not a set of numbered problems. You are given a question and a required method, and you decide how to build and present the argument.\nBy the time this is due you will have seen cross-validation, KL divergence, AIC, WAIC and BIC. This project is where you find out that they do not all answer the same question.\n\n\nLoad Environment\nThe following code loads the environment and makes sure all needed packages are installed. This should be at the start of most Julia scripts.\n\n\nimport Pkg\nPkg.activate(@__DIR__)\nPkg.instantiate()\n\n\nusing Random # random number generation and seed-setting\nusing DataFrames # tabular data structure\nusing CSV # reads/writes .csv files\nusing Distributions # interface to work with probability distributions\nusing Optim # numerical optimization, for maximum likelihood\nusing StatsBase # summary statistics\nusing Plots # plotting library\nusing LaTeXStrings # nicer LaTeX labels for plots\n\n\nThe Data\nUSGS gauge 03339000, Vermilion River near Danville, Illinois. Three files:\n\n\n\n\n\n\n\nFile\nWhat\n\n\n\n\ndata/vermilion_peaks.csv\nInstantaneous annual peak discharge, cfs, 1915–2025\n\n\ndata/vermilion_daily.csv\nDaily mean discharge, cfs, 1914–2025\n\n\ndata/vermilion_posterior.csv\nA posterior sample, described below\n\n\n\n\n\npeaks = CSV.read(\"data/vermilion_peaks.csv\", DataFrame)\ndaily = CSV.read(\"data/vermilion_daily.csv\", DataFrame)\n\n\n\n\n\n\n\nWarningThe record has holes in it, and that is the assignment\n\n\n\nYears are missing from the peak record, including a run of them in the 1920s when the gauge was not operating. Some years appear in the daily record but not the peak record. Some years are present in the daily record but only partly.\nFlood frequency analysis is conventionally done on instantaneous annual peaks, which is what vermilion_peaks.csv holds. What you do about the years that are absent, partial, or inconsistent between the two files is a modelling decision you have to make and defend — not a cleaning step to get past.",
+    "crumbs": [
+      "MP2: Extremes and Model Comparison"
+    ]
   },
   {
-    "objectID": "about.html#accessibility",
-    "href": "about.html#accessibility",
-    "title": "About This Site",
-    "section": "Accessibility",
-    "text": "Accessibility\nIf you encounter any part of this site that is inaccessible to you, please let me know at vs498@cornell.edu and I will fix it."
+    "objectID": "mp/mp02/mp02.html#what-you-are-asked-to-do",
+    "href": "mp/mp02/mp02.html#what-you-are-asked-to-do",
+    "title": "Mini Project 2: Extremes and Model Comparison",
+    "section": "What You Are Asked To Do",
+    "text": "What You Are Asked To Do\n\nWhat is the 100-year flood on this river, and how much of your answer comes from the river rather than from your choices?\nAnswer it by fitting a GEV to annual maxima and a GPD to peaks over a threshold, each in a stationary and a non-stationary form — four models — and comparing them on evidence.\nHow you organize the writeup is up to you. There are no numbered problems. You are writing a short report that makes one argument and shows the evidence behind it.\n\n\nWhat your report must contain\nYour report is graded on whether these are present and convincing, not on whether they appear in this order or under these headings.\n\nA defended decision about which record you are analysing (10 points — Specifying a Model). Which years you used, what you did about the absent and partial ones, and why. Say what a reader would have to believe for your choice to be the right one.\nFour fitted models (10 points — Fitting and Recovery). GEV and GPD, each stationary and non-stationary. State your threshold and declustering rule for the GPD and justify both. Likelihoods written by hand.\nA comparison within each family (12 points — Model Comparison). Use AIC, BIC and WAIC, and say for each what quantity it is estimating. If they disagree, the disagreement is the finding, not an obstacle — explain what it tells you.\nAn account of why you cannot use those criteria to choose between the GEV and the GPD (10 points — Interpretation), and a comparison of the two that is defensible instead.\nA 100-year return level with honest uncertainty (8 points — Interpretation), and a statement of what this record can and cannot support. If you do not believe your own interval, say so and say why.\n\n50 points total. The point value beside each element is what it is worth; the standard rubrics describe how each kind of element is marked.\n\n\nForm\nNo more than five pages excluding figures and references. You do not need to include code, but your notebook or scripts must be in your repository. Raw program output is not an answer to anything — write in sentences.\n\n\n\n\n\n\n\nImportant“AIC and BIC disagree” is not a conclusion\n\n\n\nReporting that the criteria disagree and stopping there earns nothing for that element. They disagree because they are estimating different things. Saying which, and what follows for the decision you are being asked to make, is the entire point.\n\n\n\n\n\n\n\n\nTipHow much record should you use?\n\n\n\nThe answer you get may depend on how many years you analyse. That is not a bug in your analysis — it is information about how much this record can support. If two defensible choices give different answers, report both.\n\n\n\n\n\n\n\n\nNoteThe provided posterior sample\n\n\n\ndata/vermilion_posterior.csv holds draws from the posterior of several GEV variants, fitted to these peaks. Columns: record, model, draw, and the parameters mu0, log_sigma0, xi, mu1, sigma1 (NA where a parameter is not in that model).\nThe file uses NA where a parameter is not in that model, so read it the same way as the other records — CSV.read(..., DataFrame; missingstring=\"NA\"). Without that the parameter columns come back as text, and a trend will silently evaluate as zero rather than erroring.\nStudents in BEE 4850 compute WAIC from this sample.\nStudents in BEE 5850 must instead sample the posterior themselves, state and justify their priors, and report convergence diagnostics. Compare your results against the provided sample and account for any differences — including differences that come from the priors rather than from the data.",
+    "crumbs": [
+      "MP2: Extremes and Model Comparison"
+    ]
   },
   {
-    "objectID": "policies/rubric.html",
-    "href": "policies/rubric.html",
-    "title": "Standard Rubrics",
+    "objectID": "mp/mp02/mp02.html#references",
+    "href": "mp/mp02/mp02.html#references",
+    "title": "Mini Project 2: Extremes and Model Comparison",
+    "section": "References",
+    "text": "References\nList any external references consulted, including classmates, LLMs, and any sources beyond the course materials.",
+    "crumbs": [
+      "MP2: Extremes and Model Comparison"
+    ]
+  },
+  {
+    "objectID": "mp/mp01/mp01.html",
+    "href": "mp/mp01/mp01.html",
+    "title": "Mini Project 1: Regression and Simulation",
     "section": "",
-    "text": "These rubrics are intended as a description for students and a guide to the grader for how to assign partial credit.",
+    "text": "ImportantDue Date\n\n\n\nWednesday, 3/17/27, 9:00pm",
     "crumbs": [
-      "Grading",
-      "Standard Rubrics"
+      "MP1: Regression and Simulation"
     ]
   },
   {
-    "objectID": "policies/rubric.html#meta-rubric",
-    "href": "policies/rubric.html#meta-rubric",
-    "title": "Standard Rubrics",
-    "section": "Meta-Rubric",
-    "text": "Meta-Rubric\n\nIndividual problems may vary from these standard rubrics based on the assessed learning outcomes for the problem, but they should give you an overview of what a solution ought to include.\nEach bullet point appears as a separate rubric item in Gradescope. We use positive grading — points are awarded for each component, not deducted from a starting total.\nEach standard rubric below describes partial credit for a 10-point problem. Partial credit for problems worth less should be scaled appropriately.\nThe graders cannot read your mind and will not try to. Submissions that are unclear for any reason — unclear syntax (English or code), uncommented code, missing reasoning, or so much detail that the argument is buried — will not be given credit. The grader has complete discretion here. If something in your solution is ambiguous, the grader has been instructed to interpret it the “wrong” way. Clear responses are a sign of understanding, which is part of what we are assessing.\nYou will not be doubly penalized for getting the “right” answer from the “wrong” setup, but this requires the grader to easily identify that your implementation is correct given your model.\nYou will not be given credit for your code. This is not a programming class; the code is a means to an end. Code that is sloppy but works is perfectly acceptable. However, clear code may earn you partial credit if the TA can easily see where a mistake crept in, so comment it and write down the mathematics of what it is meant to implement.\nSome rubrics include deadly sins which cause an immediate zero for the problem. Do not do these.\nRegardless of problem type, the following penalties apply per incident:\n\n−1 for missing units;\n−1 for an unlabeled figure axis;\n−1 for reporting precision the data cannot support.",
+    "objectID": "mp/mp01/mp01.html#overview",
+    "href": "mp/mp01/mp01.html#overview",
+    "title": "Mini Project 1: Regression and Simulation",
+    "section": "Overview",
+    "text": "Overview\n\nInstructions\nThis is the first of two mini projects, and your first complete pass through the four-step loop: why that distribution and link, simulate, fit, test. You may work individually or in pairs.\nYou are given fourteen years of daily mortality and air quality data from Chicago. The question is whether temperature explains daily deaths, and what a model that says so is actually claiming.\nUnlike the homework, this is not a set of numbered problems. You are given a question and a required method, and you decide how to build and present the argument.\nThe point is not to arrive at the right model. It is to make every choice explicit, and then to find out what those choices bought you and what they cost.\n\n\nLoad Environment\nThe following code loads the environment and makes sure all needed packages are installed. This should be at the start of most Julia scripts.\n\n\nimport Pkg\nPkg.activate(@__DIR__)\nPkg.instantiate()\n\n\nThe following packages are included in the environment (to help you find other similar packages in other languages). The code below loads these packages for use in the subsequent notebook (the desired functionality for each package is commented next to the package).\n\n\nusing Random # random number generation and seed-setting\nusing DataFrames # tabular data structure\nusing CSV # reads/writes .csv files\nusing Distributions # interface to work with probability distributions\nusing Optim # numerical optimization, for maximum likelihood\nusing StatsBase # summary statistics\nusing Plots # plotting library\nusing LaTeXStrings # nicer LaTeX labels for plots\n\n\nThe Data\ndata/chicago.csv holds daily records for Chicago from 1987 through 2000. The columns you will need:\n\n\n\nColumn\nMeaning\n\n\n\n\ndeath\nDaily non-accidental deaths\n\n\ntmpd\nDaily mean temperature, °F\n\n\npm10median\nMedian PM10 concentration\n\n\ntime\nDays from the middle of the record\n\n\n\nThe file uses NA for missing values, so read it with:\n\n\nchicago = CSV.read(\"data/chicago.csv\", DataFrame; missingstring=\"NA\")\n\n\n\n\n\n\n\nWarningThis is a real record, and it is not clean\n\n\n\nSome columns have missing values and some do not. Whatever you do about them is a modelling decision, not a data-cleaning chore — report what you did and why. Dropping rows is a defensible choice; dropping them silently is not.",
     "crumbs": [
-      "Grading",
-      "Standard Rubrics"
+      "MP1: Regression and Simulation"
     ]
   },
   {
-    "objectID": "policies/rubric.html#standard-rubrics",
-    "href": "policies/rubric.html#standard-rubrics",
-    "title": "Standard Rubrics",
-    "section": "Standard Rubrics",
-    "text": "Standard Rubrics\n\nSpecifying a Model\n10 points =\n\n+4 for the specification. The distribution and link, written out, with the parameters named.\n+4 for the assumptions. All of them — what is assumed about the errors, about independence, about the predictors. A specification missing its assumptions is not a specification.\n+2 for the justification. Why that distribution? A constraint you are willing to state about the process, not “because it is standard.”\n\n\n\n\n\n\n\nWarningDeadly Sin\n\n\n\nWriting down a model with no assumptions stated at all. This is the single thing this course most wants you to stop doing, and it is an automatic zero for the problem.\n\n\n\n\nSimulating From a Model\n10 points =\n\n+3 for the setup. What are you simulating, from which model, how many times, and why that many?\n+4 for the implementation. Correct sampling from the specified model.\n+3 for the interpretation. What did the simulation show, and what does it tell you about the model?\n\n\n\nFitting and Recovery\n10 points =\n\n+3 for the fit. Parameters reported with uncertainty, at sensible precision.\n+4 for the recovery check. Simulate from the fit, refit, and compare. Did you get back what you put in?\n+3 for the conclusion. If recovery failed, say so plainly and say what follows. A failed recovery honestly reported earns full credit here; a failed recovery not noticed earns none.\n\n\n\nModel Comparison\n10 points =\n\n+3 for the criteria. Computed correctly, with the models clearly identified.\n+4 for what each criterion is measuring. Predictive accuracy or marginal likelihood? This is the point of the exercise.\n+3 for the recommendation. Which model, why, and what result would change your mind.\n\n\n\n\n\n\n\nWarningDeadly Sin\n\n\n\nReporting that AIC and BIC disagree and stopping there. Disagreement is the beginning of the answer — explain what the disagreement tells you about the models.\n\n\n\n\nInterpretation Questions\n10 points =\n\n+5 for the claim. A direct answer to the question asked.\n+5 for the reasoning. Why, in terms of the actual variables and the actual model — not in terms of “the predictor variable” or “X.”\n\n\n\n\n\n\n\nImportantDon’t Bullshit\n\n\n\nYou will get no points for word salad, even if you accidentally hit on the right answer. A short, correct, clearly-reasoned paragraph beats a page of hedging every time.",
+    "objectID": "mp/mp01/mp01.html#what-you-are-asked-to-do",
+    "href": "mp/mp01/mp01.html#what-you-are-asked-to-do",
+    "title": "Mini Project 1: Regression and Simulation",
+    "section": "What You Are Asked To Do",
+    "text": "What You Are Asked To Do\n\nDoes temperature explain daily deaths in Chicago, and what would a model that says so actually be claiming?\nThat is the question. Answer it by running the four-step loop end to end: specify a generative model, simulate from it, fit it, and test whether you should believe the fit. All four steps are required.\nHow you organize the writeup is up to you. There are no numbered problems to work through in order. You are writing a short report that makes one argument and shows the evidence behind it, and deciding what to lead with, how much space each piece deserves, and what belongs in a figure rather than a paragraph is part of the work.\n\n\nWhat your report must contain\nYour report is graded on whether these are present and convincing, not on whether they appear in this order or under these headings.\n\nA specification (10 points — Specifying a Model). In mathematical notation, with the distribution justified from a constraint you are willing to state about the process, and every assumption named.\nEvidence you checked the specification before trusting it (8 points — Simulating From a Model). Simulate from it, with parameters you chose, and compare against the real data.\nA fit (10 points — Fitting and Recovery). By a method you can justify, with each parameter interpreted in the context of deaths and degrees.\nA test of whether your fitting procedure recovers parameters you know (10 points — Fitting and Recovery). Simulate from the fit, refit, and compare against what you put in.\nHonest uncertainty (7 points — Interpretation). On the one quantity that matters most for the question, with a statement of what that interval is an interval on.\nAn argument about what your model cannot do (5 points — Interpretation). What it assumes that you do not believe, where it does worst, and what you would change first.\n\n50 points total. The point value beside each element is what it is worth; the standard rubrics describe how each kind of element is marked.\n\n\nForm\nNo more than four pages excluding figures and references. You do not need to include code, but your notebook or scripts must be in your repository. Raw program output is not an answer to anything — write in sentences.\n\n\n\n\n\n\n\nImportantThe assumptions are the assignment\n\n\n\nA specification with no assumptions stated earns nothing for that element, whatever else the report does. This is the single thing the course most wants you to stop doing.\n\n\n\n\n\n\n\n\nTipSimulate before you fit\n\n\n\nSimulating from a specification you have not yet fitted is the cheapest check in the loop and the one most often skipped. Fitting only finds the best parameters within a model you have already committed to — if the specification cannot produce data resembling these observations, a good fit will not tell you so.\n\n\n\n\n\n\n\n\nImportantReport what you find, not what you hoped\n\n\n\nA recovery test that fails, honestly reported and diagnosed, earns full credit. A recovery test that fails and is not noticed earns none.\n\n\n\n\n\n\n\n\nTipYou are expected to find problems\n\n\n\nThis project is built so that a careful specification still leaves things on the table, and several of them are things we return to later in the semester. Finding them yourself and saying so is worth more than a model that appears to have no flaws.\n\n\n\n\n\n\n\n\nNoteBEE 5850\n\n\n\nStudents in BEE 5850 must also fit the model with a Bayesian treatment: state your priors and justify each one, sample the posterior, and report posterior summaries alongside the maximum likelihood estimates. Say where the two agree, where they do not, and what the prior is doing at this sample size.",
     "crumbs": [
-      "Grading",
-      "Standard Rubrics"
+      "MP1: Regression and Simulation"
     ]
   },
   {
-    "objectID": "policies/quiz.html",
-    "href": "policies/quiz.html",
-    "title": "Quiz Policies",
+    "objectID": "mp/mp01/mp01.html#references",
+    "href": "mp/mp01/mp01.html#references",
+    "title": "Mini Project 1: Regression and Simulation",
+    "section": "References",
+    "text": "References\nList any external references consulted, including classmates, LLMs, and any sources beyond the course materials.",
+    "crumbs": [
+      "MP1: Regression and Simulation"
+    ]
+  },
+  {
+    "objectID": "quizzes.html",
+    "href": "quizzes.html",
+    "title": "Quiz Schedule",
     "section": "",
-    "text": "This page includes information on the quizzes for BEE 4850/5850, including policies and logistics.",
+    "text": "There are six quizzes, given in class, taking approximately the first 25 minutes of the session. Together they are worth 25% of your grade, and the lowest is dropped for students in both 4850 and 5850.\nPolicies — logistics, accommodations, conflicts, and academic integrity — are on the quiz policies page.",
     "crumbs": [
-      "Assessments",
-      "Quiz Policies"
+      "Quiz Schedule"
     ]
   },
   {
-    "objectID": "policies/quiz.html#quiz-logistics",
-    "href": "policies/quiz.html#quiz-logistics",
-    "title": "Quiz Policies",
-    "section": "Quiz Logistics",
-    "text": "Quiz Logistics\nThere are six quizzes, given in class, taking approximately the first 25 minutes of the session. Quizzes will be hand-written and then scanned into Gradescope (by course staff) for grading and feedback; the physical copy will not be returned.\nThe dates and what each quiz covers are on the quiz schedule.\nTogether the quizzes are worth 25% of your grade. The lowest quiz is dropped, for students in both 4850 and 5850.\n\n\n\n\n\n\nImportantA Quiz Never Covers The Same Week\n\n\n\nEvery quiz covers material through the previous Friday at the latest, and nothing after it. This is a rule, not a tendency, and it is why the quiz dates sit where they do. It also guarantees there is always a homework assignment covering the material, returned to you, before the quiz that tests it.",
+    "objectID": "quizzes.html#dates-and-coverage",
+    "href": "quizzes.html#dates-and-coverage",
+    "title": "Quiz Schedule",
+    "section": "Dates and Coverage",
+    "text": "Dates and Coverage\n\n\n\n\n\n\n\n\n\nQuiz\nDate\nCovers Through\nTopics\n\n\n\n\nQuiz 1\nMon 2/08\nFri 2/05\nProbability review, Monte Carlo\n\n\nQuiz 2\nMon 2/22\nFri 2/19\nRegression, the hinge, null models, both bootstraps\n\n\nQuiz 3\nFri 3/05\nFri 2/26\nThe bootstrap in practice, Bayes, MCMC\n\n\nQuiz 4\nFri 3/19\nFri 3/12\nGLMs, maximum entropy, extremes: GEV and POT\n\n\nQuiz 5\nFri 4/09\nFri 3/26\nThresholds, nonstationary extremes, time series\n\n\nQuiz 6\nMon 5/03\nFri 4/23\nModel evaluation and the criteria contrast\n\n\n\n\n\n\n\n\n\nImportantA Quiz Never Covers The Same Week\n\n\n\nEvery quiz covers material through the previous Friday at the latest, and nothing after it. This is a rule, not a tendency, and it is why the dates sit where they do. It also guarantees that there is always a homework assignment on the material, with its solution key in your hands, before the quiz that tests it.",
     "crumbs": [
-      "Assessments",
-      "Quiz Policies"
+      "Quiz Schedule"
     ]
   },
   {
-    "objectID": "policies/quiz.html#quiz-topics-and-structure",
-    "href": "policies/quiz.html#quiz-topics-and-structure",
-    "title": "Quiz Policies",
-    "section": "Quiz Topics and Structure",
-    "text": "Quiz Topics and Structure\nThe emphasis is on concepts. There is no programming, and there are no formulas requiring memorization. Expect 3–5 questions worth 1–3 points each, drawn from the same six forms the homework assignments rehearse:\n\nState the model with its assumptions — write out the equations, including any and all assumptions;\nDefine a property — what does it mean for an estimator to be unbiased?\nRead a diagnostic — here is an ACF, a trace plot, a residual plot: what does it tell you?\nInterpret a result — often as true/false statements about a reported interval;\nSmall computation — how many Monte Carlo samples for a given standard error?\nState an assumption — what does the non-parametric bootstrap assume?\n\nIn general, the same grading rubric applies to quiz problems as appropriate (e.g. nothing about code). Your solutions should be clear, with transparent and well-communicated reasoning.\n\nDifficulty\nQuiz problems are closer in difficulty to homework assignment problems than to mini project problems, since you have weeks to work on a mini project with full access to external resources, course staff, and classmates. The goal is to assess your ability to understand concepts, set up problems, determine the appropriateness of methods, and interpret output — not to do computations under time pressure. We cannot, and do not, expect you to solve mini-project-level problems in a 25-minute closed-book setting.\nThe homework assignments are the sample quizzes. That is what they are for, and it is why there is one before every quiz.",
+    "objectID": "quizzes.html#what-is-on-a-quiz",
+    "href": "quizzes.html#what-is-on-a-quiz",
+    "title": "Quiz Schedule",
+    "section": "What Is On A Quiz",
+    "text": "What Is On A Quiz\nThe emphasis is on concepts. There is no programming, and nothing requiring memorized formulas. Expect 3–5 questions worth 1–3 points each, drawn from the same six forms the homework assignments rehearse:\n\n\n\n\n\n\n\nForm\nWhat it asks\n\n\n\n\nState the model with its assumptions\nWrite out the equations, including any and all assumptions\n\n\nDefine a property\nWhat does it mean for an estimator to be unbiased?\n\n\nRead a diagnostic\nHere is an ACF, a trace plot, a residual plot — what does it tell you?\n\n\nInterpret a result\nOften as true/false statements about a reported interval\n\n\nSmall computation\nHow many Monte Carlo samples for a given standard error?\n\n\nState an assumption\nWhat does the non-parametric bootstrap assume?\n\n\n\nThe homework assignments are the sample quizzes. That is what they are for, and it is why there is one before every quiz.\n\n\n\n\n\n\nNoteWhy Quizzes 1 and 2 Are On Mondays\n\n\n\nEvery other quiz is on a Friday. The first two cannot be, because the Fridays they would need — 2/12, 2/19, and 2/26 — hold the three sessions this course is built around, and none of them can afford to lose 25 minutes. Quiz 1 also needs to be early enough that you find out what a quiz looks like while it is still cheap, which rules out waiting for the next free Friday in March.",
     "crumbs": [
-      "Assessments",
-      "Quiz Policies"
-    ]
-  },
-  {
-    "objectID": "policies/quiz.html#academic-integrity",
-    "href": "policies/quiz.html#academic-integrity",
-    "title": "Quiz Policies",
-    "section": "Academic Integrity",
-    "text": "Academic Integrity\nQuizzes are closed-book, closed-note, and closed-everything else. No medically unnecessary electronic devices are allowed, including headphones and smart watches.\nQuizzes are strictly confidential until all conflict and accommodation quizzes have been taken. Do not discuss a quiz with anyone, in person or online, until we have discussed it in class.",
-    "crumbs": [
-      "Assessments",
-      "Quiz Policies"
-    ]
-  },
-  {
-    "objectID": "policies/quiz.html#accommodations-conflicts-and-makeups",
-    "href": "policies/quiz.html#accommodations-conflicts-and-makeups",
-    "title": "Quiz Policies",
-    "section": "Accommodations, Conflicts, and Makeups",
-    "text": "Accommodations, Conflicts, and Makeups\n\nSDS Accommodations\nPlease make sure that any exam-related accommodations have been provided to the course staff ahead of the first quiz. Quizzes requiring accommodations will be scheduled and delivered through the Alternative Testing Program.\n\n\nConflicts and Makeups\nIf you have an academic conflict or a university-approved reason why you cannot take a quiz in class, contact Prof. Srikrishnan ahead of the quiz to arrange an alternative.\nBecause the lowest quiz is dropped, a single missed quiz for an unforeseeable reason generally needs no further accommodation — the drop absorbs it. In extreme circumstances, such as long-term illness or injury preventing more than one quiz, we may forgive additional quizzes and compute your grade without them. This will dramatically increase the weight given to other assessments.",
-    "crumbs": [
-      "Assessments",
-      "Quiz Policies"
-    ]
-  },
-  {
-    "objectID": "policies/index.html",
-    "href": "policies/index.html",
-    "title": "Course Policies",
-    "section": "",
-    "text": "This section contains an overview of course policies, at a higher level of detail than what is in the syllabus.\n\nGrading Policies — how work is graded, late work, extensions, and regrade requests.\nHomework Policies — what homework assignments are for, and how they are marked.\nMini Project and Term Project Policies — logistics for the computational work.\nQuiz Policies — logistics, topics, accommodations, and conflicts.\nAcademic Integrity — collaboration, citation, and the AI/ML resource policy.\nGrading Rubrics — the meta-rubric applied across written work.\nGroup Work — expectations for pairs on mini projects and the term project.",
-    "crumbs": [
-      "Policies"
-    ]
-  },
-  {
-    "objectID": "policies/homework.html",
-    "href": "policies/homework.html",
-    "title": "Homework Policies",
-    "section": "",
-    "text": "This page explains what homework assignments are for and how they are marked. Please do read What Homework Are For — the rest is logistics, but that part changes how you should use them.",
-    "crumbs": [
-      "Assessments",
-      "Homework Policies"
-    ]
-  },
-  {
-    "objectID": "policies/homework.html#what-homework-are-for",
-    "href": "policies/homework.html#what-homework-are-for",
-    "title": "Homework Policies",
-    "section": "What Homework Are For",
-    "text": "What Homework Are For\nPrevious offerings of this course had a problem, and it was mine, not yours. You were assessed with 25-minute closed-book quizzes asking you to write out a model, define a property, or read a diagnostic plot. The only practice you got was homework — but homework then meant a two-week computational assignment, where you had a laptop, the internet, your classmates, and fourteen days. Those measure different things, and only one of them was being practiced.\nSo homework in this course is a different animal from what that word used to mean here: nine short assignments rather than five long ones, mostly on paper, in the format the quiz actually uses.\nHomework close that gap. They are in the quiz’s exact idiom — same question forms, same expectation of a written answer, same absence of a computer for most of it — at about 1.3 times a quiz’s length. If you can do the homework assignment, you can do the quiz. That is the entire design.\n\n\n\n\n\n\nImportantThe Practice Is The Point, Not The Score\n\n\n\nA homework assignment is worth about 2% of your course grade. It is not there to sort you; it is there to tell you — before the quiz, while it is still free — whether you can actually write out a null model or read an ACF. If you look at the key before attempting the problems, you will get the satisfying feeling of understanding and none of the actual understanding. I have seen this go wrong many times, and it always goes wrong the same way.",
-    "crumbs": [
-      "Assessments",
-      "Homework Policies"
-    ]
-  },
-  {
-    "objectID": "policies/homework.html#structure",
-    "href": "policies/homework.html#structure",
-    "title": "Homework Policies",
-    "section": "Structure",
-    "text": "Structure\nEach assignment is worth 20 points and should take about 45 minutes: roughly 30 minutes of written work and 15 minutes at the keyboard.\n\n\n\n\n\n\n\n\nProblem\nPoints\nWhat it is\n\n\n\n\nProblem 1\n7\nA short scenario with three sub-parts, walking the loop on one object\n\n\nProblem 2\n7\nThree standalone short questions, exactly in the quiz’s format\n\n\nProblem 3\n6\nThe computational item, ending in a figure and a sentence of interpretation\n\n\n\n\n\n\n\n\n\nNoteA Homework Point Is Not A Quiz Point\n\n\n\nA homework assignment is 20 points and about 45 minutes. A quiz is 6 points and 25 minutes. A homework point is therefore worth roughly half a quiz point — homework is open-book, untimed, and scored at finer granularity, so a point buys less. Do not read “20 points” as three quizzes’ worth of work. If an assignment is taking you dramatically longer than 45 minutes, that is useful information and I would like to hear about it.",
-    "crumbs": [
-      "Assessments",
-      "Homework Policies"
-    ]
-  },
-  {
-    "objectID": "policies/homework.html#logistics",
-    "href": "policies/homework.html#logistics",
-    "title": "Homework Policies",
-    "section": "Logistics",
-    "text": "Logistics\n\nHomework are due at 9:00pm Eastern on the due date, which is always a Friday. Submit to Gradescope as a PDF with pages tagged. Failure to tag pages results in a non-negotiable 10% deduction.\nLate submissions are accepted up to 24 hours, at full credit.\nThe solution key posts when the late window closes, one day after the deadline. No submissions are accepted after the key is public.\nThe lowest homework assignment is dropped automatically.\nCollaboration is encouraged. Write up your own answers in your own words, and list who you worked with.",
-    "crumbs": [
-      "Assessments",
-      "Homework Policies"
-    ]
-  },
-  {
-    "objectID": "policies/homework.html#how-they-are-marked",
-    "href": "policies/homework.html#how-they-are-marked",
-    "title": "Homework Policies",
-    "section": "How They Are Marked",
-    "text": "How They Are Marked\nEvery question is checked against the posted key. Two or three questions per assignment additionally receive written feedback.\nWhy the difference? Because a posted key and a grader do different jobs. If you defined the logit incorrectly or got the sample-size calculation wrong, the key tells you that, and a paragraph from the TA adds nothing. What a key cannot catch is reasoning that is plausible and wrong — and that is exactly what happens on questions like “why can two defensible null models give different p-values?” Those answers can read perfectly well and be wrong, and only a human notices. So written feedback goes where the key is insufficient.\nWhich questions get written feedback varies from week to week and is not announced in advance. This is deliberate: if you knew, you would optimize for those two questions, which defeats the purpose.\n\n\n\n\n\n\nWarningThe Computational Item Counts\n\n\n\nProblem 3 is not optional garnish. An assignment submitted without a serious attempt at all three problems, including the computational one, does not receive credit — it is not marked out of 14.\nThis is the only thing in the course keeping your hands on a keyboard between mini projects, and the wrangling it asks for (grouping, joining, handling gaps) is a skill this course expects you to build through practice rather than lecture.",
-    "crumbs": [
-      "Assessments",
-      "Homework Policies"
-    ]
-  },
-  {
-    "objectID": "policies/homework.html#answers-not-output",
-    "href": "policies/homework.html#answers-not-output",
-    "title": "Homework Policies",
-    "section": "Answers, Not Output",
-    "text": "Answers, Not Output\nFor the computational item specifically:\n\nAnswer in sentences. Raw program output pasted into a PDF is not an answer to anything.\nLabel your figures. Axis labels with units, a legend if there is more than one thing plotted. A figure that needs you standing next to it to explain is not doing its job.\nAvoid excessive precision. If you report a return level as 3.847261 m, you are claiming something about the sixth decimal place that your 40 years of data cannot support.",
-    "crumbs": [
-      "Assessments",
-      "Homework Policies"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Environmental Data Analysis and Simulation",
-    "section": "",
-    "text": "Vivek Srikrishnan\n vs498@cornell.edu\n 318 Riley-Robb Hall\n TBD\n\n\n\n\n\n\n TBD\n TBD\n TBD\n\n\n\n\n\n\n MWF\n 11:15-12:05\n 401 Riley-Robb Hall"
-  },
-  {
-    "objectID": "index.html#course-information",
-    "href": "index.html#course-information",
-    "title": "Environmental Data Analysis and Simulation",
-    "section": "",
-    "text": "Vivek Srikrishnan\n vs498@cornell.edu\n 318 Riley-Robb Hall\n TBD\n\n\n\n\n\n\n TBD\n TBD\n TBD\n\n\n\n\n\n\n MWF\n 11:15-12:05\n 401 Riley-Robb Hall"
-  },
-  {
-    "objectID": "index.html#what-this-course-is-about",
-    "href": "index.html#what-this-course-is-about",
-    "title": "Environmental Data Analysis and Simulation",
-    "section": "What This Course Is About",
-    "text": "What This Course Is About\nStatistics are not magic.\nA t-test is not a black box that emits a p-value — it is a model of what your data would look like if nothing were going on, and you can build that model yourself. Once you can build that one, you can build the one that actually fits your problem, which is usually not the one in the textbook.\nThat is the whole course. Every method we meet gets run through the same four steps:\n\nWhy that distribution and link?\nSimulate from the model you specified.\nFit it to data.\nTest — did you get back what you put in?\n\nStep 4 is where the learning happens, and it is the step most often skipped. We will not skip it."
-  },
-  {
-    "objectID": "index.html#where-to-start",
-    "href": "index.html#where-to-start",
-    "title": "Environmental Data Analysis and Simulation",
-    "section": "Where To Start",
-    "text": "Where To Start\n\nThe syllabus has the full course description, learning outcomes, and assessment structure.\nThe schedule has the class-by-class plan, with readings and deadlines.\nThe course policies pages have the detail behind the syllabus.\nSetup instructions will get your software working.\n\n\n\n\n\n\n\nTipTaking This For Graduate Credit?\n\n\n\nBEE 5850 has two additional learning outcomes and differentiated requirements on three assessments. See BEE 4850 vs. BEE 5850 in the syllabus."
-  },
-  {
-    "objectID": "setup/index.html",
-    "href": "setup/index.html",
-    "title": "Software Setup",
-    "section": "",
-    "text": "NoteComing Before The Semester Starts\n\n\n\nDetailed setup instructions for Julia, VS Code, Git, and GitHub will be posted here before the first day of class. If you want to get a head start, the Spring 2026 setup pages are a reasonable guide and little will change.",
-    "crumbs": [
-      "Tools Setup"
-    ]
-  },
-  {
-    "objectID": "setup/index.html#what-you-will-need",
-    "href": "setup/index.html#what-you-will-need",
-    "title": "Software Setup",
-    "section": "What You Will Need",
-    "text": "What You Will Need\n\nJulia (1.11 or later). We provide notebooks and package environments for Julia, and the course staff can best support you in it.\nVS Code, with the Julia extension.\nGit and a GitHub account. Mini projects are distributed through GitHub Classroom, so you will need an account.\n\nYou are welcome to use another language — R and Python are both perfectly reasonable for everything in this course — but we may be limited in the programming help we can offer. We’re happy to try.",
-    "crumbs": [
-      "Tools Setup"
-    ]
-  },
-  {
-    "objectID": "homework.html",
-    "href": "homework.html",
-    "title": "Homework Schedule",
-    "section": "",
-    "text": "There are nine homework assignments, each worth 20 points and about 45 minutes of work. Together they are worth 20% of your grade, and the lowest is dropped.\nPolicies — what they are for, how they are marked, and why the key posts when it does — are on the homework policies page.",
-    "crumbs": [
-      "Homework Schedule"
-    ]
-  },
-  {
-    "objectID": "homework.html#dates",
-    "href": "homework.html#dates",
-    "title": "Homework Schedule",
-    "section": "Dates",
-    "text": "Dates\n\n\n\n\n\n\n\n\n\n\n\nSet\nTitle\nOut\nDue\nKey posts\nRehearses\n\n\n\n\nHW1\nLooking at Data\nFri 1/29\nThu 2/04\nFri 2/05\nQuiz 1\n\n\nHW2\nHow Many Samples?\nFri 2/05\nThu 2/11\nFri 2/12\nQuiz 2\n\n\nHW3\nOLS Is a Likelihood\nFri 2/12\nThu 2/18\nFri 2/19\nQuiz 3\n\n\nHW4\nTwo Nulls, Two p-Values\nFri 2/19\nThu 2/25\nFri 2/26\nQuiz 3\n\n\nHW5\nThe Same Interval, Twice\nFri 2/26\nThu 3/04\nFri 3/05\nQuiz 4\n\n\nHW6\nHas It Converged?\nFri 3/05\nThu 3/11\nFri 3/12\nQuiz 4\n\n\nHW7\nForty Years, One Hundred-Year Flood\nFri 3/12\nThu 3/25\nFri 3/26\nQuiz 5\n\n\nHW8\nFolds That Lie, and What They Approximate\nFri 4/09\nThu 4/15\nFri 4/16\nQuiz 6\n\n\nHW9\nWhat Each Criterion Actually Targets\nFri 4/16\nThu 4/29\nFri 4/30\nQuiz 6\n\n\n\nThere is no homework during the weeks a mini project is due, or over spring break. All assignments are due at 9:00pm Eastern on a Thursday; the solution key posts Friday, when the late window closes.",
-    "crumbs": [
-      "Homework Schedule"
-    ]
-  },
-  {
-    "objectID": "homework.html#structure",
-    "href": "homework.html#structure",
-    "title": "Homework Schedule",
-    "section": "Structure",
-    "text": "Structure\nEach assignment has three problems — a scenario, three standalone quiz-format questions, and a computational item — and is worth 20 points. The full breakdown, and why a homework point is not the same size as a quiz point, is on the homework policies page.",
-    "crumbs": [
-      "Homework Schedule"
-    ]
-  },
-  {
-    "objectID": "homework.html#the-key-posts-a-day-after-the-deadline",
-    "href": "homework.html#the-key-posts-a-day-after-the-deadline",
-    "title": "Homework Schedule",
-    "section": "The Key Posts A Day After The Deadline",
-    "text": "The Key Posts A Day After The Deadline\nLate work is accepted up to 24 hours at full credit, and the solution key goes up when that window closes — so that a late submission is not just a copy of the key.\nThis still puts the key in your hands well before the quiz it rehearses. The shortest gap all semester is three days, and most are a week or more:\n\n\n\nSet\nKey posts\nQuiz\nDays with the key\n\n\n\n\nHW1\nFri 2/05\nMon 2/08\n3\n\n\nHW2\nFri 2/12\nMon 2/22\n10\n\n\nHW3\nFri 2/19\nFri 3/05\n14\n\n\nHW4\nFri 2/26\nFri 3/05\n7\n\n\nHW5\nFri 3/05\nFri 3/19\n14\n\n\nHW6\nFri 3/12\nFri 3/19\n7\n\n\nHW7\nFri 3/26\nFri 4/09\n14\n\n\nHW8\nFri 4/16\nMon 5/03\n17\n\n\nHW9\nFri 4/30\nMon 5/03\n3\n\n\n\nWritten feedback on the marked questions may arrive after the quiz, and that is fine: the forms of question recur across all six quizzes, so feedback on how you stated a model in February is still useful in April.",
-    "crumbs": [
-      "Homework Schedule"
-    ]
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Project Schedule",
-    "section": "",
-    "text": "The computational work in this course is two mini projects (20% of your grade, combined) and the term project (25%).\nPolicies — submission logistics, GitHub Classroom, group work, and the BEE 5850 requirements — are on the project policies page.",
-    "crumbs": [
-      "Project Schedule"
-    ]
-  },
-  {
-    "objectID": "projects.html#mini-projects",
-    "href": "projects.html#mini-projects",
-    "title": "Project Schedule",
-    "section": "Mini Projects",
-    "text": "Mini Projects\nEach may be completed individually or in pairs.\n\n\n\n\n\n\n\n\n\n\nOut\nDue\nWhat it is\n\n\n\n\nMP1 — Regression and Simulation\nMon 3/01\nWed 3/17\nSpecify a linear generative model, simulate from it, fit it, check recovery, and put uncertainty on the fit with the bootstrap\n\n\nMP2 — Extremes and Model Comparison\nMon 4/05\nFri 5/07\nFit a GEV and a GPD to a real record, fit stationary and nonstationary variants, and compare them on evidence\n\n\n\nBoth are due at 9:00pm Eastern, submitted to Gradescope with pages tagged.\n\n\n\n\n\n\nNoteMP2 Runs Alongside The Model Evaluation Block\n\n\n\nMP2 is assigned the day the evaluation block starts and is due after the criteria contrast (4/23) has been taught. That is deliberate — it is the one place in the course where “what is this criterion actually measuring?” gets computational work rather than conceptual testing, and extremes is precisely where the criteria disagree, because the samples are small.\nIt also has gaps in the data, on purpose. See the policies page.",
-    "crumbs": [
-      "Project Schedule"
-    ]
-  },
-  {
-    "objectID": "projects.html#term-project",
-    "href": "projects.html#term-project",
-    "title": "Project Schedule",
-    "section": "Term Project",
-    "text": "Term Project\nA question and dataset of your own choosing, individually or in pairs.\n\n\n\nDeliverable\nDue\nLength\nWeight\n\n\n\n\nProposal\nFri 3/26\n≤2 pp\nGraded substantively\n\n\nCheck-in\nFri 4/23\nA conversation\nPass/fail\n\n\nReport\nFinals period\n≤5 pp\nThe bulk\n\n\nPresentation\nFinals period\n—\nIncluded in the above\n\n\n\n\n\n\n\n\n\nImportantThe Proposal Is Where Problem Formulation Gets Assessed\n\n\n\nIt is the only place in this course where you decide what question is worth asking of what data — everywhere else, I hand you the problem. It is graded accordingly, not as an administrative step.\nThe test I will apply: can you say what would count as an answer? A proposal that cannot does not yet describe a project, however interesting the dataset. Start thinking about this well before March, and come talk to me if you are not sure.\n\n\n\nWhy The Deadlines Sit Where They Do\n\nThe proposal lands after MP1 is submitted, so you know what a full pass through the loop actually costs before you promise one — and before spring break, so feedback reaches you with time to change course.\nThe check-in is late enough to have results and early enough to recover. It is a ten-minute conversation in office hours rather than a written deliverable, because its job is to catch a project going wrong, and a conversation does that better than a document.\nMP2 is due at the end of the final teaching week, after every criterion it asks you to use has been taught. Quiz 6 falls on the Monday of that same week (5/03), which is deliberate but tight: the quiz is 25 minutes and closed-book, and MP2 has been in your hands since 4/05. Plan the weekend before around the quiz, not around the mini project.\n\nPresentations run during the university finals period, at a date and time assigned by the Office of the University Registrar. Expect to devote approximately 6 hours to the project during the exam period.",
-    "crumbs": [
-      "Project Schedule"
-    ]
-  },
-  {
-    "objectID": "policies/grading.html",
-    "href": "policies/grading.html",
-    "title": "Grading Policies",
-    "section": "",
-    "text": "Assessment\nWeight\nDropped\n\n\n\n\nHomework (9)\n20%\nLowest 1\n\n\nQuizzes (6)\n25%\nLowest 1\n\n\nMini Projects (2)\n20%\nNone\n\n\nTerm Project\n25%\nNone\n\n\nReadings (8)\n10%\nLowest 1\n\n\n\nThe drop policies are identical for BEE 4850 and BEE 5850. Where the two sections differ is in the work required, not in how leniently it is marked — see the syllabus.",
-    "crumbs": [
-      "Grading",
-      "Grading Policies"
-    ]
-  },
-  {
-    "objectID": "policies/grading.html#assessment-weights",
-    "href": "policies/grading.html#assessment-weights",
-    "title": "Grading Policies",
-    "section": "",
-    "text": "Assessment\nWeight\nDropped\n\n\n\n\nHomework (9)\n20%\nLowest 1\n\n\nQuizzes (6)\n25%\nLowest 1\n\n\nMini Projects (2)\n20%\nNone\n\n\nTerm Project\n25%\nNone\n\n\nReadings (8)\n10%\nLowest 1\n\n\n\nThe drop policies are identical for BEE 4850 and BEE 5850. Where the two sections differ is in the work required, not in how leniently it is marked — see the syllabus.",
-    "crumbs": [
-      "Grading",
-      "Grading Policies"
-    ]
-  },
-  {
-    "objectID": "policies/grading.html#how-work-is-graded",
-    "href": "policies/grading.html#how-work-is-graded",
-    "title": "Grading Policies",
-    "section": "How Work Is Graded",
-    "text": "How Work Is Graded\n\nHomework is graded by the TA on Gradescope. Every question is checked against the posted solution key; two or three questions per assignment additionally receive written feedback. See Homework Policies for why the depth varies.\nQuizzes are graded by Prof. Srikrishnan and the TA using the same principles as the homework assignment key. These are scanned and graded on Gradescope.\nMini projects are graded by Prof. Srikrishnan using the rubrics.\nTerm projects are graded by Prof. Srikrishnan. The proposal is graded substantively, not for completeness — it is the only place in this course where problem formulation is assessed. The check-in is pass/fail.",
-    "crumbs": [
-      "Grading",
-      "Grading Policies"
-    ]
-  },
-  {
-    "objectID": "policies/grading.html#late-policies-and-extension-requests",
-    "href": "policies/grading.html#late-policies-and-extension-requests",
-    "title": "Grading Policies",
-    "section": "Late Policies and Extension Requests",
-    "text": "Late Policies and Extension Requests\n\nHomework can be submitted up to 24 hours late for full credit. The solution key is posted when that window closes, and no submissions are accepted after that point. The lowest homework assignment is dropped.\nMini projects and project deliverables can be submitted up to 24 hours late for 50% credit. Submissions after 24 hours will not be accepted unless an extension was granted (in which case there is no late penalty until the extension date). This lets us release solutions and return grades ASAP.\nRequest extensions ahead of the deadline. Justified extensions will only be granted for university-approved reasons or emergencies such as illness, injury, learning accommodations, etc., and will be limited to 1-2 days depending on the circumstance. Deadlines in other courses, job interviews, etc. are not reasons for extensions. Ask yourself whether the circumstances leading to your extension request interfered with submission due to poor planning or because they rendered you incapable of work and/or submission. Extensions requested after the deadline will only be considered prior to solution release and for extreme circumstances (e.g. hospitalization during the last day, hence limited communication access).\nUnder extreme circumstances, we will forgive assignments. There are circumstances under which a 24 hour extension is insufficient, such as long-term illness or serious injury. In these cases, we will compute your course grade as if the forgiven assignment never occurred, which will result in your other assessments having more weight.\n\n\n\n\n\n\n\nImportantThe Drops Are There To Be Used\n\n\n\nOne homework assignment, one quiz, and one reading are dropped automatically. That is not slack for you to plan around — it is insurance for the week when something goes wrong. If you burn all three in February because you were busy, and then get sick in April, we are both in a worse position than if you had come to talk to me.",
-    "crumbs": [
-      "Grading",
-      "Grading Policies"
-    ]
-  },
-  {
-    "objectID": "policies/grading.html#regrade-requests",
-    "href": "policies/grading.html#regrade-requests",
-    "title": "Grading Policies",
-    "section": "Regrade Requests",
-    "text": "Regrade Requests\n\nSubmit regrade requests on Gradescope within one week of the grade release. We recommend talking to Prof. Srikrishnan or your TA about grading concerns before submitting a regrade request, but no grades will be changed outside of a formal request through Gradescope.\nAll regrade requests must include a brief justification for the request or they will not be considered. Good justifications include (but are not limited to):\n\nMy answer agrees with the posted solution, but I still lost points.\nI lost 4 points for something, but the rubric says it should only be worth 2 points.\nYou took points off for something, but it’s right here.\nMy answer is correct, even though it does not match the posted solution.\nThere is no explanation for my grade.\nI got a perfect score, but my solution has a mistake (you will receive extra credit for this! see below!)\nThere is a major error in the posted solution; here is an explanation (full credit for everyone, but Prof. Srikrishnan will decide what constitutes a “major error”! see below!).\n\nWe will only regrade what you submitted. Any “new” information in the regrade request will not be considered beyond the justification. An explanation may help us identify where to look if your solution is different than the official solution but correct, but the submitted answer must be interpretable as a correct solution on its own merits.\nThe first regrade request will be handled by the member of the course staff who graded the problem. If Prof. Srikrishnan did not review the first request, he will handle any subsequent regrade requests for the same submission. Once Prof. Srikrishnan issues a response to a regrade request, further requests for that submission will be ignored.\nIf you submit a regrade request correctly reporting that your problem was graded too leniently, your score will be increased by the difference (we want to reward this type of honesty and self-awareness!). For example, if your score was 8/10, and you point out that you should have gotten a 3/10, your score will be a 13/10.\nIf a significant error is found in the official solutions, everyone in the class will receive full credit for the relevant (sub)problem. Prof. Srikrishnan has discretion as to what errors are “significant.”",
-    "crumbs": [
-      "Grading",
-      "Grading Policies"
-    ]
-  },
-  {
-    "objectID": "policies/projects.html",
-    "href": "policies/projects.html",
-    "title": "Mini Project and Term Project Policies",
-    "section": "",
-    "text": "This page covers logistics for the computational work: two mini projects and the term project.",
-    "crumbs": [
-      "Assessments",
-      "Mini Project and Term Project Policies"
-    ]
-  },
-  {
-    "objectID": "policies/projects.html#mini-projects",
-    "href": "policies/projects.html#mini-projects",
-    "title": "Mini Project and Term Project Policies",
-    "section": "Mini Projects",
-    "text": "Mini Projects\nThere are two mini projects, each computational and unit-scale. Together they are worth 20% of your grade.\nDates are on the project schedule.\nThese may be completed individually or in pairs. See Group Work for expectations if you work in a pair.\n\nAccepting and Submitting\n\nMini projects are distributed through GitHub Classroom. When one is released, a link to accept it will be posted on Ed Discussion. You must click this link or subsequent steps will not work properly. Clicking it creates your own repository with the assignment files.\nClone your repository, not the original template.\nOpen the local repository folder (use File -&gt; Open Folder, not File -&gt; Open) so that all paths point to the right location.\nRun the initial notebook cell (starting with Pkg.activate()) to load the Julia environment and install packages.\nCommit and push frequently. This helps us answer questions, and gives you a backstop if something goes wrong close to the deadline — the timestamp of your commit is evidence that you finished on time even if we cannot render your PDF until the next day.\nSubmit a PDF to Gradescope with pages tagged. Failure to tag pages results in a non-negotiable 10% deduction.\nDue at 9:00pm Eastern. Late submissions accepted within 24 hours at a 50% penalty.\n\n\n\nWhat We Are Looking For\nBoth mini projects are a full pass through the loop, and both are graded against the rubrics. MP1 is deliberately incomplete in ways later weeks expose — Gaussian errors that maximum entropy will question, residual independence that the time series week will test. That is not a flaw in the assignment; we will come back to it in lecture, and noticing it yourself is worth saying out loud in your writeup.\n\n\n\n\n\n\nNoteMP2 Has Gaps In It, On Purpose\n\n\n\nThe record you are given for MP2 has missing months, because real gauge records do. Computing an annual maximum from a year with a three-month gap is a genuine open problem, not an exercise — is that year’s maximum real, or an artifact of what was not recorded? Missing-data mechanisms are covered in lecture during MP2’s window, which is deliberate. Say what you did about the gaps and why.\n\n\n\n\nBEE 5850 Requirements\n\nMP1: the Bayesian treatment is required, not an optional extension.\nMP2: WAIC must be computed from your own posterior, not from the provided posterior sample.",
-    "crumbs": [
-      "Assessments",
-      "Mini Project and Term Project Policies"
-    ]
-  },
-  {
-    "objectID": "policies/projects.html#term-project",
-    "href": "policies/projects.html#term-project",
-    "title": "Mini Project and Term Project Policies",
-    "section": "Term Project",
-    "text": "Term Project\nThe term project is 25% of your grade, and is a question and dataset of your own choosing. It may be completed individually or in pairs.\nThere are three deliverables — a proposal, a check-in, and a report with presentation. Dates are on the project schedule.\n\nThe Proposal\nNo more than 2 pages (11 point font, 1 inch margins), not including figures or references, covering:\n\nThe underlying science question and any associated hypotheses;\nThe dataset(s) you will analyze;\nStatistical model(s) for the hypotheses and your planned strategy for analysis.\n\n\n\n\n\n\n\nImportantThis Is Where Problem Formulation Gets Assessed\n\n\n\nThe proposal is the only place in this course where you decide what question is worth asking of what data. Everywhere else, I hand you the problem. It is graded accordingly — substantively, not as an administrative step.\nThe test I will apply: can you say what would count as an answer? A proposal that cannot does not yet describe a project, however interesting the dataset. Come talk to me early if you are not sure.\n\n\n\n\nThe Check-In\nA ten-minute conversation in office hours, not a written deliverable. Pass/fail on having something to show. Its job is to catch a project going wrong while there is still time to fix it, which a conversation does better than a document.\n\n\nThe Report\nNo more than 5 pages (11 point font, 1 inch margins), not including references and figures. Detailed rubrics will be provided later in the semester.\nEvery report must include a section stating what a conventional canned analysis of your data would have concluded, and why yours differs. If it does not differ, say so and explain why — that is a legitimate finding, and sometimes the standard analysis is the right one. What is not acceptable is not knowing.\n\n\nBEE 5850 Requirements\nStudents in BEE 5850 must additionally defend their specification against a named alternative specification, including a simulation study establishing the conditions under which the two diverge and what evidence would distinguish them. “I chose a GEV” is a specification; “I chose a GEV rather than a GPD, and here is the sample size at which that choice stops mattering” is a defense.\n\n\nPresentations\nPresentations run during the university finals period, at a date and time assigned by the Office of the University Registrar. Expect to devote approximately 6 hours to the project during the exam period.",
-    "crumbs": [
-      "Assessments",
-      "Mini Project and Term Project Policies"
-    ]
-  },
-  {
-    "objectID": "policies/groups.html",
-    "href": "policies/groups.html",
-    "title": "Group Expectations",
-    "section": "",
-    "text": "We expect that members of groups will contribute to the group effort as equal participants. This means:\n\nSetting and fulfilling expectations that are fairly agreed upon by the group;\nContributing to discussions and the generation of ideas (note: these contributions don’t have to be good, necessarily; brainstorming will necessarily involve throwing out half-baked ideas, but this is still a contribution);\nContributing to the analysis and writing efforts (at minimum, reading, understanding, and agreeing to everything submitted);\nCommunicating actively and proactively about statuses and challenges.\n\nEvery member of a group will be evaluated on these bases at the end of the semester by their groupmates, which could influence their grade.",
-    "crumbs": [
-      "Expectations",
-      "Group Expectations"
-    ]
-  },
-  {
-    "objectID": "policies/groups.html#expectations",
-    "href": "policies/groups.html#expectations",
-    "title": "Group Expectations",
-    "section": "",
-    "text": "We expect that members of groups will contribute to the group effort as equal participants. This means:\n\nSetting and fulfilling expectations that are fairly agreed upon by the group;\nContributing to discussions and the generation of ideas (note: these contributions don’t have to be good, necessarily; brainstorming will necessarily involve throwing out half-baked ideas, but this is still a contribution);\nContributing to the analysis and writing efforts (at minimum, reading, understanding, and agreeing to everything submitted);\nCommunicating actively and proactively about statuses and challenges.\n\nEvery member of a group will be evaluated on these bases at the end of the semester by their groupmates, which could influence their grade.",
-    "crumbs": [
-      "Expectations",
-      "Group Expectations"
-    ]
-  },
-  {
-    "objectID": "policies/groups.html#recommended-practices",
-    "href": "policies/groups.html#recommended-practices",
-    "title": "Group Expectations",
-    "section": "Recommended Practices",
-    "text": "Recommended Practices\nTo facilitate these contributions, we recommend the following practices (though specifics may vary depending on the group):\n\nClearly set expectations and timelines for each group members’ contributions (for example, create a schedule or a Gantt chart), including backup plans if unexpected challenges or circumstances arise during the semester;\nUse collaborative writing and coding/code-sharing platforms (e.g. Google Docs, Overleaf, and GitHub) to update work frequently and solicit feedback from group members;\nSchedule regular meetings for updates on status and progress;\nSeek advice from the course staff proactively if challenges emerge that might compromise your plan or timeline.",
-    "crumbs": [
-      "Expectations",
-      "Group Expectations"
+      "Quiz Schedule"
     ]
   },
   {
@@ -511,33 +197,457 @@
     ]
   },
   {
-    "objectID": "quizzes.html",
-    "href": "quizzes.html",
-    "title": "Quiz Schedule",
+    "objectID": "policies/groups.html",
+    "href": "policies/groups.html",
+    "title": "Group Expectations",
     "section": "",
-    "text": "There are six quizzes, given in class, taking approximately the first 25 minutes of the session. Together they are worth 25% of your grade, and the lowest is dropped for students in both 4850 and 5850.\nPolicies — logistics, accommodations, conflicts, and academic integrity — are on the quiz policies page.",
+    "text": "We expect that members of groups will contribute to the group effort as equal participants. This means:\n\nSetting and fulfilling expectations that are fairly agreed upon by the group;\nContributing to discussions and the generation of ideas (note: these contributions don’t have to be good, necessarily; brainstorming will necessarily involve throwing out half-baked ideas, but this is still a contribution);\nContributing to the analysis and writing efforts (at minimum, reading, understanding, and agreeing to everything submitted);\nCommunicating actively and proactively about statuses and challenges.\n\nEvery member of a group will be evaluated on these bases at the end of the semester by their groupmates, which could influence their grade.",
     "crumbs": [
-      "Quiz Schedule"
+      "Expectations",
+      "Group Expectations"
     ]
   },
   {
-    "objectID": "quizzes.html#dates-and-coverage",
-    "href": "quizzes.html#dates-and-coverage",
-    "title": "Quiz Schedule",
-    "section": "Dates and Coverage",
-    "text": "Dates and Coverage\n\n\n\n\n\n\n\n\n\nQuiz\nDate\nCovers Through\nTopics\n\n\n\n\nQuiz 1\nMon 2/08\nFri 2/05\nProbability review, Monte Carlo\n\n\nQuiz 2\nMon 2/22\nFri 2/19\nRegression, the hinge, null models, both bootstraps\n\n\nQuiz 3\nFri 3/05\nFri 2/26\nThe bootstrap in practice, Bayes, MCMC\n\n\nQuiz 4\nFri 3/19\nFri 3/12\nGLMs, maximum entropy, extremes: GEV and POT\n\n\nQuiz 5\nFri 4/09\nFri 3/26\nThresholds, nonstationary extremes, time series\n\n\nQuiz 6\nMon 5/03\nFri 4/23\nModel evaluation and the criteria contrast\n\n\n\n\n\n\n\n\n\nImportantA Quiz Never Covers The Same Week\n\n\n\nEvery quiz covers material through the previous Friday at the latest, and nothing after it. This is a rule, not a tendency, and it is why the dates sit where they do. It also guarantees that there is always a homework assignment on the material, with its solution key in your hands, before the quiz that tests it.",
+    "objectID": "policies/groups.html#expectations",
+    "href": "policies/groups.html#expectations",
+    "title": "Group Expectations",
+    "section": "",
+    "text": "We expect that members of groups will contribute to the group effort as equal participants. This means:\n\nSetting and fulfilling expectations that are fairly agreed upon by the group;\nContributing to discussions and the generation of ideas (note: these contributions don’t have to be good, necessarily; brainstorming will necessarily involve throwing out half-baked ideas, but this is still a contribution);\nContributing to the analysis and writing efforts (at minimum, reading, understanding, and agreeing to everything submitted);\nCommunicating actively and proactively about statuses and challenges.\n\nEvery member of a group will be evaluated on these bases at the end of the semester by their groupmates, which could influence their grade.",
     "crumbs": [
-      "Quiz Schedule"
+      "Expectations",
+      "Group Expectations"
     ]
   },
   {
-    "objectID": "quizzes.html#what-is-on-a-quiz",
-    "href": "quizzes.html#what-is-on-a-quiz",
-    "title": "Quiz Schedule",
-    "section": "What Is On A Quiz",
-    "text": "What Is On A Quiz\nThe emphasis is on concepts. There is no programming, and nothing requiring memorized formulas. Expect 3–5 questions worth 1–3 points each, drawn from the same six forms the homework assignments rehearse:\n\n\n\n\n\n\n\nForm\nWhat it asks\n\n\n\n\nState the model with its assumptions\nWrite out the equations, including any and all assumptions\n\n\nDefine a property\nWhat does it mean for an estimator to be unbiased?\n\n\nRead a diagnostic\nHere is an ACF, a trace plot, a residual plot — what does it tell you?\n\n\nInterpret a result\nOften as true/false statements about a reported interval\n\n\nSmall computation\nHow many Monte Carlo samples for a given standard error?\n\n\nState an assumption\nWhat does the non-parametric bootstrap assume?\n\n\n\nThe homework assignments are the sample quizzes. That is what they are for, and it is why there is one before every quiz.\n\n\n\n\n\n\nNoteWhy Quizzes 1 and 2 Are On Mondays\n\n\n\nEvery other quiz is on a Friday. The first two cannot be, because the Fridays they would need — 2/12, 2/19, and 2/26 — hold the three sessions this course is built around, and none of them can afford to lose 25 minutes. Quiz 1 also needs to be early enough that you find out what a quiz looks like while it is still cheap, which rules out waiting for the next free Friday in March.",
+    "objectID": "policies/groups.html#recommended-practices",
+    "href": "policies/groups.html#recommended-practices",
+    "title": "Group Expectations",
+    "section": "Recommended Practices",
+    "text": "Recommended Practices\nTo facilitate these contributions, we recommend the following practices (though specifics may vary depending on the group):\n\nClearly set expectations and timelines for each group members’ contributions (for example, create a schedule or a Gantt chart), including backup plans if unexpected challenges or circumstances arise during the semester;\nUse collaborative writing and coding/code-sharing platforms (e.g. Google Docs, Overleaf, and GitHub) to update work frequently and solicit feedback from group members;\nSchedule regular meetings for updates on status and progress;\nSeek advice from the course staff proactively if challenges emerge that might compromise your plan or timeline.",
     "crumbs": [
-      "Quiz Schedule"
+      "Expectations",
+      "Group Expectations"
+    ]
+  },
+  {
+    "objectID": "policies/projects.html",
+    "href": "policies/projects.html",
+    "title": "Mini Project and Term Project Policies",
+    "section": "",
+    "text": "This page covers logistics for the computational work: two mini projects and the term project.",
+    "crumbs": [
+      "Assessments",
+      "Mini Project and Term Project Policies"
+    ]
+  },
+  {
+    "objectID": "policies/projects.html#mini-projects",
+    "href": "policies/projects.html#mini-projects",
+    "title": "Mini Project and Term Project Policies",
+    "section": "Mini Projects",
+    "text": "Mini Projects\nThere are two mini projects, each computational and unit-scale. Together they are worth 20% of your grade.\nDates are on the project schedule.\nThese may be completed individually or in pairs. See Group Work for expectations if you work in a pair.\n\nAccepting and Submitting\n\nMini projects are distributed as GitHub repositories that you fork. When one is released, a link to the repository will be posted on Ed Discussion. Click Fork on GitHub to create a copy under your own account.\nClone your fork, not the original. You cannot push to the original, so look for &lt;your-username&gt;/mp01, not bee-envdata-cornell/mp01. If you clone the wrong one, re-clone your fork and move any edited files across — nothing is lost.\nOpen the local repository folder (use File -&gt; Open Folder, not File -&gt; Open) so that all paths point to the right location.\nRun the initial notebook cell (starting with Pkg.activate()) to load the Julia environment and install packages.\nCommit and push frequently. This helps us answer questions, and gives you a backstop if something goes wrong close to the deadline — the timestamp of your commit is evidence that you finished on time even if we cannot render your PDF until the next day.\nSubmit a PDF to Gradescope with pages tagged. Failure to tag pages results in a non-negotiable 10% deduction.\nDue at 9:00pm Eastern. Late submissions accepted within 24 hours at a 50% penalty.\n\n\n\nWhat We Are Looking For\nBoth mini projects are a full pass through the loop, and both are graded against the rubrics. MP1 is deliberately incomplete in ways later weeks expose — Gaussian errors that maximum entropy will question, residual independence that the time series week will test. That is not a flaw in the assignment; we will come back to it in lecture, and noticing it yourself is worth saying out loud in your writeup.\n\n\n\n\n\n\nNoteMP2 Has Gaps In It, On Purpose\n\n\n\nThe record you are given for MP2 has missing months, because real gauge records do. Computing an annual maximum from a year with a three-month gap is a genuine open problem, not an exercise — is that year’s maximum real, or an artifact of what was not recorded? Missing-data mechanisms are covered in lecture during MP2’s window, which is deliberate. Say what you did about the gaps and why.\n\n\n\n\nBEE 5850 Requirements\n\nMP1: the Bayesian treatment is required, not an optional extension.\nMP2: WAIC must be computed from your own posterior, not from the provided posterior sample.",
+    "crumbs": [
+      "Assessments",
+      "Mini Project and Term Project Policies"
+    ]
+  },
+  {
+    "objectID": "policies/projects.html#term-project",
+    "href": "policies/projects.html#term-project",
+    "title": "Mini Project and Term Project Policies",
+    "section": "Term Project",
+    "text": "Term Project\nThe term project is 25% of your grade, and is a question and dataset of your own choosing. It may be completed individually or in pairs.\nThere are three deliverables — a proposal, a check-in, and a report with presentation. Dates are on the project schedule.\n\nThe Proposal\nNo more than 2 pages (11 point font, 1 inch margins), not including figures or references, covering:\n\nThe underlying science question and any associated hypotheses;\nThe dataset(s) you will analyze;\nStatistical model(s) for the hypotheses and your planned strategy for analysis.\n\n\n\n\n\n\n\nImportantThis Is Where Problem Formulation Gets Assessed\n\n\n\nThe proposal is the only place in this course where you decide what question is worth asking of what data. Everywhere else, I hand you the problem. It is graded accordingly — substantively, not as an administrative step.\nThe test I will apply: can you say what would count as an answer? A proposal that cannot does not yet describe a project, however interesting the dataset. Come talk to me early if you are not sure.\n\n\n\n\nThe Check-In\nA ten-minute conversation in office hours, not a written deliverable. Pass/fail on having something to show. Its job is to catch a project going wrong while there is still time to fix it, which a conversation does better than a document.\n\n\nThe Report\nNo more than 5 pages (11 point font, 1 inch margins), not including references and figures. Detailed rubrics will be provided later in the semester.\nEvery report must include a section stating what a conventional canned analysis of your data would have concluded, and why yours differs. If it does not differ, say so and explain why — that is a legitimate finding, and sometimes the standard analysis is the right one. What is not acceptable is not knowing.\n\n\nBEE 5850 Requirements\nStudents in BEE 5850 must additionally defend their specification against a named alternative specification, including a simulation study establishing the conditions under which the two diverge and what evidence would distinguish them. “I chose a GEV” is a specification; “I chose a GEV rather than a GPD, and here is the sample size at which that choice stops mattering” is a defense.\n\n\nPresentations\nPresentations run during the university finals period, at a date and time assigned by the Office of the University Registrar. Expect to devote approximately 6 hours to the project during the exam period.",
+    "crumbs": [
+      "Assessments",
+      "Mini Project and Term Project Policies"
+    ]
+  },
+  {
+    "objectID": "policies/grading.html",
+    "href": "policies/grading.html",
+    "title": "Grading Policies",
+    "section": "",
+    "text": "Assessment\nWeight\nDropped\n\n\n\n\nHomework (9)\n20%\nLowest 1\n\n\nQuizzes (6)\n25%\nLowest 1\n\n\nMini Projects (2)\n20%\nNone\n\n\nTerm Project\n25%\nNone\n\n\nReadings (8)\n10%\nLowest 1\n\n\n\nThe drop policies are identical for BEE 4850 and BEE 5850. Where the two sections differ is in the work required, not in how leniently it is marked — see the syllabus.",
+    "crumbs": [
+      "Grading",
+      "Grading Policies"
+    ]
+  },
+  {
+    "objectID": "policies/grading.html#assessment-weights",
+    "href": "policies/grading.html#assessment-weights",
+    "title": "Grading Policies",
+    "section": "",
+    "text": "Assessment\nWeight\nDropped\n\n\n\n\nHomework (9)\n20%\nLowest 1\n\n\nQuizzes (6)\n25%\nLowest 1\n\n\nMini Projects (2)\n20%\nNone\n\n\nTerm Project\n25%\nNone\n\n\nReadings (8)\n10%\nLowest 1\n\n\n\nThe drop policies are identical for BEE 4850 and BEE 5850. Where the two sections differ is in the work required, not in how leniently it is marked — see the syllabus.",
+    "crumbs": [
+      "Grading",
+      "Grading Policies"
+    ]
+  },
+  {
+    "objectID": "policies/grading.html#how-work-is-graded",
+    "href": "policies/grading.html#how-work-is-graded",
+    "title": "Grading Policies",
+    "section": "How Work Is Graded",
+    "text": "How Work Is Graded\n\nHomework is graded by the TA on Gradescope. Every question is checked against the posted solution key; two or three questions per assignment additionally receive written feedback. See Homework Policies for why the depth varies.\nQuizzes are graded by Prof. Srikrishnan and the TA using the same principles as the homework assignment key. These are scanned and graded on Gradescope.\nMini projects are graded by Prof. Srikrishnan using the rubrics.\nTerm projects are graded by Prof. Srikrishnan. The proposal is graded substantively, not for completeness — it is the only place in this course where problem formulation is assessed. The check-in is pass/fail.",
+    "crumbs": [
+      "Grading",
+      "Grading Policies"
+    ]
+  },
+  {
+    "objectID": "policies/grading.html#late-policies-and-extension-requests",
+    "href": "policies/grading.html#late-policies-and-extension-requests",
+    "title": "Grading Policies",
+    "section": "Late Policies and Extension Requests",
+    "text": "Late Policies and Extension Requests\n\nHomework can be submitted up to 24 hours late for full credit. The solution key is posted when that window closes, and no submissions are accepted after that point. The lowest homework assignment is dropped.\nMini projects and project deliverables can be submitted up to 24 hours late for 50% credit. Submissions after 24 hours will not be accepted unless an extension was granted (in which case there is no late penalty until the extension date). This lets us release solutions and return grades ASAP.\nRequest extensions ahead of the deadline. Justified extensions will only be granted for university-approved reasons or emergencies such as illness, injury, learning accommodations, etc., and will be limited to 1-2 days depending on the circumstance. Deadlines in other courses, job interviews, etc. are not reasons for extensions. Ask yourself whether the circumstances leading to your extension request interfered with submission due to poor planning or because they rendered you incapable of work and/or submission. Extensions requested after the deadline will only be considered prior to solution release and for extreme circumstances (e.g. hospitalization during the last day, hence limited communication access).\nUnder extreme circumstances, we will forgive assignments. There are circumstances under which a 24 hour extension is insufficient, such as long-term illness or serious injury. In these cases, we will compute your course grade as if the forgiven assignment never occurred, which will result in your other assessments having more weight.\n\n\n\n\n\n\n\nImportantThe Drops Are There To Be Used\n\n\n\nOne homework assignment, one quiz, and one reading are dropped automatically. That is not slack for you to plan around — it is insurance for the week when something goes wrong. If you burn all three in February because you were busy, and then get sick in April, we are both in a worse position than if you had come to talk to me.",
+    "crumbs": [
+      "Grading",
+      "Grading Policies"
+    ]
+  },
+  {
+    "objectID": "policies/grading.html#regrade-requests",
+    "href": "policies/grading.html#regrade-requests",
+    "title": "Grading Policies",
+    "section": "Regrade Requests",
+    "text": "Regrade Requests\n\nSubmit regrade requests on Gradescope within one week of the grade release. We recommend talking to Prof. Srikrishnan or your TA about grading concerns before submitting a regrade request, but no grades will be changed outside of a formal request through Gradescope.\nAll regrade requests must include a brief justification for the request or they will not be considered. Good justifications include (but are not limited to):\n\nMy answer agrees with the posted solution, but I still lost points.\nI lost 4 points for something, but the rubric says it should only be worth 2 points.\nYou took points off for something, but it’s right here.\nMy answer is correct, even though it does not match the posted solution.\nThere is no explanation for my grade.\nI got a perfect score, but my solution has a mistake (you will receive extra credit for this! see below!)\nThere is a major error in the posted solution; here is an explanation (full credit for everyone, but Prof. Srikrishnan will decide what constitutes a “major error”! see below!).\n\nWe will only regrade what you submitted. Any “new” information in the regrade request will not be considered beyond the justification. An explanation may help us identify where to look if your solution is different than the official solution but correct, but the submitted answer must be interpretable as a correct solution on its own merits.\nThe first regrade request will be handled by the member of the course staff who graded the problem. If Prof. Srikrishnan did not review the first request, he will handle any subsequent regrade requests for the same submission. Once Prof. Srikrishnan issues a response to a regrade request, further requests for that submission will be ignored.\nIf you submit a regrade request correctly reporting that your problem was graded too leniently, your score will be increased by the difference (we want to reward this type of honesty and self-awareness!). For example, if your score was 8/10, and you point out that you should have gotten a 3/10, your score will be a 13/10.\nIf a significant error is found in the official solutions, everyone in the class will receive full credit for the relevant (sub)problem. Prof. Srikrishnan has discretion as to what errors are “significant.”",
+    "crumbs": [
+      "Grading",
+      "Grading Policies"
+    ]
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Project Schedule",
+    "section": "",
+    "text": "The computational work in this course is two mini projects (20% of your grade, combined) and the term project (25%).\nPolicies — submission logistics, group work, and the BEE 5850 requirements — are on the project policies page.",
+    "crumbs": [
+      "Project Schedule"
+    ]
+  },
+  {
+    "objectID": "projects.html#mini-projects",
+    "href": "projects.html#mini-projects",
+    "title": "Project Schedule",
+    "section": "Mini Projects",
+    "text": "Mini Projects\nEach may be completed individually or in pairs.\n\n\n\n\n\n\n\n\n\n\nOut\nDue\nWhat it is\n\n\n\n\nMP1 — Regression and Simulation\nMon 3/01\nWed 3/17\nSpecify a linear generative model, simulate from it, fit it, check recovery, and put uncertainty on the fit with the bootstrap\n\n\nMP2 — Extremes and Model Comparison\nMon 4/05\nFri 5/07\nFit a GEV and a GPD to a real record, fit stationary and nonstationary variants, and compare them on evidence\n\n\n\nBoth are due at 9:00pm Eastern, submitted to Gradescope with pages tagged. Instructions, data and the required elements are in each repository — see Mini Projects for how to get them and how they are graded.\n\n\n\n\n\n\nNoteMP2 Runs Alongside The Model Evaluation Block\n\n\n\nMP2 is assigned the day the evaluation block starts and is due after the criteria contrast (4/23) has been taught. That is deliberate — it is the one place in the course where “what is this criterion actually measuring?” gets computational work rather than conceptual testing, and extremes is precisely where the criteria disagree, because the samples are small.\nIt also has gaps in the data, on purpose. See the policies page.",
+    "crumbs": [
+      "Project Schedule"
+    ]
+  },
+  {
+    "objectID": "projects.html#term-project",
+    "href": "projects.html#term-project",
+    "title": "Project Schedule",
+    "section": "Term Project",
+    "text": "Term Project\nA question and dataset of your own choosing, individually or in pairs.\n\n\n\nDeliverable\nDue\nLength\nWeight\n\n\n\n\nProposal\nFri 3/26\n≤2 pp\nGraded substantively\n\n\nCheck-in\nFri 4/23\nA conversation\nPass/fail\n\n\nReport\nFinals period\n≤5 pp\nThe bulk\n\n\nPresentation\nFinals period\n—\nIncluded in the above\n\n\n\n\n\n\n\n\n\nImportantThe Proposal Is Where Problem Formulation Gets Assessed\n\n\n\nIt is the only place in this course where you decide what question is worth asking of what data — everywhere else, I hand you the problem. It is graded accordingly, not as an administrative step.\nThe test I will apply: can you say what would count as an answer? A proposal that cannot does not yet describe a project, however interesting the dataset. Start thinking about this well before March, and come talk to me if you are not sure.\n\n\n\nWhy The Deadlines Sit Where They Do\n\nThe proposal lands after MP1 is submitted, so you know what a full pass through the loop actually costs before you promise one — and before spring break, so feedback reaches you with time to change course.\nThe check-in is late enough to have results and early enough to recover. It is a ten-minute conversation in office hours rather than a written deliverable, because its job is to catch a project going wrong, and a conversation does that better than a document.\nMP2 is due at the end of the final teaching week, after every criterion it asks you to use has been taught. Quiz 6 falls on the Monday of that same week (5/03), which is deliberate but tight: the quiz is 25 minutes and closed-book, and MP2 has been in your hands since 4/05. Plan the weekend before around the quiz, not around the mini project.\n\nPresentations run during the university finals period, at a date and time assigned by the Office of the University Registrar. Expect to devote approximately 6 hours to the project during the exam period.",
+    "crumbs": [
+      "Project Schedule"
+    ]
+  },
+  {
+    "objectID": "homework.html",
+    "href": "homework.html",
+    "title": "Homework Schedule",
+    "section": "",
+    "text": "There are nine homework assignments, each worth 20 points and about 45 minutes of work. Together they are worth 20% of your grade, and the lowest is dropped.\nPolicies — what they are for, how they are marked, and why the key posts when it does — are on the homework policies page.",
+    "crumbs": [
+      "Homework Schedule"
+    ]
+  },
+  {
+    "objectID": "homework.html#dates",
+    "href": "homework.html#dates",
+    "title": "Homework Schedule",
+    "section": "Dates",
+    "text": "Dates\n\n\n\n\n\n\n\n\n\n\n\nSet\nTitle\nOut\nDue\nKey posts\nRehearses\n\n\n\n\nHW1\nLooking at Data\nFri 1/29\nThu 2/04\nFri 2/05\nQuiz 1\n\n\nHW2\nHow Many Samples?\nFri 2/05\nThu 2/11\nFri 2/12\nQuiz 2\n\n\nHW3\nOLS Is a Likelihood\nFri 2/12\nThu 2/18\nFri 2/19\nQuiz 3\n\n\nHW4\nTwo Nulls, Two p-Values\nFri 2/19\nThu 2/25\nFri 2/26\nQuiz 3\n\n\nHW5\nThe Same Interval, Twice\nFri 2/26\nThu 3/04\nFri 3/05\nQuiz 4\n\n\nHW6\nHas It Converged?\nFri 3/05\nThu 3/11\nFri 3/12\nQuiz 4\n\n\nHW7\nForty Years, One Hundred-Year Flood\nFri 3/12\nThu 3/25\nFri 3/26\nQuiz 5\n\n\nHW8\nFolds That Lie, and What They Approximate\nFri 4/09\nThu 4/15\nFri 4/16\nQuiz 6\n\n\nHW9\nWhat Each Criterion Actually Targets\nFri 4/16\nThu 4/29\nFri 4/30\nQuiz 6\n\n\n\nThere is no homework during the weeks a mini project is due, or over spring break. All assignments are due at 9:00pm Eastern on a Thursday; the solution key posts Friday, when the late window closes.",
+    "crumbs": [
+      "Homework Schedule"
+    ]
+  },
+  {
+    "objectID": "homework.html#structure",
+    "href": "homework.html#structure",
+    "title": "Homework Schedule",
+    "section": "Structure",
+    "text": "Structure\nEach assignment has three problems — a scenario, three standalone quiz-format questions, and a computational item — and is worth 20 points. The full breakdown, and why a homework point is not the same size as a quiz point, is on the homework policies page.",
+    "crumbs": [
+      "Homework Schedule"
+    ]
+  },
+  {
+    "objectID": "homework.html#the-key-posts-a-day-after-the-deadline",
+    "href": "homework.html#the-key-posts-a-day-after-the-deadline",
+    "title": "Homework Schedule",
+    "section": "The Key Posts A Day After The Deadline",
+    "text": "The Key Posts A Day After The Deadline\nLate work is accepted up to 24 hours at full credit, and the solution key goes up when that window closes — so that a late submission is not just a copy of the key.\nThis still puts the key in your hands well before the quiz it rehearses. The shortest gap all semester is three days, and most are a week or more:\n\n\n\nSet\nKey posts\nQuiz\nDays with the key\n\n\n\n\nHW1\nFri 2/05\nMon 2/08\n3\n\n\nHW2\nFri 2/12\nMon 2/22\n10\n\n\nHW3\nFri 2/19\nFri 3/05\n14\n\n\nHW4\nFri 2/26\nFri 3/05\n7\n\n\nHW5\nFri 3/05\nFri 3/19\n14\n\n\nHW6\nFri 3/12\nFri 3/19\n7\n\n\nHW7\nFri 3/26\nFri 4/09\n14\n\n\nHW8\nFri 4/16\nMon 5/03\n17\n\n\nHW9\nFri 4/30\nMon 5/03\n3\n\n\n\nWritten feedback on the marked questions may arrive after the quiz, and that is fine: the forms of question recur across all six quizzes, so feedback on how you stated a model in February is still useful in April.",
+    "crumbs": [
+      "Homework Schedule"
+    ]
+  },
+  {
+    "objectID": "setup/index.html",
+    "href": "setup/index.html",
+    "title": "Software Setup",
+    "section": "",
+    "text": "NoteComing Before The Semester Starts\n\n\n\nDetailed setup instructions for Julia, VS Code, Git, and GitHub will be posted here before the first day of class. If you want to get a head start, the Spring 2026 setup pages are a reasonable guide and little will change.",
+    "crumbs": [
+      "Tools Setup"
+    ]
+  },
+  {
+    "objectID": "setup/index.html#what-you-will-need",
+    "href": "setup/index.html#what-you-will-need",
+    "title": "Software Setup",
+    "section": "What You Will Need",
+    "text": "What You Will Need\n\nJulia (1.11 or later). We provide notebooks and package environments for Julia, and the course staff can best support you in it.\nVS Code, with the Julia extension.\nGit and a GitHub account. Mini projects are distributed as GitHub repositories that you fork, so you will need an account.\n\nYou are welcome to use another language — R and Python are both perfectly reasonable for everything in this course — but we may be limited in the programming help we can offer. We’re happy to try.",
+    "crumbs": [
+      "Tools Setup"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Environmental Data Analysis and Simulation",
+    "section": "",
+    "text": "Vivek Srikrishnan\n vs498@cornell.edu\n 318 Riley-Robb Hall\n TBD\n\n\n\n\n\n\n TBD\n TBD\n TBD\n\n\n\n\n\n\n MWF\n 11:15-12:05\n 401 Riley-Robb Hall"
+  },
+  {
+    "objectID": "index.html#course-information",
+    "href": "index.html#course-information",
+    "title": "Environmental Data Analysis and Simulation",
+    "section": "",
+    "text": "Vivek Srikrishnan\n vs498@cornell.edu\n 318 Riley-Robb Hall\n TBD\n\n\n\n\n\n\n TBD\n TBD\n TBD\n\n\n\n\n\n\n MWF\n 11:15-12:05\n 401 Riley-Robb Hall"
+  },
+  {
+    "objectID": "index.html#what-this-course-is-about",
+    "href": "index.html#what-this-course-is-about",
+    "title": "Environmental Data Analysis and Simulation",
+    "section": "What This Course Is About",
+    "text": "What This Course Is About\nStatistics are not magic.\nA t-test is not a black box that emits a p-value — it is a model of what your data would look like if nothing were going on, and you can build that model yourself. Once you can build that one, you can build the one that actually fits your problem, which is usually not the one in the textbook.\nThat is the whole course. Every method we meet gets run through the same four steps:\n\nWhy that distribution and link?\nSimulate from the model you specified.\nFit it to data.\nTest — did you get back what you put in?\n\nStep 4 is where the learning happens, and it is the step most often skipped. We will not skip it."
+  },
+  {
+    "objectID": "index.html#where-to-start",
+    "href": "index.html#where-to-start",
+    "title": "Environmental Data Analysis and Simulation",
+    "section": "Where To Start",
+    "text": "Where To Start\n\nThe syllabus has the full course description, learning outcomes, and assessment structure.\nThe schedule has the class-by-class plan, with readings and deadlines.\nThe course policies pages have the detail behind the syllabus.\nSetup instructions will get your software working.\n\n\n\n\n\n\n\nTipTaking This For Graduate Credit?\n\n\n\nBEE 5850 has two additional learning outcomes and differentiated requirements on three assessments. See BEE 4850 vs. BEE 5850 in the syllabus."
+  },
+  {
+    "objectID": "policies/homework.html",
+    "href": "policies/homework.html",
+    "title": "Homework Policies",
+    "section": "",
+    "text": "This page explains what homework assignments are for and how they are marked. Please do read What Homework Are For — the rest is logistics, but that part changes how you should use them.",
+    "crumbs": [
+      "Assessments",
+      "Homework Policies"
+    ]
+  },
+  {
+    "objectID": "policies/homework.html#what-homework-are-for",
+    "href": "policies/homework.html#what-homework-are-for",
+    "title": "Homework Policies",
+    "section": "What Homework Are For",
+    "text": "What Homework Are For\nPrevious offerings of this course had a problem, and it was mine, not yours. You were assessed with 25-minute closed-book quizzes asking you to write out a model, define a property, or read a diagnostic plot. The only practice you got was homework — but homework then meant a two-week computational assignment, where you had a laptop, the internet, your classmates, and fourteen days. Those measure different things, and only one of them was being practiced.\nSo homework in this course is a different animal from what that word used to mean here: nine short assignments rather than five long ones, mostly on paper, in the format the quiz actually uses.\nHomework close that gap. They are in the quiz’s exact idiom — same question forms, same expectation of a written answer, same absence of a computer for most of it — at about 1.3 times a quiz’s length. If you can do the homework assignment, you can do the quiz. That is the entire design.\n\n\n\n\n\n\nImportantThe Practice Is The Point, Not The Score\n\n\n\nA homework assignment is worth about 2% of your course grade. It is not there to sort you; it is there to tell you — before the quiz, while it is still free — whether you can actually write out a null model or read an ACF. If you look at the key before attempting the problems, you will get the satisfying feeling of understanding and none of the actual understanding. I have seen this go wrong many times, and it always goes wrong the same way.",
+    "crumbs": [
+      "Assessments",
+      "Homework Policies"
+    ]
+  },
+  {
+    "objectID": "policies/homework.html#structure",
+    "href": "policies/homework.html#structure",
+    "title": "Homework Policies",
+    "section": "Structure",
+    "text": "Structure\nEach assignment is worth 20 points and should take about 45 minutes: roughly 30 minutes of written work and 15 minutes at the keyboard.\n\n\n\n\n\n\n\n\nProblem\nPoints\nWhat it is\n\n\n\n\nProblem 1\n7\nA short scenario with three sub-parts, walking the loop on one object\n\n\nProblem 2\n7\nThree standalone short questions, exactly in the quiz’s format\n\n\nProblem 3\n6\nThe computational item, ending in a figure and a sentence of interpretation\n\n\n\n\n\n\n\n\n\nNoteA Homework Point Is Not A Quiz Point\n\n\n\nA homework assignment is 20 points and about 45 minutes. A quiz is 6 points and 25 minutes. A homework point is therefore worth roughly half a quiz point — homework is open-book, untimed, and scored at finer granularity, so a point buys less. Do not read “20 points” as three quizzes’ worth of work. If an assignment is taking you dramatically longer than 45 minutes, that is useful information and I would like to hear about it.",
+    "crumbs": [
+      "Assessments",
+      "Homework Policies"
+    ]
+  },
+  {
+    "objectID": "policies/homework.html#logistics",
+    "href": "policies/homework.html#logistics",
+    "title": "Homework Policies",
+    "section": "Logistics",
+    "text": "Logistics\n\nHomework are due at 9:00pm Eastern on the due date, which is always a Friday. Submit to Gradescope as a PDF with pages tagged. Failure to tag pages results in a non-negotiable 10% deduction.\nLate submissions are accepted up to 24 hours, at full credit.\nThe solution key posts when the late window closes, one day after the deadline. No submissions are accepted after the key is public.\nThe lowest homework assignment is dropped automatically.\nCollaboration is encouraged. Write up your own answers in your own words, and list who you worked with.",
+    "crumbs": [
+      "Assessments",
+      "Homework Policies"
+    ]
+  },
+  {
+    "objectID": "policies/homework.html#how-they-are-marked",
+    "href": "policies/homework.html#how-they-are-marked",
+    "title": "Homework Policies",
+    "section": "How They Are Marked",
+    "text": "How They Are Marked\nEvery question is checked against the posted key. Two or three questions per assignment additionally receive written feedback.\nWhy the difference? Because a posted key and a grader do different jobs. If you defined the logit incorrectly or got the sample-size calculation wrong, the key tells you that, and a paragraph from the TA adds nothing. What a key cannot catch is reasoning that is plausible and wrong — and that is exactly what happens on questions like “why can two defensible null models give different p-values?” Those answers can read perfectly well and be wrong, and only a human notices. So written feedback goes where the key is insufficient.\nWhich questions get written feedback varies from week to week and is not announced in advance. This is deliberate: if you knew, you would optimize for those two questions, which defeats the purpose.\n\n\n\n\n\n\nWarningThe Computational Item Counts\n\n\n\nProblem 3 is not optional garnish. An assignment submitted without a serious attempt at all three problems, including the computational one, does not receive credit — it is not marked out of 14.\nThis is the only thing in the course keeping your hands on a keyboard between mini projects, and the wrangling it asks for (grouping, joining, handling gaps) is a skill this course expects you to build through practice rather than lecture.",
+    "crumbs": [
+      "Assessments",
+      "Homework Policies"
+    ]
+  },
+  {
+    "objectID": "policies/homework.html#answers-not-output",
+    "href": "policies/homework.html#answers-not-output",
+    "title": "Homework Policies",
+    "section": "Answers, Not Output",
+    "text": "Answers, Not Output\nFor the computational item specifically:\n\nAnswer in sentences. Raw program output pasted into a PDF is not an answer to anything.\nLabel your figures. Axis labels with units, a legend if there is more than one thing plotted. A figure that needs you standing next to it to explain is not doing its job.\nAvoid excessive precision. If you report a return level as 3.847261 m, you are claiming something about the sixth decimal place that your 40 years of data cannot support.",
+    "crumbs": [
+      "Assessments",
+      "Homework Policies"
+    ]
+  },
+  {
+    "objectID": "policies/index.html",
+    "href": "policies/index.html",
+    "title": "Course Policies",
+    "section": "",
+    "text": "This section contains an overview of course policies, at a higher level of detail than what is in the syllabus.\n\nGrading Policies — how work is graded, late work, extensions, and regrade requests.\nHomework Policies — what homework assignments are for, and how they are marked.\nMini Project and Term Project Policies — logistics for the computational work.\nQuiz Policies — logistics, topics, accommodations, and conflicts.\nAcademic Integrity — collaboration, citation, and the AI/ML resource policy.\nGrading Rubrics — the meta-rubric applied across written work.\nGroup Work — expectations for pairs on mini projects and the term project.",
+    "crumbs": [
+      "Policies"
+    ]
+  },
+  {
+    "objectID": "policies/quiz.html",
+    "href": "policies/quiz.html",
+    "title": "Quiz Policies",
+    "section": "",
+    "text": "This page includes information on the quizzes for BEE 4850/5850, including policies and logistics.",
+    "crumbs": [
+      "Assessments",
+      "Quiz Policies"
+    ]
+  },
+  {
+    "objectID": "policies/quiz.html#quiz-logistics",
+    "href": "policies/quiz.html#quiz-logistics",
+    "title": "Quiz Policies",
+    "section": "Quiz Logistics",
+    "text": "Quiz Logistics\nThere are six quizzes, given in class, taking approximately the first 25 minutes of the session. Quizzes will be hand-written and then scanned into Gradescope (by course staff) for grading and feedback; the physical copy will not be returned.\nThe dates and what each quiz covers are on the quiz schedule.\nTogether the quizzes are worth 25% of your grade. The lowest quiz is dropped, for students in both 4850 and 5850.\n\n\n\n\n\n\nImportantA Quiz Never Covers The Same Week\n\n\n\nEvery quiz covers material through the previous Friday at the latest, and nothing after it. This is a rule, not a tendency, and it is why the quiz dates sit where they do. It also guarantees there is always a homework assignment covering the material, returned to you, before the quiz that tests it.",
+    "crumbs": [
+      "Assessments",
+      "Quiz Policies"
+    ]
+  },
+  {
+    "objectID": "policies/quiz.html#quiz-topics-and-structure",
+    "href": "policies/quiz.html#quiz-topics-and-structure",
+    "title": "Quiz Policies",
+    "section": "Quiz Topics and Structure",
+    "text": "Quiz Topics and Structure\nThe emphasis is on concepts. There is no programming, and there are no formulas requiring memorization. Expect 3–5 questions worth 1–3 points each, drawn from the same six forms the homework assignments rehearse:\n\nState the model with its assumptions — write out the equations, including any and all assumptions;\nDefine a property — what does it mean for an estimator to be unbiased?\nRead a diagnostic — here is an ACF, a trace plot, a residual plot: what does it tell you?\nInterpret a result — often as true/false statements about a reported interval;\nSmall computation — how many Monte Carlo samples for a given standard error?\nState an assumption — what does the non-parametric bootstrap assume?\n\nIn general, the same grading rubric applies to quiz problems as appropriate (e.g. nothing about code). Your solutions should be clear, with transparent and well-communicated reasoning.\n\nDifficulty\nQuiz problems are closer in difficulty to homework assignment problems than to mini project problems, since you have weeks to work on a mini project with full access to external resources, course staff, and classmates. The goal is to assess your ability to understand concepts, set up problems, determine the appropriateness of methods, and interpret output — not to do computations under time pressure. We cannot, and do not, expect you to solve mini-project-level problems in a 25-minute closed-book setting.\nThe homework assignments are the sample quizzes. That is what they are for, and it is why there is one before every quiz.",
+    "crumbs": [
+      "Assessments",
+      "Quiz Policies"
+    ]
+  },
+  {
+    "objectID": "policies/quiz.html#academic-integrity",
+    "href": "policies/quiz.html#academic-integrity",
+    "title": "Quiz Policies",
+    "section": "Academic Integrity",
+    "text": "Academic Integrity\nQuizzes are closed-book, closed-note, and closed-everything else. No medically unnecessary electronic devices are allowed, including headphones and smart watches.\nQuizzes are strictly confidential until all conflict and accommodation quizzes have been taken. Do not discuss a quiz with anyone, in person or online, until we have discussed it in class.",
+    "crumbs": [
+      "Assessments",
+      "Quiz Policies"
+    ]
+  },
+  {
+    "objectID": "policies/quiz.html#accommodations-conflicts-and-makeups",
+    "href": "policies/quiz.html#accommodations-conflicts-and-makeups",
+    "title": "Quiz Policies",
+    "section": "Accommodations, Conflicts, and Makeups",
+    "text": "Accommodations, Conflicts, and Makeups\n\nSDS Accommodations\nPlease make sure that any exam-related accommodations have been provided to the course staff ahead of the first quiz. Quizzes requiring accommodations will be scheduled and delivered through the Alternative Testing Program.\n\n\nConflicts and Makeups\nIf you have an academic conflict or a university-approved reason why you cannot take a quiz in class, contact Prof. Srikrishnan ahead of the quiz to arrange an alternative.\nBecause the lowest quiz is dropped, a single missed quiz for an unforeseeable reason generally needs no further accommodation — the drop absorbs it. In extreme circumstances, such as long-term illness or injury preventing more than one quiz, we may forgive additional quizzes and compute your grade without them. This will dramatically increase the weight given to other assessments.",
+    "crumbs": [
+      "Assessments",
+      "Quiz Policies"
+    ]
+  },
+  {
+    "objectID": "policies/rubric.html",
+    "href": "policies/rubric.html",
+    "title": "Standard Rubrics",
+    "section": "",
+    "text": "These rubrics are intended as a description for students and a guide to the grader for how to assign partial credit.",
+    "crumbs": [
+      "Grading",
+      "Standard Rubrics"
+    ]
+  },
+  {
+    "objectID": "policies/rubric.html#meta-rubric",
+    "href": "policies/rubric.html#meta-rubric",
+    "title": "Standard Rubrics",
+    "section": "Meta-Rubric",
+    "text": "Meta-Rubric\n\nIndividual problems may vary from these standard rubrics based on the assessed learning outcomes for the problem, but they should give you an overview of what a solution ought to include.\nEach bullet point appears as a separate rubric item in Gradescope. We use positive grading — points are awarded for each component, not deducted from a starting total.\nEach standard rubric below describes partial credit for a 10-point problem. Partial credit for problems worth less should be scaled appropriately.\nThe graders cannot read your mind and will not try to. Submissions that are unclear for any reason — unclear syntax (English or code), uncommented code, missing reasoning, or so much detail that the argument is buried — will not be given credit. The grader has complete discretion here. If something in your solution is ambiguous, the grader has been instructed to interpret it the “wrong” way. Clear responses are a sign of understanding, which is part of what we are assessing.\nYou will not be doubly penalized for getting the “right” answer from the “wrong” setup, but this requires the grader to easily identify that your implementation is correct given your model.\nYou will not be given credit for your code. This is not a programming class; the code is a means to an end. Code that is sloppy but works is perfectly acceptable. However, clear code may earn you partial credit if the TA can easily see where a mistake crept in, so comment it and write down the mathematics of what it is meant to implement.\nSome rubrics include deadly sins which cause an immediate zero for the problem. Do not do these.\nRegardless of problem type, the following penalties apply per incident:\n\n−1 for missing units;\n−1 for an unlabeled figure axis;\n−1 for reporting precision the data cannot support.",
+    "crumbs": [
+      "Grading",
+      "Standard Rubrics"
+    ]
+  },
+  {
+    "objectID": "policies/rubric.html#standard-rubrics",
+    "href": "policies/rubric.html#standard-rubrics",
+    "title": "Standard Rubrics",
+    "section": "Standard Rubrics",
+    "text": "Standard Rubrics\n\nSpecifying a Model\n10 points =\n\n+4 for the specification. The distribution and link, written out, with the parameters named.\n+4 for the assumptions. All of them — what is assumed about the errors, about independence, about the predictors. A specification missing its assumptions is not a specification.\n+2 for the justification. Why that distribution? A constraint you are willing to state about the process, not “because it is standard.”\n\n\n\n\n\n\n\nWarningDeadly Sin\n\n\n\nWriting down a model with no assumptions stated at all. This is the single thing this course most wants you to stop doing, and it is an automatic zero for the problem.\n\n\n\n\nSimulating From a Model\n10 points =\n\n+3 for the setup. What are you simulating, from which model, how many times, and why that many?\n+4 for the implementation. Correct sampling from the specified model.\n+3 for the interpretation. What did the simulation show, and what does it tell you about the model?\n\n\n\nFitting and Recovery\n10 points =\n\n+3 for the fit. Parameters reported with uncertainty, at sensible precision.\n+4 for the recovery check. Simulate from the fit, refit, and compare. Did you get back what you put in?\n+3 for the conclusion. If recovery failed, say so plainly and say what follows. A failed recovery honestly reported earns full credit here; a failed recovery not noticed earns none.\n\n\n\nModel Comparison\n10 points =\n\n+3 for the criteria. Computed correctly, with the models clearly identified.\n+4 for what each criterion is measuring. Predictive accuracy or marginal likelihood? This is the point of the exercise.\n+3 for the recommendation. Which model, why, and what result would change your mind.\n\n\n\n\n\n\n\nWarningDeadly Sin\n\n\n\nReporting that AIC and BIC disagree and stopping there. Disagreement is the beginning of the answer — explain what the disagreement tells you about the models.\n\n\n\n\nInterpretation Questions\n10 points =\n\n+5 for the claim. A direct answer to the question asked.\n+5 for the reasoning. Why, in terms of the actual variables and the actual model — not in terms of “the predictor variable” or “X.”\n\n\n\n\n\n\n\nImportantDon’t Bullshit\n\n\n\nYou will get no points for word salad, even if you accidentally hit on the right answer. A short, correct, clearly-reasoned paragraph beats a page of hedging every time.",
+    "crumbs": [
+      "Grading",
+      "Standard Rubrics"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About This Site",
+    "section": "",
+    "text": "This is the course website for BEE 4850/5850, Environmental Data Analysis and Simulation, taught at Cornell University in the Department of Biological & Environmental Engineering in Spring 2027.\nThe site is built with Quarto, and the source is available on GitHub. Corrections and suggestions are welcome — use the “Edit this page” or “Report an issue” links in the right margin, or open an issue directly."
+  },
+  {
+    "objectID": "about.html#credit",
+    "href": "about.html#credit",
+    "title": "About This Site",
+    "section": "Credit",
+    "text": "Credit\nCourse materials are by Vivek Srikrishnan unless otherwise noted, and are licensed CC-BY-SA 4.0. You are free to reuse and adapt them with attribution under the same license.\nThe site design derives from earlier offerings of this course and of BEE 4750/5750.\nSeveral elements of the course’s structure are borrowed and adapted with thanks:\n\nThe four-step generative loop that organizes the course is adapted from Richard McElreath’s Statistical Rethinking (doi:10.1201/9780429029608), without its Bayesian commitment.\nThe homework assignment format — lettered sub-parts with individual point values, an agenda stating what is being practiced explicitly and implicitly, and instructions on the form of an answer — is adapted from Cosma Shalizi’s homework assignments for 36-401 and 36-402 at Carnegie Mellon."
+  },
+  {
+    "objectID": "about.html#accessibility",
+    "href": "about.html#accessibility",
+    "title": "About This Site",
+    "section": "Accessibility",
+    "text": "Accessibility\nIf you encounter any part of this site that is inaccessible to you, please let me know at vs498@cornell.edu and I will fix it."
+  },
+  {
+    "objectID": "mp/index.html",
+    "href": "mp/index.html",
+    "title": "Mini Projects",
+    "section": "",
+    "text": "There are two mini projects, each worth 10% of your grade. Both may be completed individually or in pairs.\nUnlike the homework, a mini project is not a set of numbered problems. You are given a question and a required method, and you decide how to build and present the argument. What you hand in is a short report with required elements, not answers in order.\nThe linked pages are the full instructions, public so you can read them before the project is released. If you are enrolled, work from a fork of the repository — that is where the data and the package environment are.",
+    "crumbs": [
+      "Mini Projects"
+    ]
+  },
+  {
+    "objectID": "mp/index.html#general-information",
+    "href": "mp/index.html#general-information",
+    "title": "Mini Projects",
+    "section": "General information",
+    "text": "General information\n\nFork the project repository. When a project is released, a link will be posted on Ed Discussion. Click Fork on GitHub to create a copy under your own account, then clone your fork. This gives you the package environment and a repository you can point at if you need help with your code.\nClone your fork, not the original. You cannot push to bee-envdata-cornell/mp01; look for &lt;your-username&gt;/mp01. If you clone the wrong one, re-clone your fork and move any edited files across — nothing is lost.\nSubmit a PDF to Gradescope by 9:00pm Eastern on the due date, with pages tagged. Untagged submissions take a non-negotiable 10% deduction.\nPairs: exactly one member submits, and it is the submitter’s responsibility to add the other member in Gradescope. Put both names and NetIDs on the first page. See group work for what is expected of a pair.\nYou do not have to use the provided notebook, and you do not need to submit code. Your notebook or scripts should be in your repository in case there are questions.",
+    "crumbs": [
+      "Mini Projects"
+    ]
+  },
+  {
+    "objectID": "mp/index.html#how-they-are-graded",
+    "href": "mp/index.html#how-they-are-graded",
+    "title": "Mini Projects",
+    "section": "How they are graded",
+    "text": "How they are graded\nEach project is graded by Prof. Srikrishnan against the standard rubrics, applied to the required elements rather than to sections. The report is graded on whether each element is present and convincing, not on whether it appears under a particular heading.\nTwo things worth knowing before you start:\n\nA model with no assumptions stated earns nothing for that element. This is the single thing the course most wants you to stop doing.\nA check that fails, honestly reported and diagnosed, earns full credit. A check that fails and is not noticed earns none. You are not being graded on having a model that works.\n\nFull logistics are on the project policies page.",
+    "crumbs": [
+      "Mini Projects"
     ]
   },
   {
@@ -629,6 +739,6 @@
     "href": "syllabus.html#assessments",
     "title": "Syllabus",
     "section": "Assessments",
-    "text": "Assessments\n\nTechnologies\nWe will use Canvas as a gradebook and to distribute PDFs of readings (also made available through the website when possible, via the Cornell library). Ed Discussion will be used for course communications. Assignments will be submitted and graded in Gradescope. Mini projects will be distributed through GitHub Classroom.\nStudents can use any programming language they like to solve problems, though we will make notebooks and package environments available for Julia (which may help structure your assignments if you use a different language) via GitHub. If students use a language other than Julia, we may be limited in the programming assistance we can provide (though we’re happy to try to help!).\nWe recommend students create a GitHub account and use GitHub to version control and share their code throughout the semester.\n\n\nGrading\nFinal grades will be computed based on the following assessment weights:\n\n\n\nAssessment\nWeight\n\n\n\n\nHomework\n20%\n\n\nQuizzes\n25%\n\n\nMini Projects\n20%\n\n\nTerm Project\n25%\n\n\nReadings\n10%\n\n\n\nThe following grading scale will be used to convert the numerical weighted average to letter grades:\n\n\n\nGrade\nRange\n\n\n\n\nA+\n97–100\n\n\nA\n93–97\n\n\nA-\n90–93\n\n\nB+\n87–90\n\n\nB\n83–87\n\n\nB-\n80–83\n\n\nC+\n77–80\n\n\nC\n73–77\n\n\nC-\n70–73\n\n\nD+\n67–70\n\n\nD\n63–67\n\n\nD-\n60–63\n\n\nF\n&lt; 60\n\n\n\n\n\nHomework\nThere will be nine homework assignments over the semester, each worth 20 points. These are pen-and-paper, in the same idiom as the quizzes, plus one short computational item. Expect each to take about 45 minutes: roughly 30 minutes of written work and 15 minutes at the keyboard.\nHomework exist for one reason: to rehearse the quiz. Previous offerings of this course assessed you with 25-minute closed-book quizzes while the only practice was two-week computational homework. Those measure different things, and only one of them was being practiced. The homework assignments fix that.\nEach assignment has three problems:\n\nProblem 1 (7 points) — a short scenario with three sub-parts, walking through the loop on one object;\nProblem 2 (7 points) — three standalone short questions, exactly in the quiz’s format;\nProblem 3 (6 points) — the computational item, ending in a figure and a sentence of interpretation.\n\nSome notes on homework logistics:\n\nHomework are due at 9:00pm Eastern on the due date (always a Friday). Submit to Gradescope as a PDF with pages tagged.\nLate work is accepted up to one day late, and the solution key is posted when that window closes — see the callout below.\nThe lowest homework assignment is dropped automatically.\nEvery question is checked against the posted key, and two or three questions per assignment receive written feedback. Which questions get written feedback varies from week to week and is not announced in advance.\nThe computational item counts. An assignment submitted without a serious attempt at all three problems, including the computational one, will not receive credit.\n\n\n\n\n\n\n\nImportantWhy The Key Goes Up A Day After The Deadline\n\n\n\nThe solution key for each homework assignment is posted when the late window closes, not when the assignment is due. This is so that a one-day-late submission isn’t just a copy of the key.\nIt also means the key is always in your hands well before the quiz it rehearses — at minimum two days, usually six or more. Written feedback on the marked questions may arrive after the quiz, and that’s fine: the forms of question recur across all six quizzes, so feedback on how you stated a model in February is still useful in April.\n\n\n\n\nQuizzes\nQuizzes will be given in class at the end of several units. These will be in the first half of the relevant class, approximately 25 minutes long. No materials (books, notes, computers, or calculators) are allowed. Quizzes will be scanned into Gradescope for grading.\nThere are six quizzes, and the lowest is dropped, for students in both 4850 and 5850. The material covered will be specified ahead of time in class and on Ed Discussion. As a rule, a quiz never covers material from the same week it is given — every quiz covers through the previous Friday at the latest.\nThe emphasis is on concepts. There is no programming on a quiz and nothing requiring memorized formulas. You will be asked to write out models and their assumptions, define properties, read diagnostic plots, interpret results, and do small calculations — which is exactly what the homework assignments rehearse.\n\n\nReadings\nReadings will be assigned throughout the semester to help you engage with the background and the uses of the material for that week. There are 8 required readings, provided as PDFs on Canvas through Perusall and (when possible through open access or the Cornell library) linked from the website.\nStudents are expected to demonstrate engagement through collaborative annotations — your own comments on parts you found interesting or had questions about, or responses to other students’ annotations. You should also post an overall reflection, synthesizing your takeaways with content from this or other classes, on Ed Discussion. Both should be completed by the start of the first lecture the next week. You are not graded on the quantity of annotations, but on the degree to which they reflect critical engagement. One reading assignment will be dropped automatically.\nFour questions are worth asking of every reading, and they are the same four all semester:\n\nWhat generative model did the authors assume?\nWhat did they simulate, and what did they take on faith?\nHow did they check the model?\nWhat would you have checked that they did not?\n\nAll students write one discussion paper late in the semester applying these four questions at length:\n\nBEE 4850: a one-page analysis of a paper of your choosing or one from the pool.\nBEE 5850: a full referee report, 2–3 pages, written to the standard a journal would expect, including a recommendation (accept / minor revision / major revision / reject) and the reasoning behind it. Discuss your choice of paper with me to make sure it is appropriate.\n\n\n\nMini Projects\nThere are two mini projects, each computational and unit-scale, distributed through GitHub Classroom. These may be completed individually or in pairs.\n\nMini Project 1 — Regression and Simulation. Assigned Monday, March 1; due Wednesday, March 17. Specify a linear generative model for an environmental dataset, simulate from it, fit it, check whether you recover what you put in, and put uncertainty on the fit with the bootstrap. For 5850, the Bayesian treatment is required; for 4850 it is an optional extension.\nMini Project 2 — Extremes, with Model Comparison. Assigned Monday, April 5; due Friday, May 7. Fit a GEV and a GPD to a real record, fit stationary and nonstationary variants, and compare them on evidence — cross-validation where defensible, plus WAIC, AIC, and BIC — saying explicitly what each is measuring and why they may disagree. For 5850, WAIC must be computed from your own posterior rather than a provided sample.\n\n\n\n\n\n\n\nNoteMP2 Has Gaps In It, On Purpose\n\n\n\nThe record you are given for MP2 has missing months, because real gauge records do. Computing an annual maximum from a year with a three-month gap is a genuine open problem, not an exercise — is that year’s maximum real, or an artifact of what wasn’t recorded? Missing-data mechanisms are covered in lecture during MP2’s window, which is deliberate.\n\n\n\n\nTerm Project\nThroughout the semester, students will apply the concepts and methods from class to a question and data set of their own choosing. If you do not have a data set in mind, come talk to me and we will find one that aligns with your interests.\nThe term project can be completed individually or in groups of 2. There are three deliverables:\n\nA proposal (no more than 2 pages, 11 point font, 1 inch margins, not including figures or references), due Friday, March 26, including:\n\nThe underlying science question for your project and any associated hypotheses;\nThe dataset(s) you will analyze and use to test your hypotheses;\nStatistical model(s) for the hypotheses and your planned strategy for analysis.\n\nA check-in, due Friday, April 23. This is a ten-minute conversation in office hours rather than a written deliverable, graded pass/fail on having something to show.\nA final report, due during the finals period. No more than 5 pages (11 point font, 1 inch margins), not including references and figures. More details and rubrics will be provided later in the semester.\n\nThe report must include a section stating what a conventional canned analysis of your data would have concluded, and why yours differs. If it doesn’t differ, say so and explain why — that is a legitimate finding, and sometimes the standard analysis is the right one.\nStudents in BEE 5850 must additionally defend their specification against a named alternative specification, including a simulation study establishing the conditions under which the two diverge and what evidence would distinguish them.\n\n\n\n\n\n\nImportantThe Proposal Is Where Problem Formulation Gets Assessed\n\n\n\nIt is the only place in this course where you decide what question is worth asking of what data, and it is weighted accordingly rather than treated as an administrative step. A proposal that cannot say what would count as an answer does not yet describe a project. Start thinking about this well before March.\n\n\nPresentations will be held during the university finals period, at a date and time assigned by the Office of the University Registrar. In addition to work completed during the semester, students can expect to devote approximately 6 hours to the term project during the exam period.\n\n\nLate Work Policy\nHomework may be submitted up to 24 hours late for full credit, after which the solution key is posted and no further submissions can be accepted. The lowest homework assignment is dropped.\nMini projects and project deliverables may be submitted up to 24 hours late at a 50% penalty, and will not be accepted after that point. This policy may seem strict, but allows for prompt release of solutions and discussion of assignments. Please reach out as soon as possible (ideally before the due date) if legitimate circumstances emerge which prevent you from submitting work on time; we will make accommodations for approved reasons, which might include a limited extension or forgiving the assignment.\n\n\nRegrade Requests\nRegrade requests can be submitted up to one week after the graded work is released on Gradescope.\nAll regrade requests must include a brief justification for the request or they will not be considered. Good justifications include (but are not limited to):\n\nMy answer agrees with the posted solution, but I still lost points.\nI lost 4 points for something, but the rubric says it should only be worth 2 points.\nYou took points off for something, but it’s right here.\nMy answer is correct, even though it does not match the posted solution; here is an explanation.\nThere is no explanation for my grade.\nI got a perfect score, but my solution has a mistake (you will receive extra credit for this! see below!)\nThere is a major error in the posted solution; here is an explanation (full credit for everyone, but Prof. Srikrishnan will decide what constitutes a “major error”! see below!).\n\n\n\n\n\n\n\nImportantWe Can Only Grade What You Submitted\n\n\n\nAll regrades will be assessed based only on the submitted work. You cannot get a higher grade by explaining what you meant (either in person or online) or by adding information or reasoning to what is submitted after the fact. The goal of the regrade is to draw attention to a potential grading problem, not to supplement the submission.\n\n\nThe first regrade request for any submission will be handled by the person who graded that problem. If the submission was graded by the TA, additional regrade requests for the same submission will be handled directly by the instructor. Once Prof. Srikrishnan issues a final response to a regrade request, further requests for that submission will be ignored.\n\n\n\n\n\n\nWarningRegrade Requests Can Be A Gamble!\n\n\n\nWhile you should submit regrade requests for legitimate errors, using them for fishing expeditions can also result in lost points if the TA or Prof. Srikrishnan decide that your initial grade was too lenient or if additional errors are identified.\n\n\n\n\n\n\n\n\nTipWhat If I Find A Different Type of Mistake?\n\n\n\n\nIf you submit a regrade request correctly reporting that a problem was graded too leniently — that is, that your score was higher than it should be based on the rubric — your score will be increased by the difference. For example, if your original score on a problem was 8/10 and you successfully argue that your score should have been 3/10, your new score will be 13/10. However, don’t fish — your grade might be lowered if the TA finds an independent mistake while regrading.\nIf a significant error is discovered in a posted solution, everyone in the class will receive full credit for the (sub)problem. Prof. Srikrishnan will decide what is “significant”."
+    "text": "Assessments\n\nTechnologies\nWe will use Canvas as a gradebook and to distribute PDFs of readings (also made available through the website when possible, via the Cornell library). Ed Discussion will be used for course communications. Assignments will be submitted and graded in Gradescope. Mini projects are distributed as GitHub repositories that you fork to your own account.\nStudents can use any programming language they like to solve problems, though we will make notebooks and package environments available for Julia (which may help structure your assignments if you use a different language) via GitHub. If students use a language other than Julia, we may be limited in the programming assistance we can provide (though we’re happy to try to help!).\nWe recommend students create a GitHub account and use GitHub to version control and share their code throughout the semester.\n\n\nGrading\nFinal grades will be computed based on the following assessment weights:\n\n\n\nAssessment\nWeight\n\n\n\n\nHomework\n20%\n\n\nQuizzes\n25%\n\n\nMini Projects\n20%\n\n\nTerm Project\n25%\n\n\nReadings\n10%\n\n\n\nThe following grading scale will be used to convert the numerical weighted average to letter grades:\n\n\n\nGrade\nRange\n\n\n\n\nA+\n97–100\n\n\nA\n93–97\n\n\nA-\n90–93\n\n\nB+\n87–90\n\n\nB\n83–87\n\n\nB-\n80–83\n\n\nC+\n77–80\n\n\nC\n73–77\n\n\nC-\n70–73\n\n\nD+\n67–70\n\n\nD\n63–67\n\n\nD-\n60–63\n\n\nF\n&lt; 60\n\n\n\n\n\nHomework\nThere will be nine homework assignments over the semester, each worth 20 points. These are pen-and-paper, in the same idiom as the quizzes, plus one short computational item. Expect each to take about 45 minutes: roughly 30 minutes of written work and 15 minutes at the keyboard.\nHomework exist for one reason: to rehearse the quiz. Previous offerings of this course assessed you with 25-minute closed-book quizzes while the only practice was two-week computational homework. Those measure different things, and only one of them was being practiced. The homework assignments fix that.\nEach assignment has three problems:\n\nProblem 1 (7 points) — a short scenario with three sub-parts, walking through the loop on one object;\nProblem 2 (7 points) — three standalone short questions, exactly in the quiz’s format;\nProblem 3 (6 points) — the computational item, ending in a figure and a sentence of interpretation.\n\nSome notes on homework logistics:\n\nHomework are due at 9:00pm Eastern on the due date (always a Friday). Submit to Gradescope as a PDF with pages tagged.\nLate work is accepted up to one day late, and the solution key is posted when that window closes — see the callout below.\nThe lowest homework assignment is dropped automatically.\nEvery question is checked against the posted key, and two or three questions per assignment receive written feedback. Which questions get written feedback varies from week to week and is not announced in advance.\nThe computational item counts. An assignment submitted without a serious attempt at all three problems, including the computational one, will not receive credit.\n\n\n\n\n\n\n\nImportantWhy The Key Goes Up A Day After The Deadline\n\n\n\nThe solution key for each homework assignment is posted when the late window closes, not when the assignment is due. This is so that a one-day-late submission isn’t just a copy of the key.\nIt also means the key is always in your hands well before the quiz it rehearses — at minimum two days, usually six or more. Written feedback on the marked questions may arrive after the quiz, and that’s fine: the forms of question recur across all six quizzes, so feedback on how you stated a model in February is still useful in April.\n\n\n\n\nQuizzes\nQuizzes will be given in class at the end of several units. These will be in the first half of the relevant class, approximately 25 minutes long. No materials (books, notes, computers, or calculators) are allowed. Quizzes will be scanned into Gradescope for grading.\nThere are six quizzes, and the lowest is dropped, for students in both 4850 and 5850. The material covered will be specified ahead of time in class and on Ed Discussion. As a rule, a quiz never covers material from the same week it is given — every quiz covers through the previous Friday at the latest.\nThe emphasis is on concepts. There is no programming on a quiz and nothing requiring memorized formulas. You will be asked to write out models and their assumptions, define properties, read diagnostic plots, interpret results, and do small calculations — which is exactly what the homework assignments rehearse.\n\n\nReadings\nReadings will be assigned throughout the semester to help you engage with the background and the uses of the material for that week. There are 8 required readings, provided as PDFs on Canvas through Perusall and (when possible through open access or the Cornell library) linked from the website.\nStudents are expected to demonstrate engagement through collaborative annotations — your own comments on parts you found interesting or had questions about, or responses to other students’ annotations. You should also post an overall reflection, synthesizing your takeaways with content from this or other classes, on Ed Discussion. Both should be completed by the start of the first lecture the next week. You are not graded on the quantity of annotations, but on the degree to which they reflect critical engagement. One reading assignment will be dropped automatically.\nFour questions are worth asking of every reading, and they are the same four all semester:\n\nWhat generative model did the authors assume?\nWhat did they simulate, and what did they take on faith?\nHow did they check the model?\nWhat would you have checked that they did not?\n\nAll students write one discussion paper late in the semester applying these four questions at length:\n\nBEE 4850: a one-page analysis of a paper of your choosing or one from the pool.\nBEE 5850: a full referee report, 2–3 pages, written to the standard a journal would expect, including a recommendation (accept / minor revision / major revision / reject) and the reasoning behind it. Discuss your choice of paper with me to make sure it is appropriate.\n\n\n\nMini Projects\nThere are two mini projects, each computational and unit-scale, distributed as GitHub repositories that you fork to your own account. These may be completed individually or in pairs.\n\nMini Project 1 — Regression and Simulation. Assigned Monday, March 1; due Wednesday, March 17. Specify a linear generative model for an environmental dataset, simulate from it, fit it, check whether you recover what you put in, and put uncertainty on the fit with the bootstrap. For 5850, the Bayesian treatment is required; for 4850 it is an optional extension.\nMini Project 2 — Extremes, with Model Comparison. Assigned Monday, April 5; due Friday, May 7. Fit a GEV and a GPD to a real record, fit stationary and nonstationary variants, and compare them on evidence — cross-validation where defensible, plus WAIC, AIC, and BIC — saying explicitly what each is measuring and why they may disagree. For 5850, WAIC must be computed from your own posterior rather than a provided sample.\n\n\n\n\n\n\n\nNoteMP2 Has Gaps In It, On Purpose\n\n\n\nThe record you are given for MP2 has missing months, because real gauge records do. Computing an annual maximum from a year with a three-month gap is a genuine open problem, not an exercise — is that year’s maximum real, or an artifact of what wasn’t recorded? Missing-data mechanisms are covered in lecture during MP2’s window, which is deliberate.\n\n\n\n\nTerm Project\nThroughout the semester, students will apply the concepts and methods from class to a question and data set of their own choosing. If you do not have a data set in mind, come talk to me and we will find one that aligns with your interests.\nThe term project can be completed individually or in groups of 2. There are three deliverables:\n\nA proposal (no more than 2 pages, 11 point font, 1 inch margins, not including figures or references), due Friday, March 26, including:\n\nThe underlying science question for your project and any associated hypotheses;\nThe dataset(s) you will analyze and use to test your hypotheses;\nStatistical model(s) for the hypotheses and your planned strategy for analysis.\n\nA check-in, due Friday, April 23. This is a ten-minute conversation in office hours rather than a written deliverable, graded pass/fail on having something to show.\nA final report, due during the finals period. No more than 5 pages (11 point font, 1 inch margins), not including references and figures. More details and rubrics will be provided later in the semester.\n\nThe report must include a section stating what a conventional canned analysis of your data would have concluded, and why yours differs. If it doesn’t differ, say so and explain why — that is a legitimate finding, and sometimes the standard analysis is the right one.\nStudents in BEE 5850 must additionally defend their specification against a named alternative specification, including a simulation study establishing the conditions under which the two diverge and what evidence would distinguish them.\n\n\n\n\n\n\nImportantThe Proposal Is Where Problem Formulation Gets Assessed\n\n\n\nIt is the only place in this course where you decide what question is worth asking of what data, and it is weighted accordingly rather than treated as an administrative step. A proposal that cannot say what would count as an answer does not yet describe a project. Start thinking about this well before March.\n\n\nPresentations will be held during the university finals period, at a date and time assigned by the Office of the University Registrar. In addition to work completed during the semester, students can expect to devote approximately 6 hours to the term project during the exam period.\n\n\nLate Work Policy\nHomework may be submitted up to 24 hours late for full credit, after which the solution key is posted and no further submissions can be accepted. The lowest homework assignment is dropped.\nMini projects and project deliverables may be submitted up to 24 hours late at a 50% penalty, and will not be accepted after that point. This policy may seem strict, but allows for prompt release of solutions and discussion of assignments. Please reach out as soon as possible (ideally before the due date) if legitimate circumstances emerge which prevent you from submitting work on time; we will make accommodations for approved reasons, which might include a limited extension or forgiving the assignment.\n\n\nRegrade Requests\nRegrade requests can be submitted up to one week after the graded work is released on Gradescope.\nAll regrade requests must include a brief justification for the request or they will not be considered. Good justifications include (but are not limited to):\n\nMy answer agrees with the posted solution, but I still lost points.\nI lost 4 points for something, but the rubric says it should only be worth 2 points.\nYou took points off for something, but it’s right here.\nMy answer is correct, even though it does not match the posted solution; here is an explanation.\nThere is no explanation for my grade.\nI got a perfect score, but my solution has a mistake (you will receive extra credit for this! see below!)\nThere is a major error in the posted solution; here is an explanation (full credit for everyone, but Prof. Srikrishnan will decide what constitutes a “major error”! see below!).\n\n\n\n\n\n\n\nImportantWe Can Only Grade What You Submitted\n\n\n\nAll regrades will be assessed based only on the submitted work. You cannot get a higher grade by explaining what you meant (either in person or online) or by adding information or reasoning to what is submitted after the fact. The goal of the regrade is to draw attention to a potential grading problem, not to supplement the submission.\n\n\nThe first regrade request for any submission will be handled by the person who graded that problem. If the submission was graded by the TA, additional regrade requests for the same submission will be handled directly by the instructor. Once Prof. Srikrishnan issues a final response to a regrade request, further requests for that submission will be ignored.\n\n\n\n\n\n\nWarningRegrade Requests Can Be A Gamble!\n\n\n\nWhile you should submit regrade requests for legitimate errors, using them for fishing expeditions can also result in lost points if the TA or Prof. Srikrishnan decide that your initial grade was too lenient or if additional errors are identified.\n\n\n\n\n\n\n\n\nTipWhat If I Find A Different Type of Mistake?\n\n\n\n\nIf you submit a regrade request correctly reporting that a problem was graded too leniently — that is, that your score was higher than it should be based on the rubric — your score will be increased by the difference. For example, if your original score on a problem was 8/10 and you successfully argue that your score should have been 3/10, your new score will be 13/10. However, don’t fish — your grade might be lowered if the TA finds an independent mistake while regrading.\nIf a significant error is discovered in a posted solution, everyone in the class will receive full credit for the (sub)problem. Prof. Srikrishnan will decide what is “significant”."
   }
 ]

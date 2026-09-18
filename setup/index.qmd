@@ -14,6 +14,6 @@ Detailed setup instructions for Julia, VS Code, Git, and GitHub will be posted h
 
 - **Julia** (1.11 or later). We provide notebooks and package environments for Julia, and the course staff can best support you in it.
 - **VS Code**, with the Julia extension.
-- **Git and a GitHub account.** Mini projects are distributed through GitHub Classroom, so you will need an account.
+- **Git and a GitHub account.** Mini projects are distributed as GitHub repositories that you fork, so you will need an account.
 
 You are welcome to use another language --- R and Python are both perfectly reasonable for everything in this course --- but we may be limited in the programming help we can offer. We're happy to try.

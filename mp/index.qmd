@@ -1,0 +1,53 @@
+---
+title: "Mini Projects"
+format:
+  html: default
+---
+
+There are two mini projects, each worth **10% of your grade**. Both may be completed individually or
+in pairs.
+
+Unlike the homework, a mini project is **not a set of numbered problems**. You are given a question
+and a required method, and you decide how to build and present the argument. What you hand in is a
+short report with required elements, not answers in order.
+
+| | Out | Due | Repository |
+|:---|:---|:---|:---|
+| [**MP1** --- Regression and Simulation](mp01/mp01.qmd) | Mon 3/01 | **Wed 3/17** | [`mp01`](https://github.com/bee-envdata-cornell/mp01) |
+| [**MP2** --- Extremes and Model Comparison](mp02/mp02.qmd) | Mon 4/05 | **Fri 5/07** | [`mp02`](https://github.com/bee-envdata-cornell/mp02) |
+
+The linked pages are the full instructions, public so you can read them before the project is
+released. **If you are enrolled, work from a fork of the repository** --- that is where the data and
+the package environment are.
+
+## General information
+
+- **Fork the project repository.** When a project is released, a link will be posted on
+  [Ed Discussion](https://us.edstem.org). Click **Fork** on GitHub to create a copy under your own
+  account, then clone your fork. This gives you the package environment and a repository you can
+  point at if you need help with your code.
+- **Clone your fork, not the original.** You cannot push to `bee-envdata-cornell/mp01`; look for
+  `<your-username>/mp01`. If you clone the wrong one, re-clone your fork and move any edited files
+  across --- nothing is lost.
+- **Submit a PDF to Gradescope** by 9:00pm Eastern on the due date, **with pages tagged**. Untagged
+  submissions take a non-negotiable 10% deduction.
+- **Pairs**: exactly one member submits, and it is the submitter's responsibility to add the other
+  member in Gradescope. Put both names and NetIDs on the first page. See
+  [group work](../policies/groups.qmd) for what is expected of a pair.
+- You do **not** have to use the provided notebook, and you do **not** need to submit code. Your
+  notebook or scripts should be in your repository in case there are questions.
+
+## How they are graded
+
+Each project is graded by Prof. Srikrishnan against the [standard rubrics](../policies/rubric.qmd),
+applied to the required elements rather than to sections. The report is graded on whether each
+element is **present and convincing**, not on whether it appears under a particular heading.
+
+Two things worth knowing before you start:
+
+- **A model with no assumptions stated earns nothing for that element.** This is the single thing the
+  course most wants you to stop doing.
+- **A check that fails, honestly reported and diagnosed, earns full credit.** A check that fails and
+  is not noticed earns none. You are not being graded on having a model that works.
+
+Full logistics are on the [project policies page](../policies/projects.qmd).

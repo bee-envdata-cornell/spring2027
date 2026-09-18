@@ -6,7 +6,7 @@ format:
 
 The computational work in this course is two **mini projects** (20% of your grade, combined) and the **term project** (25%).
 
-Policies --- submission logistics, GitHub Classroom, group work, and the BEE 5850 requirements --- are on the [project policies page](policies/projects.qmd).
+Policies --- submission logistics, group work, and the BEE 5850 requirements --- are on the [project policies page](policies/projects.qmd).
 
 ## Mini Projects
 
@@ -17,7 +17,7 @@ Each may be completed individually or in pairs.
 | **MP1** --- Regression and Simulation | Mon 3/01 | **Wed 3/17** | Specify a linear generative model, simulate from it, fit it, check recovery, and put uncertainty on the fit with the bootstrap |
 | **MP2** --- Extremes and Model Comparison | Mon 4/05 | **Fri 5/07** | Fit a GEV and a GPD to a real record, fit stationary and nonstationary variants, and compare them on evidence |
 
-Both are due at **9:00pm Eastern**, submitted to Gradescope with pages tagged.
+Both are due at **9:00pm Eastern**, submitted to Gradescope with pages tagged. Instructions, data and the required elements are in each repository --- see [Mini Projects](mp/index.qmd) for how to get them and how they are graded.
 
 ::: {.callout-note}
 ## MP2 Runs Alongside The Model Evaluation Block

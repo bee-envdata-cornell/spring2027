@@ -17,8 +17,8 @@ Dates are on the [project schedule](../projects.qmd).
 
 ### Accepting and Submitting
 
-- Mini projects are distributed through **GitHub Classroom**. When one is released, a link to accept it will be posted on Ed Discussion. **You must click this link or subsequent steps will not work properly.** Clicking it creates your own repository with the assignment files.
-- Clone *your* repository, not the original template.
+- Mini projects are distributed as **GitHub repositories that you fork**. When one is released, a link to the repository will be posted on Ed Discussion. Click **Fork** on GitHub to create a copy under your own account.
+- **Clone your fork, not the original.** You cannot push to the original, so look for `<your-username>/mp01`, not `bee-envdata-cornell/mp01`. If you clone the wrong one, re-clone your fork and move any edited files across --- nothing is lost.
 - Open the local repository **folder** (use `File -> Open Folder`, not `File -> Open`) so that all paths point to the right location.
 - Run the initial notebook cell (starting with `Pkg.activate()`) to load the Julia environment and install packages.
 - Commit and push frequently. This helps us answer questions, and gives you a backstop if something goes wrong close to the deadline --- the timestamp of your commit is evidence that you finished on time even if we cannot render your PDF until the next day.

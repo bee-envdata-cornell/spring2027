@@ -115,6 +115,12 @@ website:
           text: "Quiz Schedule"
         - href: projects.qmd
           text: "Project Schedule"
+        - href: mp/index.qmd
+          text: "Mini Projects"
+        - href: mp/mp01/mp01.qmd
+          text: "MP1: Regression and Simulation"
+        - href: mp/mp02/mp02.qmd
+          text: "MP2: Extremes and Model Comparison"
     - title: "Project"
       style: docked
       search: false

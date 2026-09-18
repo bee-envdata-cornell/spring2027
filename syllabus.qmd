@@ -284,7 +284,7 @@ Post on Ed Discussion, or email me to set up another time. If the scheduled hour
 
 ### Technologies
 
-We will use Canvas as a gradebook and to distribute PDFs of readings (also made available through the website when possible, via the Cornell library). Ed Discussion will be used for course communications. Assignments will be submitted and graded in Gradescope. Mini projects will be distributed through GitHub Classroom.
+We will use Canvas as a gradebook and to distribute PDFs of readings (also made available through the website when possible, via the Cornell library). Ed Discussion will be used for course communications. Assignments will be submitted and graded in Gradescope. Mini projects are distributed as GitHub repositories that you fork to your own account.
 
 Students can use any programming language they like to solve problems, though we will make notebooks and package environments available for Julia (which may help structure your assignments if you use a different language) via GitHub. If students use a language other than Julia, we may be limited in the programming assistance we can provide (though we're happy to try to help!).
 
@@ -376,7 +376,7 @@ Four questions are worth asking of every reading, and they are the same four all
 
 ### Mini Projects
 
-There are **two mini projects**, each computational and unit-scale, distributed through GitHub Classroom. These may be completed individually or in pairs.
+There are **two mini projects**, each computational and unit-scale, distributed as GitHub repositories that you fork to your own account. These may be completed individually or in pairs.
 
 - **Mini Project 1 --- Regression and Simulation.** Assigned Monday, March 1; due **Wednesday, March 17**. Specify a linear generative model for an environmental dataset, simulate from it, fit it, check whether you recover what you put in, and put uncertainty on the fit with the bootstrap. *For 5850, the Bayesian treatment is required; for 4850 it is an optional extension.*
 - **Mini Project 2 --- Extremes, with Model Comparison.** Assigned Monday, April 5; due **Friday, May 7**. Fit a GEV and a GPD to a real record, fit stationary and nonstationary variants, and compare them on evidence --- cross-validation where defensible, plus WAIC, AIC, and BIC --- saying explicitly what each is measuring and why they may disagree. *For 5850, WAIC must be computed from your own posterior rather than a provided sample.*
