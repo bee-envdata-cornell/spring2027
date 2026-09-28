@@ -66,6 +66,13 @@ since June 2025. Do not add to it.
   (`slides/`, `tutorials/` with their own) does not apply here *yet* — if decks grow heavy
   dependencies, add `slides/Project.toml` deliberately and record it here.
 - **No** Makefile, CI workflows, linters, or test framework.
+- **Every lab and homework environment includes `IJulia`.** This applies to the sibling assignment
+  repositories, not this one. Assignments ship to students as `.ipynb` notebooks, and IJulia provides
+  the Julia kernel Jupyter needs to run them. Leaving it out has stopped students from doing the
+  exercises — but only some students, on some setups, which is how the repos drifted: **it will
+  usually work when you test it**, so a passing check is not evidence it can go. No cell ever loads it
+  either, so it looks unused. Do not remove it when trimming an environment down to what an assignment
+  uses, and check for it whenever you create a new year's branch. The same rule holds for BEE 4750.
 
 ## Julia version — moved to 1.12.5
 
@@ -178,6 +185,22 @@ do not build on them, and do not add more.
 **Rendering a file standalone, outside this project, silently loses the filter**, and the title block
 falls back to the plain `title`.
 
+
+*This applies to the sibling assignment repositories (`hw/`, `mp/`, `quiz/`), not to this site.*
+
+**The PDF students download may be built from the notebook, not from the `.qmd`.** An assignment's
+`.qmd` can specify Typst while its CI builds the PDF from the generated `.ipynb` through LaTeX. Then
+rendering the `.qmd` locally looks perfect and proves nothing about what students receive. Read the
+repo's workflow for which file and which target it invokes, and reproduce that command.
+
+**The notebook intermediate silently drops Quarto markup.** Callouts are flattened to blockquotes on
+the way into `.ipynb`, and `content-visible when-format=` is resolved for the notebook rather than the
+eventual PDF. Anything built downstream of the notebook therefore shows callouts as plain indented text
+and leaks notebook-only content, such as the name and ID fields, into the PDF. Neither failure raises an
+error, and both survive a source review. If the PDF has to carry callouts, build it from the `.qmd`.
+*(Moved here from the `assignment-authoring` skill on 2026-09-28, since it is specific to this course's
+Quarto → notebook → PDF pipeline.)*
+
 ## These two courses cross-contaminate — check before copying
 
 The 4750 and 4850 sites are repeatedly built from each other, and material leaks in both directions.
@@ -193,6 +216,12 @@ course's number, URL, and term** before committing.
 
 ## Known traps
 
+- **A code block must be the first thing on its slide — never put text above it.** Revealjs slides
+  are a fixed 1280×720 and do not scroll. Text above a code block pushes it down, and the code's own
+  scroll box is cut off by the slide's bottom edge, so readers cannot scroll to the end of the code.
+  Put the code first (right under the slide title); its output and any discussion can go below it,
+  or on the next slide. **Folded code counts** (`code-fold: true`): it expands in place, so text
+  above a folded cell breaks the rule too.
 - **Callout syntax.** Use `::: {.callout-note}` — hyphenated. The space-separated
   `::: {.callout .note}` is invalid, and renders a callout titled literally "None" rather than failing.
 - **`freeze: auto`** caches computed output in `_freeze/`, keyed by filename. Renaming a deck orphans
